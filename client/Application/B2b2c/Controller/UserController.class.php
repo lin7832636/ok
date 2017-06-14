@@ -12,7 +12,7 @@
 **/
 namespace B2b2c\Controller;
 use Think\Controller;
-class UserController extends Controller {
+class UserController extends PrivateController {
 	
     public function __construct() {
         parent::__construct();

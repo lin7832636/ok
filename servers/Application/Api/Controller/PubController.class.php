@@ -30,11 +30,12 @@ class PubController extends Controller {
 	**/
 	public function Cropper() {
 		if(IS_POST) {
-
+						
 			$time = time();
 			$time_file = date('Y/m/d/H/i/s', $time);
 			$key = token($time_file, true);
 			$key = $key.''.$time;
+		
 			$rile_route = 'Uploads/Preview/'.$time_file;
 			
 			$File = new \Org\Util\File;
@@ -57,7 +58,6 @@ class PubController extends Controller {
 			);
 
 			echo json_encode($response);
-
 		} else {
 			$width = I('get.width', 0, 'intval');
 			$height = I('get.height', 0, 'intval');
@@ -74,5 +74,7 @@ class PubController extends Controller {
 			$this->display('Cropper');
 		}
 	}
+
+
 
 }

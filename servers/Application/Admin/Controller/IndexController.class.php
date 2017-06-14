@@ -8,6 +8,5 @@ class IndexController extends PrivateController {
     }
 	
 	public function info() {
-
 	}
 }

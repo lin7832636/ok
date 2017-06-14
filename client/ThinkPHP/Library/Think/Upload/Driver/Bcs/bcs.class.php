@@ -17,8 +17,8 @@ define ( 'BCS_SUPERFILE_POSTFIX', '_bcs_superfile_' );
 //sdk superfile分片大小 ，单位 B（字节）
 define ( 'BCS_SUPERFILE_SLICE_SIZE', 1024 * 1024 );
 
-require_once(BCS_API_PATH . '/requestcore.class.php');
-require_once(BCS_API_PATH . '/mimetypes.class.php');
+require_once (BCS_API_PATH . '/requestcore.class.php');
+require_once (BCS_API_PATH . '/mimetypes.class.php');
 /**
  * Default BCS Exception.
  */
@@ -239,7 +239,7 @@ class BaiduBCS {
 			$request->set_curlopts ( $opt ['curlopts'] );
 		}
 		$request->send_request ();
-		require_once(dirname(__FILE__) . "/requestcore.class.php");
+		require_once(dirname(__FILE__). "/requestcore.class.php");
 		return new BCS_ResponseCore ( $request->get_response_header (), $request->get_response_body (), $request->get_response_code () );
 	}
 
