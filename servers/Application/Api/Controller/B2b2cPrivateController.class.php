@@ -12,7 +12,7 @@
 **/
 namespace Api\Controller;
 use Think\Controller;
-class B2b2cPrivateController extends PrivateController {
+class B2b2cPrivateController extends PublicController {
 	
     public function __construct() {
         parent::__construct();
@@ -53,4 +53,45 @@ class B2b2cPrivateController extends PrivateController {
         
     }
 
+    ////收货地址展示
+    public function AddressBuyersList(){
+        $user_address=M('user_address');
+        $data=$user_address->order('is_default  desc')->select();
+        output(0,$data);
+    }
+
+    //收货地址添加
+    public function AddressBuyersAdd(){
+        $user_address=M('user_address');
+        $data=$_POST;
+        $data['user_id']=1;
+        $data['addtime']=time();
+        if($data['is_default']==1){
+            $user_address->where('user_id=1')->setField('is_default',0);
+        }
+        $sql= $user_address->add($data);
+        if($sql){
+            output(0,$data);
+        }else{
+            output(30006);
+        }
+    }
+
+//收货地址修改为默认
+    public function SetUserDefaultAddress(){
+        $id=I('get.user_address_id',0);
+        if($id){
+            M('user_address')->where('user_id=1')->setField('is_default',0);
+            M('user_address')->where(array('id'=>$id))->setField('is_default',1);
+        }
+        output(0);
+    }
+   //收货地址删除
+    public function AddressBuyersDelete(){
+        $id=I('get.user_address_id',0);
+        if($id){
+            M('user_address')->where(array('id'=>$id))->delete();
+        }
+        output(0);
+    }
 }

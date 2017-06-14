@@ -34,22 +34,14 @@ class IndexController extends PublicController {
 	 *+--------------------------------------------------------------------------------------------------------------------
 	**/
 	public function index() {
-
-
+     //例子
 		$params = array();
+        $data = curls(C('APIURL') . 'B2b2cPublic/Demo', 'get', $params,true);
 
-		$data = curls(C('APIURL') . 'B2b2cPublic/Demo', 'get', $params, true);
+        //           echo "<pre>";
+        //           print_r($data);die;
 
-
-		echo '<pre>';print_r($data);
-
-		exit;
-
-
-
-
-
-		//获取banner
+		//获取轮播banner
 		$params = array(
 				'type'	=> 2,
 			);
@@ -80,7 +72,6 @@ class IndexController extends PublicController {
 				unset($goods_type_list[0]['child'][$key]);
 			}
 		}
-
 		// error_log(print_r($recommend_list,1));
 		$this->assign('goods_type_list', $goods_type_list);
 		$this->assign('recommend_list', $recommend_list);
@@ -105,7 +96,6 @@ class IndexController extends PublicController {
 	**/
 	public function login() {
 		if(IS_POST) {
-			
 			$data = array();
 			$data['telno'] = I('post.telno', '', 'trim');
 			$data['password'] = I('post.password', '', 'trim');

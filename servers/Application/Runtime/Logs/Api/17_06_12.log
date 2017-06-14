@@ -1,0 +1,180 @@
+[ 2017-06-12T16:22:58+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/GetBrandList?token_time=1497255778&token=c5e4371c970b6ee18ccd5f30c0a6c1391f8ed224507459758e11e8f6e23e359c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+
+[ 2017-06-12T16:23:31+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/GetBrandList?token_time=1497255811&token=898f6c4d0b5bfd4174c2ec9a08ed7f664b951c2ad363f3d40d55e8267b1ba587
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+
+[ 2017-06-12T16:23:33+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/GetBrandList?token_time=1497255813&token=3af70a9438a1d26f6bd0c6fe9a83a3dac43455b8701f7edd90db9e658da554f1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+
+[ 2017-06-12T16:24:02+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/GetBrandList?token_time=1497255842&token=5c484f3b1d1178be31b8bbcc565962c52e164b13e410fb5c601a471065e279cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+
+[ 2017-06-12T16:24:03+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/GetBrandList?token_time=1497255843&token=ee77bf0f84f462f41e0e09252103f06ceaeaea51a37924b80a43c06c18997829
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+
+[ 2017-06-12T16:24:04+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/GetBrandList?token_time=1497255844&token=372a86799355fb2395bae9c2c368b645fb377fd457f7f120597c6f07c94660bf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+
+[ 2017-06-12T16:24:29+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/GetBrandList?token_time=1497255869&token=48cc09a2c629b58f75ae0cb2c9a320d64b2dd84b395a0fd5c161e51ba76b466d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+
+[ 2017-06-12T16:24:31+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/GetBrandList?token_time=1497255871&token=69ea89df6154971aaae9a92ffe54c166e340524e3adbc40cd1c963c3021b5c06
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+
+[ 2017-06-12T16:24:48+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/GetBrandList?token_time=1497255887&token=ca7dc0d9b4d59e2ba618fd2b756eb5cfebdc446e7de7bd9a6828952a451d77be
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `sp_users` WHERE ( id=1 )  [ RunTime:0.0180s ]
+
+[ 2017-06-12T16:24:49+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/GetBrandList?token_time=1497255889&token=1965a126078ceadf2a7717aa5b269cfe9ba4b1560046c8e561dd90c30d3ef8b2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `sp_users` WHERE ( id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-06-12T16:25:46+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/GetBrandList?token_time=1497255946&token=9ef6973cdcfe34673c703e12d7ca3ef51d685cc10305bcdf6102c578bc16ccaf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_users` WHERE ( id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-06-12T16:28:25+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/GetBrandList?token_time=1497256105&token=fb6a4aa6f396d1270d97c74b3bd18c8d90d5866563e3d3c7d3debcd06f87a2b2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.1360s ]
+SQL: SELECT * FROM `sp_users` WHERE ( id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-06-12T16:28:29+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/GetBrandList?token_time=1497256108&token=bc5867d37e9a4e54670e64c7ce2142ee41e752e746be741b15ea0859324b5c41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `sp_users` WHERE ( id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-06-12T16:28:33+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/GetBrandList?token_time=1497256113&token=f068aec50f212e4b5ff5ebfdd41d2f18d3f9b47b0e8ffb73b0647eae7fe2af9a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `sp_users` WHERE ( id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-06-12T16:28:52+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/GetBrandList?token_time=1497256132&token=3cb493a9d4f753808c7c1e075d735ae4935f4f1afc610eb2d332a1db11414507
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sp_users` WHERE ( id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-06-12T16:49:22+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/Demo?token_time=1497257361&token=51a7ecd176c39d52474bb090c43c037aad99580eae668795a1941eea20cfc9c4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `sp_users` WHERE ( id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-06-12T16:51:43+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/Demo?token_time=1497257503&token=5c29c6ffc91edd993211fdc0429e94fbb641df37f6608f0d784b0857c2f67c0c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+
+[ 2017-06-12T19:12:25+08:00 ] 127.0.0.1 /bochong/servers/index.php/Api/B2b2cPublic/Demo?token_time=1497265945&token=88a57433b276377359583bbb361e493f0bdc2f06b3cb2eb6446953e876bca132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\bochong\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.1550s ]
+SQL: SELECT * FROM `sp_users` WHERE ( id=1 )  [ RunTime:0.0010s ]
+

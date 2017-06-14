@@ -1,0 +1,31 @@
+<?php
+/* *
+ * 菜单
+ */
+namespace Admin\Model;
+use Think\Model;
+class BrandModel extends Model {
+
+    protected $_validate = array(
+        //array(验证字段,验证规则,错误提示,验证条件,附加规则,验证时间)
+        array('brand_name', 'require', '品牌名称不能为空！', 1, 'regex',  Model:: MODEL_INSERT  ),
+        array('brand_logo', 'require', 'logo不能为空！', 1, 'regex', Model:: MODEL_UPDATE  ),
+        array('brand_url', 'require', '网站不能为空！', 1, 'regex', Model:: MODEL_UPDATE  ),
+//        array('user_login','','用户名已经存在！',0,'unique',CommonModel:: MODEL_BOTH ), // 验证user_login字段是否唯一
+//        array('user_pass', 'require', '密码不能为空！', 0, 'regex', CommonModel:: MODEL_UPDATE  ),
+//        array('user_pass', 'require', '密码不能为空！', 1, 'regex', CommonModel:: MODEL_INSERT ),
+//        array('user_email','email','邮箱格式不正确！',0,'',CommonModel:: MODEL_BOTH ), // 验证user_email字段格式是否正确
+//        array('user_email','','邮箱帐号已经存在！',0,'unique',CommonModel:: MODEL_BOTH ), // 验证user_email字段是否唯一
+//        array('org_name_text', 'require', '机构名称不能为空！', 1, 'regex', CommonModel:: MODEL_INSERT  ),
+//        array('org_name_text', 'require', '机构名称不能为空！', 0, 'regex', CommonModel:: MODEL_UPDATE  ),
+//        array('role_id', 'require', '请选择角色，如没有角色，请先进行添加角色',1, 'regex', CommonModel:: MODEL_BOTH  ),
+    );
+//
+//    protected function _before_write(&$data) {
+//        parent::_before_write($data);
+//
+//        if(!empty($data['user_pass']) && strlen($data['user_pass'])<25){
+//            $data['user_pass']=sp_password($data['user_pass']);
+//        }
+//    }
+}
