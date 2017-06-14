@@ -567,8 +567,8 @@ var b2b2cf = {
     **/
     add_user_address : function(){
         var post_data = {};
-        post_data.name = $('input[name="name"]').val();
-        if (b2b2cc.isNull(post_data.name)) {
+        post_data.names = $('input[name="names"]').val();
+        if (b2b2cc.isNull(post_data.names)) {
             b2b2cc.popupdialog('收货人姓名不能为空');
             return false;
         }

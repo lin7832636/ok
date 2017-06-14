@@ -15,7 +15,7 @@ body{ background: #fff; font-family: '微软雅黑'; color: #333; font-size: 16p
 	overflow: hidden;
 }
 .tip_bg_success,.tip_bg_error{
-	background: url(/servers/ThinkPHP/Tpl/images/error.png) no-repeat;	
+	background: url(/bochong/servers/ThinkPHP/Tpl/images/error.png) no-repeat;
 	width: 154px;
 	height: 185px;
 	float: left;
@@ -42,7 +42,7 @@ body{ background: #fff; font-family: '微软雅黑'; color: #333; font-size: 16p
 	display: inline;
 }
 .tip_back{
-	background: url(/servers/ThinkPHP/Tpl/images/error.png) no-repeat;
+	background: url(/bochong/servers/ThinkPHP/Tpl/images/error.png) no-repeat;
 	background-position: 0 -223px;
 	color: #666666;
 	padding-left: 28px;
