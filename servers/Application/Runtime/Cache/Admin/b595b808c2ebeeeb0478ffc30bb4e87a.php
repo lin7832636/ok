@@ -10,23 +10,23 @@
 <meta name="description" content="This is page-header (.page-header &gt; h1)">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" type="text/css" href="/servers/Application/Admin/Public/css/theme.min.css" />
-<link rel="stylesheet" type="text/css" href="/servers/Application/Admin/Public/css/simplebootadmin.css" />
-<link rel="stylesheet" type="text/css" href="/servers/Application/Admin/Public/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/bochong/servers/Application/Admin/Public/css/theme.min.css" />
+<link rel="stylesheet" type="text/css" href="/bochong/servers/Application/Admin/Public/css/simplebootadmin.css" />
+<link rel="stylesheet" type="text/css" href="/bochong/servers/Application/Admin/Public/css/font-awesome.min.css" />
 
 <!--[if IE 7]>
-	<link rel="stylesheet" type="text/css" href="/servers/Application/Admin/Public/css/font-awesome-ie7.min.css" />
+	<link rel="stylesheet" type="text/css" href="/bochong/servers/Application/Admin/Public/css/font-awesome-ie7.min.css" />
 <![endif]-->
-<link rel="stylesheet" type="text/css" href="/servers/Application/Admin/Public/css/simplebootadminindex.min.css" />
+<link rel="stylesheet" type="text/css" href="/bochong/servers/Application/Admin/Public/css/simplebootadminindex.min.css" />
 <!--[if lte IE 8]>
-	<link rel="stylesheet" type="text/css" href="/servers/Application/Admin/Public/css/simplebootadminindex-ie.css" />
+	<link rel="stylesheet" type="text/css" href="/bochong/servers/Application/Admin/Public/css/simplebootadminindex-ie.css" />
 <![endif]-->
 
 <script>
 //全局变量
 var GV = {
 	HOST:"<?php echo ($_SERVER['HTTP_HOST']); ?>",
-    DIMAUB: "/servers/",
+    DIMAUB: "/bochong/servers/",
     JS_ROOT: "Application/Admin/Public/js/",
     TOKEN: ""
 };
@@ -99,10 +99,10 @@ var GV = {
 		<div class="navbar-inner">
 			<div class="container-fluid">
 				<a href="<?php echo u('Index/index');?>" class="brand">
-					<small><img src="/servers/Application/Admin/Public/images/icon/logo-18.png">后台</small>
+					<small><img src="/bochong/servers/Application/Admin/Public/images/icon/logo-18.png">后台</small>
 				</a>
 				<div class="pull-left nav_shortcuts" >
-					<a class="btn btn-small btn-success" href="/servers/" title="网站首页面" target="_blank">
+					<a class="btn btn-small btn-success" href="/bochong/servers/" title="网站首页面" target="_blank">
 						<i class="fa fa-th"></i>
 					</a>
 					<!--
@@ -122,9 +122,9 @@ var GV = {
 						<i class="fa fa-trash-o"></i>
 					</a>
 					-->
-					<script type="text/javascript" src="/servers/Application/Admin/Public/js/jquery.js"></script>
-					<link rel="stylesheet" type="text/css" href="/servers/Application/Admin/Public/js/artDialog/skins/default.css" />
-					<script type="text/javascript" src="/servers/Application/Admin/Public/js/artDialog/artDialog.js"></script>
+					<script type="text/javascript" src="/bochong/servers/Application/Admin/Public/js/jquery.js"></script>
+					<link rel="stylesheet" type="text/css" href="/bochong/servers/Application/Admin/Public/js/artDialog/skins/default.css" />
+					<script type="text/javascript" src="/bochong/servers/Application/Admin/Public/js/artDialog/artDialog.js"></script>
 					<script type="text/javascript">
   function org_list() {
     art.dialog({
@@ -137,7 +137,7 @@ var GV = {
       width : 700,
       height : 500
     });
-    $.get('/servers/index.php/Admin/Org/org_list', {}, function(e) {
+    $.get('/bochong/servers/index.php/Admin/Org/org_list', {}, function(e) {
       art.dialog({id: 'div_org_list'}).content(e);
     }, 'html');
   }
@@ -146,7 +146,7 @@ var GV = {
 				<ul class="nav simplewind-nav pull-right">
 					<li class="light-blue">
 						<a data-toggle="dropdown" href="#" class="dropdown-toggle">
-							<img class="nav-user-photo" src="/servers/Application/Admin/Public/images/icon/logo-18.png" alt="<?php echo ($admin["user_login"]); ?>">
+							<img class="nav-user-photo" src="/bochong/servers/Application/Admin/Public/images/icon/logo-18.png" alt="<?php echo ($admin["user_login"]); ?>">
 							<span class="user-info">
 								<small>欢迎,</small><?php echo ((isset($admin["user_nicename"]) && ($admin["user_nicename"] !== ""))?($admin["user_nicename"]):$admin[user_login]); ?>
 							</span>
@@ -188,8 +188,8 @@ var GV = {
 		</div>
 	</div>
 	
-	<script type="text/javascript" src="/servers/Application/Admin/Public/js/jquery.js"></script>
-	<script type="text/javascript" src="/servers/Application/Admin/Public/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/bochong/servers/Application/Admin/Public/js/jquery.js"></script>
+	<script type="text/javascript" src="/bochong/servers/Application/Admin/Public/js/bootstrap.min.js"></script>
 	<script>
 	var b = $("#sidebar").hasClass("menu-min");
 	var a = "ontouchend" in document;
@@ -234,6 +234,6 @@ var GV = {
 				return false;
 			});
 	</script>
-	<script type="text/javascript" src="/servers/Application/Admin/Public/js/index.js"></script>
+	<script type="text/javascript" src="/bochong/servers/Application/Admin/Public/js/index.js"></script>
 </body>
 </html>

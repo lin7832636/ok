@@ -36,5 +36,4 @@ return array(
 
 	'FILEURL'=> 'http://127.0.0.1/servers/Uploads',	//文件访问URL
 	'UEDITOR'=> 'http://127.0.0.1/servers',	//富文本文件前缀地址
-	
 );
