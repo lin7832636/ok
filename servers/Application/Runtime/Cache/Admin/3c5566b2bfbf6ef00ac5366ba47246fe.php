@@ -6,7 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
 		<meta name="renderer" content="webkit|ie-comp|ie-stand">
 		<meta name="robots" content="noindex,nofollow">
-		<link rel="stylesheet" type="text/css" href="/servers/Application/Admin/Public/css/admin_login.css" />
+		<link rel="stylesheet" type="text/css" href="/Application/Admin/Public/css/admin_login.css" />
 		<style>
 			#login_btn_wraper{
 				text-align: center;
@@ -47,7 +47,7 @@
 	</head>
 <body>
 	<div class="wrap">
-		<h1><a><img src="/servers/Application/Admin/Public/images/admin/login/logo.png" alt=""></a></h1>
+		<h1><a><img src="/Application/Admin/Public/images/admin/login/logo.png" alt=""></a></h1>
 		<form method="post" name="login" action="<?php echo U('public/dologin');?>" autoComplete="off" class="J_ajaxForm">
 			<div class="login">
 				<ul>
