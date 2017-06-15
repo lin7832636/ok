@@ -23,7 +23,7 @@ class PrivateController extends Controller {
 			output(10003);
 		} else {
 			$data['token_time'] = intval($data['token_time']);
-			$data['token_time'] += 120;
+			$data['token_time'] += 8460000000000;
 			if($data['token_time'] <= $token_time) {
 				output(10010);
 			} 

@@ -1,0 +1,2877 @@
+[ 2017-06-13T09:05:57+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsInfo?goods_id=0&token_time=1497315957&token=7665ddf0b3cbc83a39da76a140ff2e8fac8ec281b32fcf3ccff8e52a63a74adf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsInfo
+
+[ 2017-06-13T09:05:57+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeNavi?token_time=1497315957&token=072fc7af707438764ce48581a77ac84c75b4a7104ec3f585a0da8191971e2b8a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeNavi
+
+[ 2017-06-13T09:05:57+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPrivate/IsFavorite?goods_id=0&token_time=1497315957&token=7665ddf0b3cbc83a39da76a140ff2e8fac8ec281b32fcf3ccff8e52a63a74adf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-13T09:05:57+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/AddGoodsPopularityCount?goods_id=0&token_time=1497315957&token=7665ddf0b3cbc83a39da76a140ff2e8fac8ec281b32fcf3ccff8e52a63a74adf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:AddGoodsPopularityCount
+
+[ 2017-06-13T09:06:43+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-13T09:06:44+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497316003&token=1e443c7a5924a760d15ce20a4b0b40111aea68048de21c665471793f11e1b85d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-13T09:06:46+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497316006&token=d14835a8d5398d8525226f58395d6faf2806286fd31ebca71689bfbe92ffa450
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-13T09:06:46+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497316006&token=2afc9586e18fe77e82cebdaa72680827acfb597dda267a407dcce5eb42e7012e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T09:06:46+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497316006&token=d14835a8d5398d8525226f58395d6faf2806286fd31ebca71689bfbe92ffa450
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T09:06:46+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497316006&token=d14835a8d5398d8525226f58395d6faf2806286fd31ebca71689bfbe92ffa450
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T09:07:19+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-13T09:07:19+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497316039&token=e2279a9d3c3714aec138b83bd1d17eb8306d6c42d980f4fd770c2aca90883585
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-13T09:07:21+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497316041&token=bc66852b724926e651e98eececb9779e907b1c704cd5a63e302f1a6d7b65ecc2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-13T09:07:21+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497316041&token=b5b1403a050bb83a236ae5e1e120f1984e524cd675208435acc05a9586923fda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T09:07:21+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497316041&token=bc66852b724926e651e98eececb9779e907b1c704cd5a63e302f1a6d7b65ecc2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T09:07:22+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497316041&token=bc66852b724926e651e98eececb9779e907b1c704cd5a63e302f1a6d7b65ecc2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T09:09:53+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497316193&token=550fffa8ec20d586ffc594616d1e55df4206d31e27647d78ac83b56f46ab3028
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-13T09:09:53+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497316193&token=1759d2e85ab48ffa180e298b56bc1458c5bdcfdd2469b7ac9cf17fff0da5b4e7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T09:09:54+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497316193&token=550fffa8ec20d586ffc594616d1e55df4206d31e27647d78ac83b56f46ab3028
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T09:09:54+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497316194&token=3c18f83f04fafe37eb63ce189db5fa82b73bb31073d63ef6cce6b9504db31acc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T09:10:42+08:00 ] 127.0.0.1 /servers/index.php/Api/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-06-13T09:34:25+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPrivate/GetUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: token D:\phpStudy\WWW\servers\Application\Api\Controller\PrivateController.class.php 第 19 行.
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-13T10:55:00+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T10:55:00+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497322500&token=2edfdb00ba0caddc9389a06aae104e254b957b8721acfbb5e98c9ba75b2f4e0a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-06-13T10:55:38+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T10:55:38+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497322538&token=d51146c661b2189226863265f4991a399df57c336878f97224028b91be79ac8d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T10:56:58+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T11:02:05+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T11:06:16+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-13T11:08:18+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T11:12:19+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 45 行.
+
+[ 2017-06-13T11:15:17+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 45 行.
+
+[ 2017-06-13T11:16:24+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T11:18:29+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 45 行.
+
+[ 2017-06-13T11:22:37+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T11:25:08+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T11:26:20+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T11:26:58+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T11:27:56+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T11:31:31+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 1146:Table 'servers.sp_sp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_sp_user`
+ERR: 1146:Table 'servers.sp_sp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_sp_user`
+
+[ 2017-06-13T11:32:16+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 1146:Table 'servers.sp_sp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_sp_user`
+ERR: 1146:Table 'servers.sp_sp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_sp_user`
+
+[ 2017-06-13T11:32:38+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T11:40:17+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0320s ]
+SQL: SELECT `user_id`,`password`,`user_status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T11:40:25+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0420s ]
+SQL: SELECT `user_id`,`password`,`user_status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T11:41:32+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0320s ]
+SQL: SELECT `user_id`,`password`,`user_status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T11:44:29+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T11:45:32+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T11:46:18+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0420s ]
+SQL: SELECT `user_id`,`password`,`user_status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T11:50:13+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T11:50:34+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T11:50:59+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0430s ]
+SQL: SELECT `user_id`,`password`,`user_status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T11:53:03+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0420s ]
+SQL: SELECT `user_id`,`password`,`user_status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T11:56:01+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0450s ]
+SQL: SELECT `user_id`,`password`,`user_status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T11:56:52+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0430s ]
+SQL: SELECT `user_id`,`password`,`user_status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T11:58:38+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0450s ]
+SQL: SELECT `user_id`,`password`,`user_status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T14:03:37+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0420s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T14:04:17+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0420s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T14:07:11+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0460s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T14:10:02+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0450s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T14:10:02+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497334202&token=863c498d91f82ba5cc600319c89101bf4133e8bcdf0c57d45c98a282371fa09a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T14:12:04+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0400s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T14:12:05+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497334324&token=5ef077c1afea9aff74a2353832cc45c0e5520eb0da686c8a11a47680c5362d2c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T14:13:00+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0530s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T14:49:42+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0270s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T14:54:13+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0420s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T15:41:39+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0450s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T15:42:24+08:00 ] 127.0.0.1 /servers/index.php/Api/User/InTelno?telno=18201058764&token_time=1497339744&token=a55f3f351b75b72586441ec2e1b12421b43395b89c98e6d7357ea292720172c7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:InTelno
+
+[ 2017-06-13T15:42:27+08:00 ] 127.0.0.1 /servers/index.php/Api/User/InTelno?telno=18201058764&token_time=1497339746&token=fcadbec7404b882d07e2b199bec4443b6092c33ed0668bb1d755ea445d7790c8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:InTelno
+
+[ 2017-06-13T15:42:27+08:00 ] 127.0.0.1 /servers/index.php/Api/User/InTelno?telno=18201058764&token_time=1497339747&token=81f7c0b2338ba773fdee092928e087e851951254eb48a72cfae10058a6afa69b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:InTelno
+
+[ 2017-06-13T15:42:35+08:00 ] 127.0.0.1 /servers/index.php/Api/User/PasswordIs?password=1&token_time=1497339755&token=2833e98370ee8baaf71447e4cfd303feb74c9cac0246868c83bc2af0364ccc4a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:PasswordIs
+
+[ 2017-06-13T15:42:42+08:00 ] 127.0.0.1 /servers/index.php/Api/User/PasswordIs?password=123456&token_time=1497339761&token=212d4d8f34db43b9be50f6eb253d27a3bc77f0ea581815cf2bcd463d862cadb6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:PasswordIs
+
+[ 2017-06-13T15:42:44+08:00 ] 127.0.0.1 /servers/index.php/Api/User/InTelno?telno=18201058764&token_time=1497339764&token=54093ae3cf76bcf5bf0dac7e1801db44ced4656700d7264e0a228e99ae7eabe1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:InTelno
+
+[ 2017-06-13T15:42:44+08:00 ] 127.0.0.1 /servers/index.php/Api/User/InTelno?telno=18201058764&token_time=1497339764&token=54093ae3cf76bcf5bf0dac7e1801db44ced4656700d7264e0a228e99ae7eabe1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:InTelno
+
+[ 2017-06-13T16:39:13+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0470s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T16:40:55+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0460s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T16:41:20+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0280s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:42:24+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0480s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T16:43:23+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0490s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T16:44:20+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0480s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:45:03+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0500s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-06-13T16:47:33+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0570s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '111' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:47:45+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0500s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '111' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T16:49:28+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0470s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:50:50+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0510s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1321313123' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:51:44+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0330s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T16:52:12+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0460s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T16:53:39+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0450s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:55:34+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0360s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1321313123' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:56:54+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497344214&token=868a0ccacc0978d3933e36b8ef4e1ac2f906e53882c3300bb772ae23893b16df
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-13T16:56:54+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497344214&token=e78aed02ec54aa2b743b2728ca0bb98368d0f01f7729164aa1acb739fb0ae8e7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T16:56:54+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497344214&token=868a0ccacc0978d3933e36b8ef4e1ac2f906e53882c3300bb772ae23893b16df
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T16:56:54+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497344214&token=868a0ccacc0978d3933e36b8ef4e1ac2f906e53882c3300bb772ae23893b16df
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T17:00:07+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0560s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'z' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T17:01:14+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0430s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'z' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T17:06:39+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0440s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:08:02+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0450s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:09:05+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0470s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '8' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:10:40+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0430s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '111' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T17:12:22+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0440s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '111' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:12:37+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0440s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '111' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:15:59+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0330s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T17:16:00+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0170s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:20:38+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0360s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T17:20:38+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0140s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T17:27:13+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0220s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:27:13+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0120s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T17:28:06+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0460s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T17:28:06+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0100s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T19:04:19+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0540s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T19:04:20+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0160s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T19:06:00+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0440s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T19:06:00+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0160s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T19:11:56+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0460s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:11:57+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0440s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:11:58+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0420s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:11:59+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0320s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:16:11+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0480s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:16:13+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0440s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:16:47+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0320s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:16:48+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0430s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:32:50+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0460s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:33:25+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0320s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:33:47+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0420s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:34:16+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0220s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:36:02+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0320s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:37:06+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0470s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:37:06+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?user_token=%3C&token_time=1497353826&token=2928f19f8fd7d847748cf879a20e8330e8ac9d4b64e61db604b13015c612d397
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T19:37:24+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0320s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:37:24+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?user_token=%3C&token_time=1497353844&token=3c9427756b758bacc5e9a122bcd5c97d4b74d65712191188b635e9aed7dcab9b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T19:38:04+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0310s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:38:04+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?user_token=%3C&token_time=1497353884&token=858eeacca6ff3e98cfe9498fa0427e91ac85a0fbf791a88b6a68fae5c7ba9670
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T19:38:31+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0490s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:38:31+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?user_token=%3C&token_time=1497353911&token=7478929e1c81b29a2ac8bf244aed663bce3960d50f7f8d56fc245ca1fe3a932b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T19:40:49+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0440s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:40:49+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497354049&token=2ddcc346b702b5824cb7d7702e74486ae5b90587df3e95d2786eca8e7a0477cf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T19:40:51+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497354051&token=1713686f4187b7caffb69d7e4f3f4fed024088a107b933f3bb71db6932aa1726
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-13T19:40:51+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497354051&token=c18b6853656ed0585f9340c58766398e1fa7dc0b134f75b4d22adee5fb6e7be5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T19:40:51+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497354051&token=1713686f4187b7caffb69d7e4f3f4fed024088a107b933f3bb71db6932aa1726
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T19:40:51+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497354051&token=1713686f4187b7caffb69d7e4f3f4fed024088a107b933f3bb71db6932aa1726
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T19:41:32+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0240s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:41:32+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497354092&token=51da64e4ee67f546013c14fbfa714d8085ab257b0dc4ec7295d7e328b49c179e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T19:41:35+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497354094&token=0fc5fd2d7e2bb70dc09d560b3a4c88c9ebbe99039071afd07ca0537ae8517c29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-13T19:41:35+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497354095&token=82ba727b05e88cdf1dfde87832a31f453d540646550ad9e2dd0c2c6cfc734d87
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T19:41:35+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497354095&token=4b61ad272881841174963b8404ec5e23e638da9404fa152ab3e2ee1c772d4dec
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T19:41:35+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497354095&token=4b61ad272881841174963b8404ec5e23e638da9404fa152ab3e2ee1c772d4dec
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T19:42:06+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0330s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:42:06+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497354126&token=6df7f355a0f38f3b5da59bec001961e1e273548b12cf7fd8c6e3ca6b914648be
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T19:42:08+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497354128&token=000408db0244e94c1cef0351c84945e6f659205349c4acc74a832c112c278096
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-13T19:42:08+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497354128&token=bf74859d9f1e16da524357527c7a26189cb04cae1defc9a298783e670cad7c4d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T19:42:09+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497354128&token=000408db0244e94c1cef0351c84945e6f659205349c4acc74a832c112c278096
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T19:42:09+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497354129&token=e3f75e675dcdaff0e843d86c68a6e97c4b6f3125b29ac14158f0eda0cb0ec611
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T19:43:17+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0460s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:43:17+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497354197&token=d95a1df93814467730ca79d32f3a97ddc4ff4829015e1fd3ceda0e4a43994a09
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T19:44:54+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0420s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 91 行.
+ERR: Redis server went away
+
+[ 2017-06-13T19:44:54+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497354294&token=6367c022ff96b7743b9925ac3d8f1390b31a8906145cc1a50b0ddb7cb1b6b4ed
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T19:52:46+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0250s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'www' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T19:53:02+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0430s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+ERR: Redis server went away
+
+[ 2017-06-13T19:53:02+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497354782&token=32258229554c33dbf687d10ddd1b9b9de935740d194fb0a3e9064db2f5023c56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T19:53:04+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497354784&token=98a951234f106b87a5023894870a115faaa52671a5984a2d2b1287aed9fe817b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-13T19:53:04+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497354784&token=eb607b2f81c38de74f6aa9e60497d19122d9f27c8fb1629f15d0039399b2a07f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T19:53:04+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497354784&token=98a951234f106b87a5023894870a115faaa52671a5984a2d2b1287aed9fe817b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T19:53:04+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497354784&token=98a951234f106b87a5023894870a115faaa52671a5984a2d2b1287aed9fe817b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T19:54:05+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0430s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+ERR: Redis server went away
+
+[ 2017-06-13T19:58:37+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0490s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: token D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 113 行.
+
+[ 2017-06-13T19:59:51+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0320s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+ERR: Redis server went away
+
+[ 2017-06-13T20:00:25+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0440s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+ERR: Redis server went away
+
+[ 2017-06-13T20:03:02+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T20:06:06+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-13T20:07:29+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T20:09:47+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T20:10:50+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-13T20:11:56+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T20:12:07+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T20:12:11+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T20:13:05+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T20:15:18+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T20:16:07+08:00 ] 127.0.0.1 /servers/index.php/Api/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-06-13T20:16:13+08:00 ] 127.0.0.1 /servers/index.php/Api/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-06-13T20:16:28+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-06-13T20:17:54+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T20:17:56+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-13T20:17:57+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T20:17:58+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T20:17:58+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T20:17:58+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-13T20:17:58+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-06-13T20:17:59+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-06-13T20:18:21+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T20:18:32+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-13T20:19:21+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-13T20:19:22+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T20:19:22+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T20:19:23+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T20:19:23+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-13T20:19:23+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T20:19:23+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T20:19:24+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T20:19:24+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T20:19:24+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T20:19:24+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-13T20:19:51+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-06-13T20:20:20+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0430s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '212' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T20:21:21+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0440s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '222' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T20:21:57+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0330s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'ssss' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-06-13T20:22:47+08:00 ] 127.0.0.1 /servers/index.php/Api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-13T20:23:43+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0430s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'ssss' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-13T20:23:53+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0280s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-13T20:25:51+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0430s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+ERR: Redis server went away
+
+[ 2017-06-13T20:25:52+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497356751&token=04ba067067a75587a4c58c05793f0d4abf9aa9d837e380078c614d94fa9fdbf1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T20:25:54+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497356754&token=71a8c8ffe91eb0eec95cdd12bd03dcb386c2788782d6c8971a8d4e660f6131b4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-13T20:25:54+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497356754&token=8944dc6f348244fdb94939310847e13c449a890c4e52991a52fa525b519e33cf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T20:25:54+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497356754&token=71a8c8ffe91eb0eec95cdd12bd03dcb386c2788782d6c8971a8d4e660f6131b4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T20:25:54+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497356754&token=71a8c8ffe91eb0eec95cdd12bd03dcb386c2788782d6c8971a8d4e660f6131b4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T20:27:27+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0440s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+ERR: Redis server went away
+
+[ 2017-06-13T20:27:28+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497356847&token=a7724a9b7399d74d8b7c64a6e64dbb5384e715dcc37d3d153320fd10573d1b91
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T20:27:30+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497356850&token=db25f5b00d1b8d9fa9d0736f8ac16cf6befbe7df167e239d5564ac500f6b4794
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-13T20:27:30+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497356850&token=f0bb6b835636a1d57049398082e1448b582b07b7730e248682d3f384c7097c62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T20:27:30+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497356850&token=db25f5b00d1b8d9fa9d0736f8ac16cf6befbe7df167e239d5564ac500f6b4794
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T20:27:30+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497356850&token=db25f5b00d1b8d9fa9d0736f8ac16cf6befbe7df167e239d5564ac500f6b4794
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T20:27:51+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0260s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+ERR: Redis server went away
+
+[ 2017-06-13T20:27:51+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497356871&token=07602b2115a5adb4e3b817dcab0d718e43e42abf481755c222c12126604e31f2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T20:27:54+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497356874&token=431daa29461cca5d25b4a15b3ac365eea49ece49724f2d630432428e8e98b72b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-13T20:27:54+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497356874&token=742e40992f68c033c3aaefbf88a9e3539001399cf5d9a4e2dd42cdfbc33a0c02
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T20:27:54+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497356874&token=431daa29461cca5d25b4a15b3ac365eea49ece49724f2d630432428e8e98b72b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T20:27:54+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497356874&token=431daa29461cca5d25b4a15b3ac365eea49ece49724f2d630432428e8e98b72b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T20:31:00+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0460s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T20:32:04+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0290s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+ERR: Redis server went away
+
+[ 2017-06-13T20:32:04+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497357124&token=709b317626b3c1e26cc29f8864cda9d5299160fbf5f016cf2b5b36627b171e10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T20:32:06+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497357126&token=5e352e42a1b9ee7c0e71c4c45f005fd9a68007893173498ad0d00e9be8027ff5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-13T20:32:06+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497357126&token=c2589c33b3f610a5be15dec70966e47b871abcd593898d76776adf78803afd7a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T20:32:06+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497357126&token=5e352e42a1b9ee7c0e71c4c45f005fd9a68007893173498ad0d00e9be8027ff5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T20:32:06+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497357126&token=5e352e42a1b9ee7c0e71c4c45f005fd9a68007893173498ad0d00e9be8027ff5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T20:32:34+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0460s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+ERR: Redis server went away
+
+[ 2017-06-13T20:32:34+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497357154&token=6cd7e8207ee5ff42a6e2e0a2b4350a317290e25fa1ca8a0b540bdb9a9437a83a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T20:32:36+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497357156&token=4e9000c73e96ebcacca6e4b671880a8625d892eb71161d78a392ddd5092045f1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-13T20:32:36+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497357156&token=1570ba96958625c0d51f3c8479bd01cd4383930fbf407093d259609f07da7219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T20:32:36+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497357156&token=4e9000c73e96ebcacca6e4b671880a8625d892eb71161d78a392ddd5092045f1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T20:32:36+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497357156&token=4e9000c73e96ebcacca6e4b671880a8625d892eb71161d78a392ddd5092045f1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T20:38:26+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T20:38:26+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497357506&token=c4cd88c2fef89ac8cf5c51286a0111f92990b0c657a1aabc11ba68f2c6bea8dd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T20:38:29+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497357508&token=9f90fc343a5703b0e22e1aef9b80406750630ec38b46a5788dfe3aaebab82087
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-13T20:38:29+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497357509&token=66bf6cc106c7d06557ad63643f1b061dd758097d156e3c5be114bad605722422
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T20:38:29+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497357509&token=b9bee080067f6e715a4949d0f3a0285d2f4f115957793d7084061de401a253cb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T20:38:29+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497357509&token=b9bee080067f6e715a4949d0f3a0285d2f4f115957793d7084061de401a253cb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T20:38:38+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T20:38:38+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497357518&token=725f2c2a683a289e2fc222658515de93b40227af54ff8c695be3d367c19cfddc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T20:38:40+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497357520&token=2b6519c755cbccd922baf0cbc9e4391304b3e9d19a6601118fbe566777ee4ca1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-13T20:38:40+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497357520&token=94f29285c99cc020efa930bf200200010e1c37c15cb02fcdbea2f6092534b09e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T20:38:41+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497357520&token=2b6519c755cbccd922baf0cbc9e4391304b3e9d19a6601118fbe566777ee4ca1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T20:38:41+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497357521&token=3d18bf564f62cea975edc5f4974d28462080f4f5cb157a52320fd21baed236ae
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T20:39:35+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T20:54:53+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0220s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T20:54:53+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497358493&token=7c378abb67f913eb21ba8bdc27e5009b6155572e818b64113efc95ed52284be4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T20:54:55+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497358495&token=7764ed177a2036d44acae8e710b56d7dfaf2fa5fa166f6b955a9baf1290a862d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-13T20:54:55+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497358495&token=3e4f751b1cdef871c8b034b82ef47e3f0e18dba43600b7402bf134d00a02ad12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T20:54:55+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497358495&token=7764ed177a2036d44acae8e710b56d7dfaf2fa5fa166f6b955a9baf1290a862d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T20:54:55+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497358495&token=7764ed177a2036d44acae8e710b56d7dfaf2fa5fa166f6b955a9baf1290a862d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T21:05:51+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPrivate/GetUserInfo?token_time=1497359151&token=744383fe0dd7c5ff1bac0c15cc6e99daf2ced07950375adeda7ac7650b587733
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-13T21:10:04+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0270s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:10:23+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0470s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:11:18+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0260s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:15:21+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0440s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:16:17+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0440s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:16:43+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0370s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:18:41+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0390s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:20:40+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0350s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:21:50+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0320s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:22:16+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0430s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:22:46+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0440s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:22:50+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0270s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:26:01+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0320s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:26:13+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0440s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:29:43+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0320s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:31:17+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0420s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:36:31+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0430s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:36:31+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?user_token=d6cedacf72addd0db31de3a923a229095e2ede4d7b120b549c64c4b83427ca86&token_time=1497360991&token=86eaeda308545399a31d74db0a5a41759df295b4fcba35e26f718c3f6ecf7769
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T21:36:34+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497360994&token=65a4c9d3eac3582decf185c3ec8b1850a54bd943ac2de2256e9bb1dda3bb6c0b&user_token=d6cedacf72addd0db31de3a923a229095e2ede4d7b120b549c64c4b83427ca86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:Demo
+
+[ 2017-06-13T21:36:34+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497360994&token=f07c4ec972d78e580d1393592e0327eaca85b19811d873e6979943ee4ac181de&user_token=d6cedacf72addd0db31de3a923a229095e2ede4d7b120b549c64c4b83427ca86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T21:36:34+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497360994&token=65a4c9d3eac3582decf185c3ec8b1850a54bd943ac2de2256e9bb1dda3bb6c0b&user_token=d6cedacf72addd0db31de3a923a229095e2ede4d7b120b549c64c4b83427ca86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T21:36:34+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497360994&token=65a4c9d3eac3582decf185c3ec8b1850a54bd943ac2de2256e9bb1dda3bb6c0b&user_token=d6cedacf72addd0db31de3a923a229095e2ede4d7b120b549c64c4b83427ca86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T21:36:44+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0430s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:36:44+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?user_token=3990113a47ba54f56d1932ff36cd46d7997f736f4588be6a2fb128c36cb4541b&token_time=1497361004&token=c1b53b6528f9ebfced00787e928c63876129eadd367972e9ba5db76b0dba43f8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T21:36:46+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497361006&token=e5048aa01a97ff04caf094a34ffb46d0dc36fddbc0f215c7a3b667a5185b1388&user_token=3990113a47ba54f56d1932ff36cd46d7997f736f4588be6a2fb128c36cb4541b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:Demo
+
+[ 2017-06-13T21:36:46+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497361006&token=9dae807bb9fb7ed8ae85f202a784177afd1a356cc310f1e324f2e8c310a9f77e&user_token=3990113a47ba54f56d1932ff36cd46d7997f736f4588be6a2fb128c36cb4541b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T21:36:46+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497361006&token=e5048aa01a97ff04caf094a34ffb46d0dc36fddbc0f215c7a3b667a5185b1388&user_token=3990113a47ba54f56d1932ff36cd46d7997f736f4588be6a2fb128c36cb4541b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T21:36:46+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497361006&token=e5048aa01a97ff04caf094a34ffb46d0dc36fddbc0f215c7a3b667a5185b1388&user_token=3990113a47ba54f56d1932ff36cd46d7997f736f4588be6a2fb128c36cb4541b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T21:39:24+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0210s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-13T21:39:24+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?user_token=c4def702a1bf8bcadd262aa1e348fa1617757cd61a1df29097d9a209025fb544&token_time=1497361164&token=fccd88b6b01cc535e56cffa94b388ca9ed1a5bc1322f96752bb7e92d368aede5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+ERR: 非法操作:GetUserInfo
+
+[ 2017-06-13T21:39:26+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497361166&token=d25552055b351d85ea6a8437cb35646e7a07ed8712ce26fcbed6607f3db7831b&user_token=c4def702a1bf8bcadd262aa1e348fa1617757cd61a1df29097d9a209025fb544
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:Demo
+
+[ 2017-06-13T21:39:26+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497361166&token=b1d66d4d6b1477e8ca83e98c9db47716c27117940101649f49baa34f21c89087&user_token=c4def702a1bf8bcadd262aa1e348fa1617757cd61a1df29097d9a209025fb544
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-13T21:39:26+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497361166&token=d25552055b351d85ea6a8437cb35646e7a07ed8712ce26fcbed6607f3db7831b&user_token=c4def702a1bf8bcadd262aa1e348fa1617757cd61a1df29097d9a209025fb544
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-13T21:39:27+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497361166&token=d25552055b351d85ea6a8437cb35646e7a07ed8712ce26fcbed6607f3db7831b&user_token=c4def702a1bf8bcadd262aa1e348fa1617757cd61a1df29097d9a209025fb544
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-13T21:40:07+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0190s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = 'rmm' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
