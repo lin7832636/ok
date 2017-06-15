@@ -1,0 +1,497 @@
+[ 2017-06-12T21:09:12+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497272951&token=80abac4412315cafe92c892578409cc5592ed29f43b392c542275715d44e5589
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-12T21:18:09+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497273488&token=1b9dca950d0f2b8f4ad74432b0ba69d1afc4489d3d7c5cfe1577b9a99f64d5fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-12T21:18:09+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497273489&token=8c73c3af24de7dd4ce940bb8a95b1fc1e1cf3db40d8d9ce0d26cd916a6daf813
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-12T21:18:09+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497273489&token=d8e08dd7bfa73296e3c0877e3826c008c22f6de5e1dc777cddee87de196c9e85
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-12T21:18:09+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497273489&token=d8e08dd7bfa73296e3c0877e3826c008c22f6de5e1dc777cddee87de196c9e85
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-12T21:18:18+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497273498&token=39e0fb106dea65d3838cf78419f98dc664ba0b09aa2c166258878d90256ad62e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-12T21:18:18+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497273498&token=38d33dfdc2e444f67b156d77495fa9d0c9f687db98f495b8bb121c868a10b0af
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-12T21:18:18+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497273498&token=39e0fb106dea65d3838cf78419f98dc664ba0b09aa2c166258878d90256ad62e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-12T21:18:18+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497273498&token=39e0fb106dea65d3838cf78419f98dc664ba0b09aa2c166258878d90256ad62e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-12T21:18:21+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeChildren?token_time=1497273501&token=d7da262cbab67a2c798d9c5362cf4fee7a379f0358fb2d5f47198a3df345e229
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeChildren
+
+[ 2017-06-12T21:18:21+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsFilter?terminal_type=2&token_time=1497273501&token=ef5d6e2c0ae06cf130f1581594792e54289e1b82f959cf909c9fdb9b28bb838a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsFilter
+
+[ 2017-06-12T21:18:21+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsBySearch?terminal_type=2&token_time=1497273501&token=ef5d6e2c0ae06cf130f1581594792e54289e1b82f959cf909c9fdb9b28bb838a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsBySearch
+
+[ 2017-06-12T21:18:22+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsBySearch?terminal_type=2&last_goods_index=&type=0&goods_keyword=&sort=&is_import=&price_from=&price_to=&brand_id=&token_time=1497273502&token=b17dad9d06112ab0a792ddcc1f927e9aedc5132b7678a24ae7b8b429403cdd57
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsBySearch
+
+[ 2017-06-12T21:19:24+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-12T21:19:24+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1497273564&token=9800908e5f5b4b73d19236f48e0dca52e5e8eb61b53e6b5ec5c602d813b813cf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-12T21:19:27+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497273566&token=09e75f48548b391ad58cfb83005ac73a94dbbd123a21bde4009d075ab67d530d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-12T21:20:16+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497273616&token=0e7c2664dee8277bf0344abca66cf71986f8cd1dbd1200b3b0d30479f140adfb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-12T21:20:16+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497273616&token=2022a718e6e680a43520cb17f5fbb34c1c780ecdddfa1fc290b76d7ec63e1cd3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-12T21:20:16+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497273616&token=0e7c2664dee8277bf0344abca66cf71986f8cd1dbd1200b3b0d30479f140adfb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-12T21:20:16+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497273616&token=0e7c2664dee8277bf0344abca66cf71986f8cd1dbd1200b3b0d30479f140adfb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-12T21:20:33+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeChildren?token_time=1497273633&token=4422d6084e57e03a04a50741e3ce6147038d7f5e4a08f02cb15ac3089eb75db1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeChildren
+
+[ 2017-06-12T21:20:33+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsFilter?terminal_type=2&token_time=1497273633&token=df8024090f15816be3baea2fccb0dcc24456684cf5738ed740373844703903fd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsFilter
+
+[ 2017-06-12T21:20:33+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsBySearch?terminal_type=2&token_time=1497273633&token=df8024090f15816be3baea2fccb0dcc24456684cf5738ed740373844703903fd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsBySearch
+
+[ 2017-06-12T21:20:33+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsBySearch?terminal_type=2&last_goods_index=&type=0&goods_keyword=&sort=&is_import=&price_from=&price_to=&brand_id=&token_time=1497273633&token=e123cd6e31700c84b6d26a8b289a7a9ce9f164f8a3e18284a3b658cd13bc57da
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsBySearch
+
+[ 2017-06-12T21:20:36+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeChildren?token_time=1497273636&token=67a8959940771fe2e308f2490167d03a032ce0d6ab8ef898dfe09354fadc44e0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeChildren
+
+[ 2017-06-12T21:20:36+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsFilter?type=0&sort=2&v=1&terminal_type=2&token_time=1497273636&token=5c8081a9999880f931f820e8dd02a2e22fbc437cbe998be79ec98712e18c4576
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsFilter
+
+[ 2017-06-12T21:20:36+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsBySearch?type=0&sort=2&v=1&terminal_type=2&token_time=1497273636&token=5c8081a9999880f931f820e8dd02a2e22fbc437cbe998be79ec98712e18c4576
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsBySearch
+
+[ 2017-06-12T21:20:37+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsBySearch?terminal_type=2&last_goods_index=&type=0&goods_keyword=&sort=2&is_import=&price_from=&price_to=&brand_id=&token_time=1497273637&token=036c674844c88da42fa50c7a07fc94d2153e92f3b6da2b7888bb589497d88ee2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsBySearch
+
+[ 2017-06-12T21:20:49+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497273649&token=f07c9a072fffc60c44655e0c796412cb4fadc268158978477126f2224a474320
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-12T21:20:49+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497273649&token=16aece6f9596ed275b84717a780c26f2e78d783d602e1fa4f95600ce25bb4764
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-12T21:20:49+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497273649&token=f07c9a072fffc60c44655e0c796412cb4fadc268158978477126f2224a474320
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-12T21:20:49+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497273649&token=f07c9a072fffc60c44655e0c796412cb4fadc268158978477126f2224a474320
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-12T21:20:53+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeChildren?token_time=1497273653&token=3d27c9732f070407745b6f1238a3d29756f2526f3bf59883f37c9f551138039f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeChildren
+
+[ 2017-06-12T21:20:53+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsFilter?terminal_type=2&token_time=1497273653&token=09c6755396e0bb4542529ca8884d1113c80dfeb5102ea9ebbe5ce542b735d8e3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsFilter
+
+[ 2017-06-12T21:20:53+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsBySearch?terminal_type=2&token_time=1497273653&token=09c6755396e0bb4542529ca8884d1113c80dfeb5102ea9ebbe5ce542b735d8e3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsBySearch
+
+[ 2017-06-12T21:20:54+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsBySearch?terminal_type=2&last_goods_index=&type=0&goods_keyword=&sort=&is_import=&price_from=&price_to=&brand_id=&token_time=1497273654&token=8d5bad812cdb5a44bbf72f9dcac95f2ee3fa939656297b679a2a29198502a9bd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsBySearch
+
+[ 2017-06-12T21:28:20+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeChildren?token_time=1497274100&token=14f2428be87e7b6bae9fef1043e0bc61fb5be46c5a8dd9519e3a8f7072facfa0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeChildren
+
+[ 2017-06-12T21:28:20+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsFilter?terminal_type=2&token_time=1497274100&token=f9836cea48e41d1f13c5c9b4768b3f2b04e9a0479080b9e9e9b583c0fc90bd5f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsFilter
+
+[ 2017-06-12T21:28:21+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsBySearch?terminal_type=2&token_time=1497274101&token=ecbb29b249834dc2eb9efb7c782e4dda105b18c03df9139d1016392325835076
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsBySearch
+
+[ 2017-06-12T21:28:21+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsBySearch?terminal_type=2&last_goods_index=&type=0&goods_keyword=&sort=&is_import=&price_from=&price_to=&brand_id=&token_time=1497274101&token=57d15d103638d65bdbda8c463b1f85551e3028c679c3ba1b15e734db881f2a80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsBySearch
+
+[ 2017-06-12T21:28:29+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeChildren?token_time=1497274109&token=6bff86785437c7b0df8afecaba5195e9cab571a71ccafcc12864691e1652fc1b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeChildren
+
+[ 2017-06-12T21:28:29+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsFilter?type=0&v=1&terminal_type=2&token_time=1497274109&token=0b2f696b4ed8c809acb8191a2d5b6d4067355c0d6b49f0739e2f9366a510e132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsFilter
+
+[ 2017-06-12T21:28:30+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsBySearch?type=0&v=1&terminal_type=2&token_time=1497274109&token=0b2f696b4ed8c809acb8191a2d5b6d4067355c0d6b49f0739e2f9366a510e132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsBySearch
+
+[ 2017-06-12T21:28:30+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsBySearch?terminal_type=2&last_goods_index=&type=0&goods_keyword=&sort=&is_import=&price_from=&price_to=&brand_id=&token_time=1497274110&token=e808d8cd2f8b72109ff249214a6f4cbb786a1797affaedba8fe0c12d625e2fbd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsBySearch
+
+[ 2017-06-12T21:28:44+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsInfo?goods_id=0&token_time=1497274124&token=61c7853612d6315bee0873a78e80682676ea1ed811e5530fa1a5ed8c91d4284a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsInfo
+
+[ 2017-06-12T21:28:44+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsTypeNavi?token_time=1497274124&token=ae9fb08a5d859d1cbd48af4e0ffb32c345f87fb6b0e7e61ecf3f89db17ee6038
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeNavi
+
+[ 2017-06-12T21:28:44+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPrivate/IsFavorite?goods_id=0&token_time=1497274124&token=61c7853612d6315bee0873a78e80682676ea1ed811e5530fa1a5ed8c91d4284a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-12T21:28:44+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/AddGoodsPopularityCount?goods_id=0&token_time=1497274124&token=61c7853612d6315bee0873a78e80682676ea1ed811e5530fa1a5ed8c91d4284a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:AddGoodsPopularityCount
+
+[ 2017-06-12T21:28:52+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsProduct?goods_id=0&token_time=1497274132&token=ed9ff1e92101b17a1be04f74fa0135529df6899a34353a039d7606bfd99f33ec
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsProduct
+
+[ 2017-06-12T21:29:18+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsProduct?goods_id=0&token_time=1497274158&token=3e09356b2ac192ee9875b6d4fc9ac2704d2e3434a273f691c7551929173d4e78
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsProduct
+
