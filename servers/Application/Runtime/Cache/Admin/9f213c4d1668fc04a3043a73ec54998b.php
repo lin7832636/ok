@@ -6,10 +6,10 @@
 	<meta content="always" name="referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<link rel="stylesheet" type="text/css" href="/servers/Application/Admin/Public/css/theme.min.css" />
-	<link rel="stylesheet" type="text/css" href="/servers/Application/Admin/Public/css/simplebootadmin.css" />
-	<link rel="stylesheet" type="text/css" href="/servers/Application/Admin/Public/css/font-awesome.min.css" />
-	<link rel="stylesheet" type="text/css" href="/servers/Application/Admin/Public/js/artDialog/skins/default.css" />
+	<link rel="stylesheet" type="text/css" href="/bochong/servers/Application/Admin/Public/css/theme.min.css" />
+	<link rel="stylesheet" type="text/css" href="/bochong/servers/Application/Admin/Public/css/simplebootadmin.css" />
+	<link rel="stylesheet" type="text/css" href="/bochong/servers/Application/Admin/Public/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="/bochong/servers/Application/Admin/Public/js/artDialog/skins/default.css" />
 	
     <style>
 		.length_3{width: 180px;}
@@ -38,16 +38,16 @@
 	</style>
 
 	<!--[if IE 7]>
-	<link rel="stylesheet" type="text/css" href="/servers/Application/Admin/Public/css/font-awesome-ie7.min.css" />
+	<link rel="stylesheet" type="text/css" href="/bochong/servers/Application/Admin/Public/css/font-awesome-ie7.min.css" />
 	<![endif]-->
 
 <script type="text/javascript">
 //全局变量
 var GV = {
 	HOST:"<?php echo ($_SERVER['HTTP_HOST']); ?>",
-    DIMAUB: "/servers/",
+    DIMAUB: "/bochong/servers/",
     JS_ROOT: "Application/Admin/Public/js/",
-    MODULE_URL:"/servers/index.php/Admin/",
+    MODULE_URL:"/bochong/servers/index.php/Admin/",
     TOKEN: ""
 };
 </script>
@@ -55,10 +55,10 @@ var GV = {
 <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-	<script type="text/javascript" src="/servers/Application/Admin/Public/js/jquery.js"></script>
-	<script type="text/javascript" src="/servers/Application/Admin/Public/js/wind.js"></script>
-	<script type="text/javascript" src="/servers/Application/Admin/Public/js/jquery.smooth-scroll.min.js"></script>
-	<script type="text/javascript" src="/servers/Application/Admin/Public/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/bochong/servers/Application/Admin/Public/js/jquery.js"></script>
+	<script type="text/javascript" src="/bochong/servers/Application/Admin/Public/js/wind.js"></script>
+	<script type="text/javascript" src="/bochong/servers/Application/Admin/Public/js/jquery.smooth-scroll.min.js"></script>
+	<script type="text/javascript" src="/bochong/servers/Application/Admin/Public/js/bootstrap.min.js"></script>
 
 <?php if(APP_DEBUG): ?><style>
 		#think_page_trace_open{
@@ -112,6 +112,6 @@ var GV = {
     </div>
   </form>
 </div>
-<script type="text/javascript" src="/servers/Application/Admin/Public/js/common.js"></script>
+<script type="text/javascript" src="/bochong/servers/Application/Admin/Public/js/common.js"></script>
 </body>
 </html>

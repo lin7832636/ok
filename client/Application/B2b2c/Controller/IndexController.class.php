@@ -18,49 +18,6 @@ class IndexController extends PublicController {
 		parent::__construct();
     }
 
-
-
-	public function files() {
-		
-		if(IS_POST) {
-			
-			
-			//$info = upload_preview(true);
-			//echo '<pre>';print_r($info);
-			
-			//$info = upload_preview_save('98bf1e3cb4b27c8e825b4e4a8ded84232b1fe4adac938d73f2ea52a319174baf1497421779jpeg', 'User', 'Img');
-			//echo '<pre>';print_r($info);				
-			
-			//9e41671e469cd46dd6b556b29ae776267a6e888df93fc4972088b69f17bc2116
-			
-
-			/*
-			
-			$data = array(
-				'name'=>'李先生',
-				'image'=>'9e41671e469cd46dd6b556b29ae776267a6e888df93fc4972088b69f17bc2116' 
-			);
-			
-			$info = D('Commons')->FilesKeyValArray($data);
-			*/
-			
-
-			//echo '<pre>';print_r($info);
-			
-
-
-
-	
-		} else {
-		
-			$this->display();
-
-		}
-
-	}
-
-
-
 	/**
 	 *+--------------------------------------------------------------------------------------------------------------------
 	 * 商城首页
@@ -77,13 +34,14 @@ class IndexController extends PublicController {
 	 *+--------------------------------------------------------------------------------------------------------------------
 	**/
 	public function index() {
-
+     //例子
 		$params = array();
-		$data = curls(C('APIURL') . 'B2b2cPublic/Demo', 'get', $params, true);
-		echo '<pre>';print_r($data);
-		exit;
+        $data = curls(C('APIURL') . 'B2b2cPublic/Demo', 'get', $params,true);
 
-		//获取banner
+        //           echo "<pre>";
+        //           print_r($data);die;
+
+		//获取轮播banner
 		$params = array(
 				'type'	=> 2,
 			);
@@ -114,7 +72,6 @@ class IndexController extends PublicController {
 				unset($goods_type_list[0]['child'][$key]);
 			}
 		}
-
 		// error_log(print_r($recommend_list,1));
 		$this->assign('goods_type_list', $goods_type_list);
 		$this->assign('recommend_list', $recommend_list);
@@ -139,7 +96,6 @@ class IndexController extends PublicController {
 	**/
 	public function login() {
 		if(IS_POST) {
-			
 			$data = array();
 			$data['telno'] = I('post.telno', '', 'trim');
 			$data['password'] = I('post.password', '', 'trim');
