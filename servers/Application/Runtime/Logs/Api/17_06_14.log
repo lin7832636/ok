@@ -1,0 +1,132 @@
+[ 2017-06-14T13:31:33+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497418293&token=dfe9d1667f4f03d3686f14300516cd781e06a57f1d52e4725017e594c725abe3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_token E:\wamp\www\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+
+[ 2017-06-14T13:31:35+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1497418295&token=1617be22b4dbee1720160436fcbc871aa332b3f1a5348f81288217bc58b48280
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_token E:\wamp\www\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+
+[ 2017-06-14T13:35:24+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/GetGoodsProduct?goods_id=0&token_time=1497418523&token=934111236dd6879af77ca6557420ca06a9d72c71dd284b7cede5f650f170143e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_token E:\wamp\www\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsProduct
+
+[ 2017-06-14T13:42:00+08:00 ] 127.0.0.1 /servers/index.php/Api/Files/UploadPreview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined index: user_token E:\wamp\www\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\servers\Application\Api\Controller\FilesController.class.php 第 116 行.
+
+[ 2017-06-14T13:42:55+08:00 ] 127.0.0.1 /servers/index.php/Api/Files/UploadPreview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_token E:\wamp\www\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\servers\Application\Api\Controller\FilesController.class.php 第 116 行.
+
+[ 2017-06-14T13:43:45+08:00 ] 127.0.0.1 /servers/index.php/Api/Files/UploadPreview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_token E:\wamp\www\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\servers\Application\Api\Controller\FilesController.class.php 第 116 行.
+
+[ 2017-06-14T13:56:28+08:00 ] 127.0.0.1 /servers/index.php/Api/Files/UploadPreviewSave?key=a78bf220e846a25ca8b9114443984688f16fe9a838789443aefe12af039cba411497419025jpeg&ms=User&fs=Img&uid=0&utype=0&token_time=1497419787&token=8884309a6eb2fb0b14f9de4c7d85c1ba9afa9d464b0833277339f862b2720765
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_token E:\wamp\www\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0040s ]
+SQL: INSERT INTO `sp_files` (`size`,`key`,`path`,`uid`,`utype`,`time`,`type`) VALUES ('780831','d61f5c883e253a0ad0d24c58801595db27836d1c675d9c14d1a5135b3682a002','User/Img','0','0','1497419788','jpeg') [ RunTime:0.0820s ]
+
+[ 2017-06-14T13:57:46+08:00 ] 127.0.0.1 /servers/index.php/Api/Files/UploadPreviewSave?key=a78bf220e846a25ca8b9114443984688f16fe9a838789443aefe12af039cba411497419025jpeg&ms=User&fs=Img&uid=0&utype=0&token_time=1497419866&token=f95a5309bada961ccd125d30e011290752e0cdb613a82c1b09ab22f3c0ea1359
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_token E:\wamp\www\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0000s ]
+SQL: INSERT INTO `sp_files` (`size`,`key`,`path`,`uid`,`utype`,`time`,`type`) VALUES ('780831','0ef12f3b52da103b1b6215e0c273669550133c8e02362fc67d6024c7913a5f6f','User/Img','0','0','1497419866','jpeg') [ RunTime:0.0624s ]
+
+[ 2017-06-14T14:09:20+08:00 ] 127.0.0.1 /servers/index.php/Api/Files/UploadPreview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_token E:\wamp\www\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\servers\Application\Api\Controller\FilesController.class.php 第 116 行.
+
+[ 2017-06-14T14:10:01+08:00 ] 127.0.0.1 /servers/index.php/Api/Files/UploadPreviewSave?key=40ffde768f35b81428e3940fe9ab3a994a2407230207d6b140cdd9f0663256e51497420560jpeg&ms=User&fs=Img&uid=0&utype=0&token_time=1497420600&token=a1b00c820f51ff6d3bfb4ff066aaa02c717b4a54270c815d2393373efd94858d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_token E:\wamp\www\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0000s ]
+SQL: INSERT INTO `sp_files` (`size`,`key`,`path`,`uid`,`utype`,`time`,`type`) VALUES ('780831','9e41671e469cd46dd6b556b29ae776267a6e888df93fc4972088b69f17bc2116','User/Img','0','0','1497420600','jpeg') [ RunTime:0.0936s ]
+
+[ 2017-06-14T14:24:47+08:00 ] 127.0.0.1 /servers/index.php/Api/Files/UploadPreview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_token E:\wamp\www\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\servers\Application\Api\Controller\FilesController.class.php 第 116 行.
+
+[ 2017-06-14T14:29:39+08:00 ] 127.0.0.1 /servers/index.php/Api/Files/UploadPreview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_token E:\wamp\www\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+NOTIC: [8192] Function split() is deprecated E:\wamp\www\servers\Application\Api\Controller\FilesController.class.php 第 116 行.
+
+[ 2017-06-14T14:34:02+08:00 ] 127.0.0.1 /servers/index.php/Api/Files/UploadPreviewSave?key=98bf1e3cb4b27c8e825b4e4a8ded84232b1fe4adac938d73f2ea52a319174baf1497421779jpeg&ms=User&fs=Img&uid=0&utype=0&token_time=1497422042&token=63582d24b448b1415c41ae512236d937be8d03907f30653bfcaeacea10fe367c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_token E:\wamp\www\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0000s ]
+SQL: INSERT INTO `sp_files` (`size`,`key`,`path`,`uid`,`utype`,`time`,`type`) VALUES ('780831','e3b28e50e095ba479cf2be1d4e9852e13718598368782ddd41f77d0b0ebb2b75','User/Img','0','0','1497422042','jpeg') [ RunTime:0.1092s ]
+
