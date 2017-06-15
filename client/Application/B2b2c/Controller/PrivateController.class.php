@@ -13,15 +13,15 @@
 namespace B2b2c\Controller;
 use Think\Controller;
 class PrivateController extends Controller {
-	public function __construct() {
-		parent::__construct();
-		if(get_user_token()) {
-			$this->assign('user_info', get_user_info());
-		} else {
-			unset_user_token();
-			unset_user_info();
-			unset_user_menu();			
-			$this->redirect('B2b2c/Index/login');
-		}
-	}
+	// public function __construct() {
+	// 	parent::__construct();
+	// 	if(get_user_token()) {
+	// 		$this->assign('user_info', get_user_info());
+	// 	} else {
+	// 		unset_user_token();
+	// 		unset_user_info();
+	// 		unset_user_menu();			
+	// 		$this->redirect('B2b2c/Index/login');
+	// 	}
+	// }
 }
