@@ -208,4 +208,45 @@ class B2b2cPrivateController extends PrivateController {
             output(0,$data);
         }
     }
+
+    /**
+     * 评论回复API
+     * @author 孟祥林
+     * @data  2017/6/15
+     * @param goods_id 商品ID
+     * @param content 评论内容
+     * @param point   评分
+     * @param type  评论 买家 或 回复平台  1平台 2买家
+     * @param  for_id 回复还是评论
+     * @return array()  返回添加id
+     */
+    public function comment_add(){
+       $param=array();
+       I('get.goods_id') ? $param['goods_id'] = I('get.goods_id') : output(20678,'商品id必须存在');
+       I('get.content') ? $param['content'] = I('get.content') : output(20678,'必须有评论内容');
+       I('get.point') ? $param['point'] = I('get.point') : output(20678,'必须打分');
+       $param['user_id']=1;/*$this->guid()*/
+       $param['addtime']=time();
+       //检测是平台回复  还是  用户评论
+       I('get.type') ? $param['type'] = I('get.type') : $param['type'] = 2;
+      //买家 评论
+       if($param['type'] == 2){
+       //查看买家用户是否购买过商品
+           $data=M('order as o')
+               ->join('sp_order_goods as g on o.id=g.order_id')
+               ->field('g.order_id')
+               ->where(['goods_id'=>$param['goods_id'], 'user_id'=> $param['user_id']])
+               ->find();
+       //is_array($data) == false  没有评论权限
+       if(!is_array($data))
+           output(20686,'未购买无法进行评论');
+       }
+       //接值评论id  ？回复 ：评论
+       if(I('get.for_id'))
+           $param['com_pid'] = I('get.for_id');
+       $res=M('comments')
+           ->data($param)
+           ->add();
+       $res ? output(0,['id'=>$res]) : output(20678);
+    }
 }
