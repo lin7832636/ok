@@ -11,5 +11,5 @@ return array(
 	'SESSION_PREFIX'=>'sp_admin',		//本地化session前缀
 	'PAGE_NUMBER'=>10,					//后台分页数
 	'SHOW_PAGE_TRACE'=>false,
-    'EXAM_UPLOADS'=>'./Uploads/Exams/',
+        'EXAM_UPLOADS'=>'./Uploads/Exams/',
 );
