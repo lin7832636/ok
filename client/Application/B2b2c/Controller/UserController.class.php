@@ -12,8 +12,7 @@
 **/
 namespace B2b2c\Controller;
 use Think\Controller;
-header("content-type:text/html;charset=utf-8");
-class UserController extends PrivateController {
+class UserController extends Controller {
 	
     public function __construct() {
         parent::__construct();
@@ -53,14 +52,12 @@ class UserController extends PrivateController {
     public function index() {
         //获取用户信息
         $user_info = curls(C('APIURL') . 'B2b2cPrivate/GetUserInfo', 'get', array('user_token' => get_user_token()), true);
-        // print_r($user_info);die;    
         if (!$user_info['status']) {
             unset_user_token();
             unset_user_info();
-            $this->error('登录失效，请重新登录', "Index/login");
+            $this->error('登录失效，请重新登录', 'B2b2c/index/login');
         }
         $user_info = $user_info['data'];
-        // print_r($user_info);die;
         $this->assign('user_info', $user_info);
         $this->display();
     }    
@@ -78,7 +75,7 @@ class UserController extends PrivateController {
         $user_info = I('get.', '', 'trim');
         if (!empty($user_info['nickname'])) {
             $user_info['user_token'] = get_user_token();
-            $user_info = curls(C('APIURL') . 'B2b2cPrivate/edit_nickname', 'post', $user_info, true);
+            $user_info = curls(C('APIURL') . 'MobileUser/EditUserInfo', 'post', $user_info, true);
             if ($user_info['status']) {
                 $new_info = get_user_info();
                 $new_info['nickname'] = $nickname;
@@ -106,8 +103,8 @@ class UserController extends PrivateController {
         $user_info = I('post.', '', 'trim');
         if (IS_POST) {
             if(!empty($user_info['realname'])){
-                $user_info = curls(C('APIURL') . 'B2b2cPrivate/edit_realname', 'post', $user_info, true);
-                // print_r($user_info);die;
+                $user_info['user_token'] = get_user_token();
+                $user_info = curls(C('APIURL') . 'MobileUser/EditUserInfo', 'post', $user_info, true);
                 if ($user_info['status']) {
                     $new_info = get_user_info();
                     $new_info['user_id'] = $user_info['data']['user_id'];
@@ -135,7 +132,8 @@ class UserController extends PrivateController {
         if(IS_POST){
             $user_info = I('post.', '', 'trim');
             if (isset($user_info['gender'])) {
-                $user_info = curls(C('APIURL') . 'B2b2cPrivate/edit_gender', 'post', $user_info, true);
+                $user_info['user_token'] = get_user_token();
+                $user_info = curls(C('APIURL') . 'MobileUser/EditUserInfo', 'post', $user_info, true);
                 if ($user_info['status']) {
                     $new_info = get_user_info();
                     $new_info['user_id'] = $user_info['data']['user_id'];
@@ -147,34 +145,7 @@ class UserController extends PrivateController {
             }
         }
     }    
-	/**
-     * +--------------------------------------------------------------------------------------------------------------------
-     * 个人资料--生日
-     * +--------------------------------------------------------------------------------------------------------------------
-     * @Author  zhangnan  Date:2016/12/9
-     * +--------------------------------------------------------------------------------------------------------------------
-     * @access  public
-     * +--------------------------------------------------------------------------------------------------------------------
-    **/
-    public function edit_birthday()
-    {
-        if(IS_GET)
-        {
-             $user_info = I('get.', '', 'trim');
-            if (isset($user_info['birthday'])) {
-                $user_info = curls(C('APIURL') . 'B2b2cPrivate/edit_birthday', 'post', $user_info, true);
-                if ($user_info['status']) {
-                    $new_info = get_user_info();
-                    $new_info['user_id'] = $user_info['data']['user_id'];
-                    set_user_info($new_info);
-                    echo json_encode($user_info);
-                } else {
-                    echo json_encode($user_info);
-                }
-            }
-            // print_r($birthday);
-        }
-    }
+	
     /**
      * +--------------------------------------------------------------------------------------------------------------------
      * 个人资料--修改头像
@@ -191,7 +162,7 @@ class UserController extends PrivateController {
             $user_token = get_user_token();
             if ($data['status'] == true) {
                 $data = (array) $data['data'];
-                // $user_head = curls(C('APIURL') . 'User/EditUserPortrait', 'get', array('portrait' => $data['key'], 'user_token' => $user_token));
+                $user_head = curls(C('APIURL') . 'User/EditUserPortrait', 'get', array('portrait' => $data['key'], 'user_token' => $user_token));
                 if ($user_head['status'] == true) {
                     $this->redirect('User/index');
                 } else {
@@ -220,7 +191,7 @@ class UserController extends PrivateController {
     **/
     public function address() {
         $user_token = get_user_token();
-        // $user_address = curls(C('APIURL') . 'B2b2cPrivate/AddressBuyersList', 'get', array('user_token'=>get_user_token()), true);
+        $user_address = curls(C('APIURL') . 'B2b2cPrivate/AddressBuyersList', 'get', array('user_token'=>get_user_token()), true);
         $this->assign('user_address', $user_address['data']);
         $this->display();
     }    

@@ -7,25 +7,25 @@
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <meta content="telephone=no" name="format-detection"/>
-        <script type="text/javascript">var GV = {DIMAUB: "/oks/client/", MODULE_URL: "/oks/client/index.php/B2b2c/"};</script>
-    <link rel="stylesheet" type="text/css" href="/oks/client/Application/B2b2c/Public/plug/swiper/css/swiper.min.css" />
-    <link rel="stylesheet" type="text/css" href="/oks/client/Application/B2b2c/Public/plug/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="/oks/client/Application/B2b2c/Public/plug/upload/style.css" />
-    <link rel="stylesheet" type="text/css" href="/oks/client/Application/B2b2c/Public/plug/artDialog/css/ui-dialog.css" />
-    <link rel="stylesheet" type="text/css" href="/oks/client/Application/B2b2c/Public/css/b2b2c.css" />
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/js/jquery.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/plug/swiper/js/swiper.min.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/plug/artDialog/dist/dialog.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/plug/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/js/b2b2cc.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/js/b2b2cf.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/js/b2b2cj.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/js/b2b2c.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/plug/effect/js/jquery.ui.widget.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/plug/effect/js/jquery.iframe-transport.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/plug/effect/js/jquery.fileupload.js"></script>
+        <script type="text/javascript">var GV = {DIMAUB: "/bochong/client/", MODULE_URL: "/bochong/client/index.php/B2b2c/"};</script>
+    <link rel="stylesheet" type="text/css" href="/bochong/client/Application/B2b2c/Public/plug/swiper/css/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="/bochong/client/Application/B2b2c/Public/plug/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/bochong/client/Application/B2b2c/Public/plug/upload/style.css" />
+    <link rel="stylesheet" type="text/css" href="/bochong/client/Application/B2b2c/Public/plug/artDialog/css/ui-dialog.css" />
+    <link rel="stylesheet" type="text/css" href="/bochong/client/Application/B2b2c/Public/css/b2b2c.css" />
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/js/jquery.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/plug/swiper/js/swiper.min.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/plug/artDialog/dist/dialog.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/plug/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/js/b2b2cc.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/js/b2b2cf.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/js/b2b2cj.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/js/b2b2c.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/plug/effect/js/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/plug/effect/js/jquery.iframe-transport.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/plug/effect/js/jquery.fileupload.js"></script>
 
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/plug/bootstrap/js/bootstrap-datetimepicker.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/plug/bootstrap/js/bootstrap-datetimepicker.js"></script>
     <script>
 var _hmt = _hmt || [];
 (function() {
@@ -35,6 +35,7 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
+
 
 <!-- 百度站长自动推送工具代码 -->
 <script>

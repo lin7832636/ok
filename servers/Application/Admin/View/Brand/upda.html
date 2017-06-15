@@ -1,0 +1,87 @@
+<include file="Public/header"/>
+<body class="J_scroll_fixed">
+<div class="wrap jj">
+    <ul class="nav nav-tabs">
+        <!--&lt;!&ndash;<?php if(is_role('user','index')) { ?><li><a href="{:U('brand/add')}">管理员</a></li><?php } ?>&ndash;&gt;-->
+        <!--<?php if(is_role('user','add')) { ?><li class="active"><a href="{:U('Brand/add')}">添加品牌</a></li><?php } ?>-->
+        <li class="active"><a href="{:U('Brand/show')}">品牌列表</a></li>
+
+    </ul>
+    <div class="common-form">
+        <form method="post" action="{:U('Brand/updat')}" enctype="multipart/form-data">
+            <div class="table_list">
+                <table cellpadding="2" cellspacing="2" class="table_form" width="100%">
+                    <tbody>
+                    <input type="hidden" name="brand_id" value="{$list.brand_id}">
+                    <tr>
+                        <td width="180">品牌名称:</td>
+                        <td><input type="text" class="input" name="brand_name" value="{$list.brand_name}"><span class="must_red">*</span></td>
+                    </tr>
+                    <tr>
+                        <td>品牌logo:</td>
+                        <td><input type="file" class="input" name="brand_logo" value="{$list.brand_logo}" ><span class="must_red">*</span></td>
+                    </tr>
+                    <tr>
+                        <td>品牌描述:</td>
+                        <td><textarea name="brand_summary">{$list.brand_summary}</textarea></td>
+                    </tr>
+                    <tr>
+                        <td>官方网站:</td>
+                        <td>
+                            <input type="text"  name="brand_url"  value="{$list.brand_url}"  >*</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>排序:</td>
+                        <td>
+                            <input type="text" name="brand_sort"  value="{$list.brand_sort}" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>状态:</td>
+                        <td>
+                            <select  name="brand_status">
+                                <!--<if condition=" strtoupper($list['brand_status']) eq '上架' ">-->
+                                    <!--<option selected>{$list.brand_status}</option>-->
+                                    <!--<else />-->
+                                    <!--<option value="{$v.c_id}">{$v.c_name}</option>-->
+                                <!--</if>-->
+                                <option value="0">删除</option>
+                                <option value="1">下架</option>
+                                <option value="2" selected>上架</option>
+                            </select>
+
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary btn_submit J_ajax_submit_btn">修改</button>
+                <!--<a class="btn" href="__URL__">返回</a>-->
+            </div>
+        </form>
+    </div>
+</div>
+<load href="__PUBLICS__/js/common.js"/>
+<script type="text/javascript">
+    function org_list($this) {
+        art.dialog({
+            id:'div_org_list',
+            lock : true,
+            ok : true ,
+            cancel : true,
+            title : '选择机构',
+            background : '#cccccc',
+            opacity : 0.80,
+            width : 700,
+            height : 500
+        });
+        $.get('__MODULE__/Train/id_list', {}, function(e) {
+            art.dialog({id: 'div_org_list'}).content(e);
+        }, 'html');
+    }
+</script>
+
+</body>
+</html>

@@ -1,48 +1,211 @@
-[ 2017-06-09T17:02:37+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1496998955&token=b7e4d98d2b4d302ff22f12d7324d873fa62c14715ff3f5dab6285bdba08fb599
+[ 2017-06-09T16:20:36+08:00 ] 127.0.0.1 /servers/index.php/api/b2b2cpulic/GetBrandList
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
-NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
-ERR: 非法操作:Demo
-
-[ 2017-06-09T17:03:45+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1496999025&token=1a239cdd7f78a5bba9408db21b16fa886df22c1a6c53fc0d7c5e9f25d535cc3d
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
-NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
-ERR: 非法操作:Demo
-
-[ 2017-06-09T17:14:04+08:00 ] 127.0.0.1 /servers/index.php/Api/User/Login
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
-ERR: 无法加载控制器:User
+ERR: 无法加载控制器:B2b2cpulic
 
-[ 2017-06-09T17:14:04+08:00 ] 127.0.0.1 /servers/index.php/Api/User/GetUserInfo?token_time=1496999644&token=e1b720549f8f7c6133210c9165271f90a40372427f1597d404184e0deb556e73
+[ 2017-06-09T16:21:02+08:00 ] 127.0.0.1 /servers/index.php/api/B2b2cPublic/GetBrandList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: token D:\1503phpB\servers\Application\Api\Controller\PublicController.class.php 第 17 行.
+NOTIC: [8] Undefined index: user_token D:\1503phpB\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+
+[ 2017-06-09T16:22:11+08:00 ] 127.0.0.1 /servers/index.php/api/B2b2cPrivate/Favorite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 19 行.
+NOTIC: [8] Undefined index: user_token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-09T16:22:14+08:00 ] 127.0.0.1 /servers/index.php/api/B2b2cPrivate/Favorite
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
-ERR: 无法加载控制器:User
+NOTIC: [8] Undefined index: token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 19 行.
+NOTIC: [8] Undefined index: user_token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
 
-[ 2017-06-09T17:14:06+08:00 ] 127.0.0.1 /servers/index.php/Api/B2b2cPublic/Demo?token_time=1496999646&token=ffc067a9a05d9fd4f3fb5c59be6c69f017d0cae466e4175c18166c3074f77f63
+[ 2017-06-09T16:22:46+08:00 ] 127.0.0.1 /servers/index.php/api/B2b2cPrivate/Favorite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 19 行.
+NOTIC: [8] Undefined index: user_token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-09T16:23:11+08:00 ] 127.0.0.1 /servers/index.php/api/Private
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 19 行.
+NOTIC: [8] Undefined index: user_token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-09T16:23:14+08:00 ] 127.0.0.1 /servers/index.php/api/Private
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 19 行.
+NOTIC: [8] Undefined index: user_token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-09T16:23:16+08:00 ] 127.0.0.1 /servers/index.php/api/Private
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 19 行.
+NOTIC: [8] Undefined index: user_token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-09T16:23:18+08:00 ] 127.0.0.1 /servers/index.php/api/Private
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 19 行.
+NOTIC: [8] Undefined index: user_token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-09T16:23:45+08:00 ] 127.0.0.1 /servers/index.php/api/Private/guid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 19 行.
+NOTIC: [8] Undefined index: user_token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-09T16:23:48+08:00 ] 127.0.0.1 /servers/index.php/api/Private/guid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 19 行.
+NOTIC: [8] Undefined index: user_token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-09T16:24:33+08:00 ] 127.0.0.1 /servers/index.php/api/Private/guid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 19 行.
+NOTIC: [8] Undefined index: user_token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-09T16:24:44+08:00 ] 127.0.0.1 /servers/index.php/api/Private/ddd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 19 行.
+NOTIC: [8] Undefined index: user_token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-09T16:24:47+08:00 ] 127.0.0.1 /servers/index.php/api/Private/ddd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 19 行.
+NOTIC: [8] Undefined index: user_token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-09T16:24:53+08:00 ] 127.0.0.1 /servers/index.php/api/Private/ddd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 19 行.
+NOTIC: [8] Undefined index: user_token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-09T16:25:02+08:00 ] 127.0.0.1 /servers/index.php/api/Private
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 19 行.
+NOTIC: [8] Undefined index: user_token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-09T16:25:05+08:00 ] 127.0.0.1 /servers/index.php/api/Private
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
-NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
-ERR: 非法操作:Demo
+NOTIC: [8] Undefined index: token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 19 行.
+NOTIC: [8] Undefined index: user_token D:\1503phpB\servers\Application\Api\Controller\PrivateController.class.php 第 20 行.
+
+[ 2017-06-09T16:34:10+08:00 ] 127.0.0.1 /servers/index.php/api/Pub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:index
+
+[ 2017-06-09T16:34:15+08:00 ] 127.0.0.1 /servers/index.php/api/Pub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:index
+
+[ 2017-06-09T16:34:25+08:00 ] 127.0.0.1 /servers/index.php/api/Pub/Cropper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 1146:Table 'servers.sp_api_public' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_api_public`
+ERR: 1146:Table 'servers.sp_api_public' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_api_public`
+
+[ 2017-06-09T17:28:38+08:00 ] 127.0.0.1 /servers/index.php/api/Pub/Cropper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+ERR: 1146:Table 'servers.sp_api_public' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_api_public`
+ERR: 1146:Table 'servers.sp_api_public' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_api_public`
 
