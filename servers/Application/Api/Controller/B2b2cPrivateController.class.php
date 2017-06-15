@@ -12,173 +12,86 @@
 **/
 namespace Api\Controller;
 use Think\Controller;
-class B2b2cPrivateController extends PrivateController {
+class B2b2cPrivateController extends PublicController {
 	
     public function __construct() {
         parent::__construct();
     }
 	
-     /**
-     * +--------------------------------------------------------------------------------------------------------------------
-     * 个人资料--用户信息
-     * +--------------------------------------------------------------------------------------------------------------------
-     * @Author  zhangnan  Date:2016/12/9
-     * +--------------------------------------------------------------------------------------------------------------------
-     * @access  public
-     * +--------------------------------------------------------------------------------------------------------------------
-    **/
-
-    public function GetUserInfo()
-    {
-        $userinfo = M('user_info');
-        $user_id = $this->guid();
-        $data=array();
-        $data =$userinfo->field('info_id,user_id,info_nickname,info_realname,info_birthday,info_gender,info_portrait')->where("user_id ='$user_id'")->find();
-        if(empty($data))
-        {
-            output(20004);//用户信息获取失败
-        }
-        else
-        {
-            output(0,$data);///用户信息获取成功
-        }
-
-    }
     /**
      * +--------------------------------------------------------------------------------------------------------------------
-     * 个人资料--用户表
+     * 收藏商品
      * +--------------------------------------------------------------------------------------------------------------------
-     * @Author  zhangnan  Date:2016/12/9
+     * @Author yangjing   Date:2016/6/14
      * +--------------------------------------------------------------------------------------------------------------------
-     * @access  public
+     * @access public
      * +--------------------------------------------------------------------------------------------------------------------
-    **/
-    public function GetUser()
-    {
-        $userinfo = M('user');
-        $user_id = $this->guid();
-        $data=array();
-        $data =$userinfo->where("user_id ='$user_id'")->find();
-        if(empty($data))
-        {
-            output(20004);//用户信息获取失败
-        }
-        else
-        {
-            output(0,$data);///用户信息获取成功
-        }
-    }  
-
-     /**
+     * @type GET
      * +--------------------------------------------------------------------------------------------------------------------
-     * 个人资料--真实姓名
+     * @parame Int 必填 $goods_id 商品ID
      * +--------------------------------------------------------------------------------------------------------------------
-     * @Author  zhangnan  Date:2016/12/9
-     * +--------------------------------------------------------------------------------------------------------------------
-     * @access  public
+     * @return JSON
+			{
+				'name':'value',	//返回值注释
+				'name':'value'  //返回值注释
+			}
      * +--------------------------------------------------------------------------------------------------------------------
     **/
-    public function edit_realname() 
-    {
-        $userinfo = M('user_info');
-        $username = I('post.realname', '', 'trim');
-        // $data['user_id'] = $this->guid();
-        $user_id = $this->guid();
-
-        $info['info_realname']=$username;
-        $data =$userinfo->where("user_id ='$user_id'")->data($info)->save();
-        if(empty($data))
-        {
-                output(20001);//密码修改错误
-        }
-        else
-        {
-            output(0);//密码修成功
+    public function Favorite() {
+        $b2b2c_favorite_db = M('b2b2c_favorite');
+        $data = array();
+        $data['goods_id'] = I('get.goods_id', 0, 'intval');
+        $data['user_id'] = $this->guid();
+        if (empty($b2b2c_favorite_db->where(array('user_id' => $data['user_id'], 'goods_id' => $data['goods_id']))->getField('id'))) {
+            $data['shop_id'] = M('b2b2c_goods')->where(array('id' => $data['goods_id']))->getField('shop_id');
+            $data['time_create'] = time();
+            M('b2b2c_favorite')->add($data);
+            output(0, array());
+        }else{
+            output(32009);
         }
         
     }
 
-     /**
-     * +--------------------------------------------------------------------------------------------------------------------
-     * 个人资料--修改昵称
-     * +--------------------------------------------------------------------------------------------------------------------
-     * @Author  zhangnan  Date:2016/12/9
-     * +--------------------------------------------------------------------------------------------------------------------
-     * @access  public
-     * +--------------------------------------------------------------------------------------------------------------------
-    **/
-
-    public function edit_nickname() 
-    {
-        $userinfo = M('user_info');
-        $username = I('post.nickname', '', 'trim');
-        $user_id = $this->guid();
-
-        $info['info_nickname']=$username;
-        $data =$userinfo->where("user_id ='$user_id'")->data($info)->save();
-        if(empty($data))
-        {
-                output(20002);//昵称修改错误
-        }
-        else
-        {
-            output(0);//昵称修成功
-        }
-        
+    ////收货地址展示
+    public function AddressBuyersList(){
+        $user_address=M('user_address');
+        $data=$user_address->order('is_default  desc')->select();
+        output(0,$data);
     }
 
-     /**
-     * +--------------------------------------------------------------------------------------------------------------------
-     * 个人资料--修改性别
-     * +--------------------------------------------------------------------------------------------------------------------
-     * @Author  zhangnan  Date:2016/12/9
-     * +--------------------------------------------------------------------------------------------------------------------
-     * @access  public
-     * +--------------------------------------------------------------------------------------------------------------------
-    **/
-    public function edit_gender() 
-    {
-        $userinfo = M('user_info');
-        $sex = I('post.gender', '', 'trim');
-        // $data['user_id'] = $this->guid();
-        $user_id = $this->guid();
-
-        $info['info_gender']=$sex;
-        $data =$userinfo->where("user_id ='$user_id'")->data($info)->save();
-        if(empty($data))
-        {
-                output(20003);//性别修改错误
+    //收货地址添加
+    public function AddressBuyersAdd(){
+        $user_address=M('user_address');
+        $data=$_POST;
+        $data['user_id']=1;
+        $data['addtime']=time();
+        if($data['is_default']==1){
+            $user_address->where('user_id=1')->setField('is_default',0);
         }
-        else
-        {
-            output(0);//性别修成功
+        $sql= $user_address->add($data);
+        if($sql){
+            output(0,$data);
+        }else{
+            output(30006);
         }
-        
     }
-    /**
-     * +--------------------------------------------------------------------------------------------------------------------
-     * 个人资料--修改年龄
-     * +--------------------------------------------------------------------------------------------------------------------
-     * @Author  zhangnan  Date:2016/12/9
-     * +--------------------------------------------------------------------------------------------------------------------
-     * @access  public
-     * +--------------------------------------------------------------------------------------------------------------------
-    **/ 
-    public function edit_birthday()
-    {
-        $userinfo = M('user_info');
-        $birthday = I('post.birthday', '', 'trim');
-        $birthday = strtotime($birthday);
-        $user_id = $this->guid();
-        $info['info_birthday']=$birthday;
-        $data =$userinfo->where("user_id ='$user_id'")->data($info)->save();
-        if(empty($data))
-        {
-            output(20003);//性别修改错误
+
+//收货地址修改为默认
+    public function SetUserDefaultAddress(){
+        $id=I('get.user_address_id',0);
+        if($id){
+            M('user_address')->where('user_id=1')->setField('is_default',0);
+            M('user_address')->where(array('id'=>$id))->setField('is_default',1);
         }
-        else
-        {
-            output(0);//性别修成功
+        output(0);
+    }
+   //收货地址删除
+    public function AddressBuyersDelete(){
+        $id=I('get.user_address_id',0);
+        if($id){
+            M('user_address')->where(array('id'=>$id))->delete();
         }
+        output(0);
     }
 }

@@ -64,18 +64,15 @@ function unset_user_token(){
     unset($_SESSION['user_token']);
 }
 
-function curls($url, $ispg='get' ,$data, $type=false, $time=120) 
-{
+function curls($url, $ispg='get' ,$data, $type=false, $time=120) {
 	
 	$data['token_time'] = time();
 	$data['token'] = token($data);
-	if(get_user_token()) 
-    {
+	if(get_user_token()) {
 		$data['user_token'] = get_user_token();
 	}
      
-	if($ispg == 'get') 
-    {
+	if($ispg == 'get') {
 		$url = $url.'?'.http_build_query($data);
 	}
 	
@@ -86,39 +83,30 @@ function curls($url, $ispg='get' ,$data, $type=false, $time=120)
     curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $time);
     curl_setopt($ch, CURLOPT_BINARYTRANSFER, false); 
 	
-	if($ispg == 'post') 
-    {
+	if($ispg == 'post') {
 		curl_setopt($ch, CURLOPT_POST, true);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
 	}
     
 	$ret = curl_exec($ch);
     curl_close($ch);
-    // return $ret;
-	$data = json_decode($ret, true);
-    // return $data;
+    $data = json_decode($ret, true);
+	
 	$info = '';
 	$status = false;
-	if($data['status'] == 0) 
-    {
+	if($data['status'] == 0) {
 		$status = true;
-	} 
-    else if($data['status'] == '-2') 
-    { //接口数据调试用参数
+	} else if($data['status'] == '-2') { //接口数据调试用参数
 		$ret = json_decode($ret, true);
 		$ret = $ret['data'];
 		echo '<pre>';print_r($ret);exit;
-    } 
-    else if($data['status'] == '10002') 
-    {
+    } else if($data['status'] == '10002') {
         unset_user_token();
         unset_user_info();
         unset_user_menu();
         $status = false;
         $info = C('ERRORKEY')[$data['status']];
-	} 
-    else 
-    {
+	} else {
 		$status = false;
 		$info = C('ERRORKEY')[$data['status']];
 	}

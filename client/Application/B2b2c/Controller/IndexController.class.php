@@ -34,22 +34,14 @@ class IndexController extends PublicController {
 	 *+--------------------------------------------------------------------------------------------------------------------
 	**/
 	public function index() {
-
-
+     //例子
 		$params = array();
+        $data = curls(C('APIURL') . 'B2b2cPublic/Demo', 'get', $params,true);
 
-		$data = curls(C('APIURL') . 'B2b2cPublic/Demo', 'get', $params, true);
+        //           echo "<pre>";
+        //           print_r($data);die;
 
-
-		// echo '<pre>';print_r($data);
-
-		// exit;
-
-
-
-
-
-		//获取banner
+		//获取轮播banner
 		$params = array(
 				'type'	=> 2,
 			);
@@ -80,7 +72,6 @@ class IndexController extends PublicController {
 				unset($goods_type_list[0]['child'][$key]);
 			}
 		}
-
 		// error_log(print_r($recommend_list,1));
 		$this->assign('goods_type_list', $goods_type_list);
 		$this->assign('recommend_list', $recommend_list);
@@ -104,41 +95,33 @@ class IndexController extends PublicController {
 	 *+--------------------------------------------------------------------------------------------------------------------
 	**/
 	public function login() {
-		if(IS_POST) 
-		{
-			
+		if(IS_POST) {
 			$data = array();
 			$data['telno'] = I('post.telno', '', 'trim');
 			$data['password'] = I('post.password', '', 'trim');
 			$data['login_type'] = "wc";
 			$info = curls(C('APIURL').'User/Login', 'post', $data, true);
-           	// print_r($info);die;
-			if($info['status']) 
-			{
+                        
+			if($info['status']) {
 				$user_token = $info['data']['user_token'];
 				set_user_token($user_token);
 				
-				$user_info = array();//===================读========================/
-				$user_info_data = curls(C('APIURL').'B2b2cPrivate/GetUser','get',array('user_token'=>$user_token),true);
+				$user_info = array();
+				$user_info_data = curls(C('APIURL').'User/GetUserInfo','get',array('user_token'=>$user_token),true);
 				$user_info_data = $user_info_data['data'];
-				$user_info['telno'] = $user_info_data['usertelno'];
-				// $user_info['nickname'] = $user_info_data['nickname'];
+				
+				$user_info['telno'] = $user_info_data['telno'];
+				$user_info['nickname'] = $user_info_data['nickname'];
 				$user_info['user_id'] = $user_info_data['user_id'];
 				$user_info['user_type'] = $user_info_data['user_type'];
-				// print_r($user_info);die;//=======================ok
 				set_user_info($user_info);
-
 				
 				$info['data'] = array();
 				echo json_encode($info);	
-			} 
-			else
-			{
+			} else {
 				echo json_encode($info);	
 			}
-		}
-		else 
-		{
+		} else {
 			$this->display();
 		}
 	}

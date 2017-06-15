@@ -8,24 +8,24 @@
         <meta name="description" content="" />
         <meta content="telephone=no" name="format-detection"/>
         <script type="text/javascript">var GV = {DIMAUB: "/client/", MODULE_URL: "/client/index.php/B2b2c/"};</script>
-    <link rel="stylesheet" type="text/css" href="/client/Application/B2b2c/Public/plug/swiper/css/swiper.min.css" />
-    <link rel="stylesheet" type="text/css" href="/client/Application/B2b2c/Public/plug/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="/client/Application/B2b2c/Public/plug/upload/style.css" />
-    <link rel="stylesheet" type="text/css" href="/client/Application/B2b2c/Public/plug/artDialog/css/ui-dialog.css" />
-    <link rel="stylesheet" type="text/css" href="/client/Application/B2b2c/Public/css/b2b2c.css" />
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/js/jquery.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/plug/swiper/js/swiper.min.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/plug/artDialog/dist/dialog.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/plug/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/js/b2b2cc.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/js/b2b2cf.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/js/b2b2cj.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/js/b2b2c.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/plug/effect/js/jquery.ui.widget.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/plug/effect/js/jquery.iframe-transport.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/plug/effect/js/jquery.fileupload.js"></script>
+    <link rel="stylesheet" type="text/css" href="/bochong/client/Application/B2b2c/Public/plug/swiper/css/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="/bochong/client/Application/B2b2c/Public/plug/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/bochong/client/Application/B2b2c/Public/plug/upload/style.css" />
+    <link rel="stylesheet" type="text/css" href="/bochong/client/Application/B2b2c/Public/plug/artDialog/css/ui-dialog.css" />
+    <link rel="stylesheet" type="text/css" href="/bochong/client/Application/B2b2c/Public/css/b2b2c.css" />
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/js/jquery.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/plug/swiper/js/swiper.min.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/plug/artDialog/dist/dialog.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/plug/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/js/b2b2cc.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/js/b2b2cf.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/js/b2b2cj.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/js/b2b2c.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/plug/effect/js/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/plug/effect/js/jquery.iframe-transport.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/plug/effect/js/jquery.fileupload.js"></script>
 
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/plug/bootstrap/js/bootstrap-datetimepicker.js"></script>
+    <script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/plug/bootstrap/js/bootstrap-datetimepicker.js"></script>
     <script>
 var _hmt = _hmt || [];
 (function() {
@@ -57,8 +57,8 @@ var _hmt = _hmt || [];
 
 
 
-<link rel="stylesheet" type="text/css" href="/client/Application/B2b2c/Public/plug/dropload/css/dropload.css" />
-<script type="text/javascript" src="/client/Application/B2b2c/Public/plug/dropload/js/dropload.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/bochong/client/Application/B2b2c/Public/plug/dropload/css/dropload.css" />
+<script type="text/javascript" src="/bochong/client/Application/B2b2c/Public/plug/dropload/js/dropload.min.js"></script>
 
 <div class="b2b2c_layout">
     <!--头部start-->
@@ -70,7 +70,7 @@ var _hmt = _hmt || [];
     	<input type="hidden" id="b2b2c_goods_list_sort" value="<?php echo ($sort); ?>">
         <div class="b2b2c_search bgcf clearfix">
             <div class="fl b2b2c_searching_list" id="b2b2c_list_searbtn" onclick="b2b2cf.goods_list_type_level_1_menu()">
-                <?php if(empty($type)): ?><img src="/client/Application/B2b2c/Public/images/icons/038.png" />
+                <?php if(empty($type)): ?><img src="/bochong/client/Application/B2b2c/Public/images/icons/038.png" />
                 	全部
                 <?php else: ?>
                 <img src="<?php echo ($type_image); ?>" />
@@ -79,7 +79,7 @@ var _hmt = _hmt || [];
             <ul id="b2b2c_list_searlist" style="display: none;">
                 <li>
                     <a href="<?php echo U('index/goods_list');?>">
-                        <img src="/client/Application/B2b2c/Public/images/icons/038.png" alt="">
+                        <img src="/bochong/client/Application/B2b2c/Public/images/icons/038.png" alt="">
                         <p>全部</p>
                     </a>
                 </li>

@@ -1,7 +1,0 @@
-Array
-(
-    [login_type] => wc
-    [telno] => 1
-    [openid] => 
-    [password] => 1
-)

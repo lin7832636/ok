@@ -24,7 +24,7 @@
         <section class="b2b2c_nickname bgcf">
             <a class="b2b2c_public_h56 clearfix" href="{:U('user/edit_nickname', array('current'=>$user_info['nickname']))}">
                 <span class="fl">昵称</span>
-                <span class="fr"><?php echo $user_info['info_nickname']?></span>
+                <span class="fr">{$user_info.nickname}</span>
             </a>
         </section>
 
@@ -42,18 +42,18 @@
         <section class="bgcf">
             <a class="b2b2c_public_h56 clearfix" href="{:U('user/edit_realname', array('realname'=>$user_info['realname']))}">
                 <span class="fl">真实姓名</span>    
-                <span class="fr">{$user_info.info_realname}</span>
+                <span class="fr">{$user_info.realname}</span>
             </a>
         </section>
 
         <section class="bgcf b2b2c_birthday_box">
-            <form action="{:U('User/edit_birthday')}" method="get" id="birthday_form">
+            <form action="{:U('User/User/edit_birthday')}" method="get" id="birthday_form">
                 <input value="" name="birthday" type="hidden">
                 <input value="B2b2c/user/index" name="redirect_url" type="hidden">
             </form>
             <input class="b2b2c_public_h56 b2b2c_birthday_input" id="user_input_hold"/>
                 <span class="b2b2c_br_before">生日</span>
-                <span class=" b2b2c_br_after"><?php echo date("Y-m-d",$user_info['info_birthday'])?></span>
+                <span class=" b2b2c_br_after">{$user_info['birthday']}</span>
         </section>
 
         <section class="b2b2c_user_number_show">

@@ -1,1 +1,0 @@
-<?php if (!defined('THINK_PATH')) exit();?>项目组口号：
