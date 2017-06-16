@@ -249,4 +249,74 @@ class B2b2cPrivateController extends PrivateController {
            ->add();
        $res ? output(0,['id'=>$res]) : output(20678);
     }
+    /**
+     * 收货地址展示
+     * @author 贾恩超
+     * @data  2017/6/15
+     * @param goods_id 商品ID
+     * @param content 评论内容
+     * @param point   评分
+     * @param type  评论 买家 或 回复平台  1平台 2买家
+     * @param  for_id 回复还是评论
+     * @return array()  返回添加id
+     */
+
+      ////收货地址展示
+    public function AddressBuyersList(){
+        $user_id= $this->guid();
+        $user_address=M('user_address');
+        $data=$user_address->where(array('user_id'=>$user_id))->order('is_default  desc')->select();
+        output(0,$data);
+    }
+
+    //收货地址添加
+    public function AddressBuyersAdd(){
+        $user_id= $this->guid();
+        $arr=array();
+        $user_address=M('user_address');
+        $data=I('post.');
+        $data['user_id']=$user_id ;
+        $data['addtime']=time();
+        if($data['is_default']==1){
+            $user_address->where(array('user_id'=>$user_id))->setField('is_default',0);
+        }
+        $id= $user_address->add($data);
+        if($id){
+            $arr['data']=$id;
+            output(0,$arr);
+        }else{
+            output(30006);
+        }
+    }
+
+
+//收货地址修改为默认
+    public function SetUserDefaultAddress(){
+        $user_id= $this->guid();
+        $id=I('get.user_address_id',0);
+        if($id){
+            M('user_address')->where(array('user_id'=>$user_id))->setField('is_default',0);
+            M('user_address')->where(array('id'=>$id))->setField('is_default',1);
+        }
+        output(0);
+    }
+   //收货地址删除
+    public function AddressBuyersDelete(){
+        $id=I('get.user_address_id',0);
+        if($id){
+            M('user_address')->where(array('id'=>$id))->delete();
+        }
+        output(0);
+    }
+    //订单详情页面地址展示
+    public function GetUserDefaultAddress(){
+        $id=I('get.logis_model_id');
+        $user_id = $this->guid();
+        if(empty($id)){
+            $data=M('user_address')->where(array('user_id'=>$user_id,'is_default'=>1))->find();
+        }else{
+            $data=M('user_address')->where(array('user_id'=>$user_id,'id'=>$id))->find();
+        }
+        output(0,$data);
+    }
 }

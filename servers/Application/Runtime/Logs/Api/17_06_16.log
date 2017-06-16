@@ -873,3 +873,2817 @@ SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0150s ]
 SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0020s ]
 SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0020s ]
 
+[ 2017-06-16T10:32:32+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0330s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\ok\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-16T10:32:32+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUser?user_token=f9e0ffff69b4f39537bb64e6342e41380693c1431cb9a943e6a4f9d04da43b3e&token_time=1497580352&token=cf81e9d2ba89a7a84cb372c034cdd4d8826ac34dbfcc0b9668af03f29d09ed14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T10:32:34+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Demo?token_time=1497580354&token=6f9b445b13b5578bb79efec18a871174943759a4de62790c7a38755241469041&user_token=f9e0ffff69b4f39537bb64e6342e41380693c1431cb9a943e6a4f9d04da43b3e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:Demo
+
+[ 2017-06-16T10:32:34+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497580354&token=5626c3fcd5d70d49dfa9430638514480a3fd2f8cbe595699c924c1ac89a9b2f5&user_token=f9e0ffff69b4f39537bb64e6342e41380693c1431cb9a943e6a4f9d04da43b3e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-16T10:32:34+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497580354&token=6f9b445b13b5578bb79efec18a871174943759a4de62790c7a38755241469041&user_token=f9e0ffff69b4f39537bb64e6342e41380693c1431cb9a943e6a4f9d04da43b3e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-16T10:32:35+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497580354&token=6f9b445b13b5578bb79efec18a871174943759a4de62790c7a38755241469041&user_token=f9e0ffff69b4f39537bb64e6342e41380693c1431cb9a943e6a4f9d04da43b3e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-16T10:32:37+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0150s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '6edfdce8cdd206fbe163ba3f1a3d9cf3114e0d1f2e1029319a91d6c78c4955e9' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T10:32:37+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=f9e0ffff69b4f39537bb64e6342e41380693c1431cb9a943e6a4f9d04da43b3e&token_time=1497580357&token=4e77bbcc55881980435740f42b99a8ca19ae6ddfe91344292f62ead36e44b130
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T10:32:39+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0310s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '6edfdce8cdd206fbe163ba3f1a3d9cf3114e0d1f2e1029319a91d6c78c4955e9' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T10:32:39+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=f9e0ffff69b4f39537bb64e6342e41380693c1431cb9a943e6a4f9d04da43b3e&token_time=1497580358&token=006799d69f5184e5313daa5b48a71b92b493443ae37492fb53831d461e9806b0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T10:32:51+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/Upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\ok\servers\Application\Api\Controller\FilesController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0440s ]
+SQL: DELETE FROM `sp_files` WHERE ( uid in(1) ) [ RunTime:0.0060s ]
+SQL: INSERT INTO `sp_files` (`uid`,`type`,`utype`,`size`,`path`,`time`,`key`) VALUES ('1','jpeg','1','141029','User/User','1497580371','89427d9e34039954823b1b2fd168ba0cf3c679bbd9a59b90942eb02879995b1d') [ RunTime:0.0050s ]
+
+[ 2017-06-16T10:32:51+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/edit_portrait?portrait=89427d9e34039954823b1b2fd168ba0cf3c679bbd9a59b90942eb02879995b1d&user_token=f9e0ffff69b4f39537bb64e6342e41380693c1431cb9a943e6a4f9d04da43b3e&token_time=1497580371&token=aa568dff54151313e83fa56cbf0bb689964cb47ed41dd4c9e5903e368320bc3c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sp_files` WHERE `key` = '89427d9e34039954823b1b2fd168ba0cf3c679bbd9a59b90942eb02879995b1d' AND `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T10:32:52+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0160s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '89427d9e34039954823b1b2fd168ba0cf3c679bbd9a59b90942eb02879995b1d' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T10:32:52+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=f9e0ffff69b4f39537bb64e6342e41380693c1431cb9a943e6a4f9d04da43b3e&token_time=1497580371&token=7eb29ecbe9a2f1e3f4e6a12625a7d28d0b81f36bbbf4d245381ae72276aa7df4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T10:33:14+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/edit_nickname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0440s ]
+SQL: UPDATE `sp_user_info` SET `info_nickname`='en' WHERE ( user_id ='1' ) [ RunTime:0.0040s ]
+
+[ 2017-06-16T10:33:14+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0180s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '89427d9e34039954823b1b2fd168ba0cf3c679bbd9a59b90942eb02879995b1d' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T10:33:14+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=f9e0ffff69b4f39537bb64e6342e41380693c1431cb9a943e6a4f9d04da43b3e&token_time=1497580394&token=cc181a970e93105da15278965cad330c863675fbf1f3225db522ba45950461f6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T10:33:18+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/edit_gender
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0430s ]
+SQL: UPDATE `sp_user_info` SET `info_gender`='0' WHERE ( user_id ='1' ) [ RunTime:0.0040s ]
+
+[ 2017-06-16T10:33:28+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/edit_realname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0430s ]
+SQL: UPDATE `sp_user_info` SET `info_realname`='姐姐' WHERE ( user_id ='1' ) [ RunTime:0.0060s ]
+
+[ 2017-06-16T10:33:29+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0160s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '89427d9e34039954823b1b2fd168ba0cf3c679bbd9a59b90942eb02879995b1d' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T10:33:29+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=f9e0ffff69b4f39537bb64e6342e41380693c1431cb9a943e6a4f9d04da43b3e&token_time=1497580408&token=f07fb4957e6046ebbc3f3705df74371fa1f0454667bd216c79512de03354db21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T10:33:33+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/edit_birthday
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0470s ]
+SQL: UPDATE `sp_user_info` SET `info_birthday`='1750003200' WHERE `user_id` = 1 [ RunTime:0.0040s ]
+
+[ 2017-06-16T10:33:33+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0160s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '89427d9e34039954823b1b2fd168ba0cf3c679bbd9a59b90942eb02879995b1d' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T10:33:33+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=f9e0ffff69b4f39537bb64e6342e41380693c1431cb9a943e6a4f9d04da43b3e&token_time=1497580413&token=18ce708dd29aea30b6f5e424e946ddd6274be79c0d551ba8226e40bad33b1f0f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T10:34:30+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0160s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '89427d9e34039954823b1b2fd168ba0cf3c679bbd9a59b90942eb02879995b1d' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T10:34:30+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=f9e0ffff69b4f39537bb64e6342e41380693c1431cb9a943e6a4f9d04da43b3e&token_time=1497580469&token=f4e0850b79ba150554e4e1b6add175e9e9d1f491e92679369a225112ee494725
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:20:31+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+
+[ 2017-06-16T11:20:31+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=ea4fe8e3a89df0a85e7def9108bccdec9ef1600f9cebfeafbdd3fb64cc594227&token_time=1497583231&token=6db20b60d0253c13f1d7856f469a03264297333c15f7b67e078cc364e40f041e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\ok\servers\Application\Common\Model\CommonsModel.class.php 第 37 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\ok\servers\Application\Common\Model\CommonsModel.class.php 第 72 行.
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='2' ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:20:34+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+
+[ 2017-06-16T11:20:34+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=ea4fe8e3a89df0a85e7def9108bccdec9ef1600f9cebfeafbdd3fb64cc594227&token_time=1497583234&token=9926708a5e5eb3c219c789a651cd8cd6bb7d7cceafd935e31b04e933c7c78c28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\ok\servers\Application\Common\Model\CommonsModel.class.php 第 37 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\ok\servers\Application\Common\Model\CommonsModel.class.php 第 72 行.
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='2' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:20:35+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/User/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:Logout
+
+[ 2017-06-16T11:20:36+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Demo?token_time=1497583236&token=b876fcf176a73aa84cd3077c765984dfd0fb62de18877b2eb1aaa8d9112ab798
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:Demo
+
+[ 2017-06-16T11:20:36+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497583236&token=b5f35a8917319cf3556a198dc51fab1cc1e83900e8cf51d1607a47d42cf947d0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-16T11:20:36+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497583236&token=b876fcf176a73aa84cd3077c765984dfd0fb62de18877b2eb1aaa8d9112ab798
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-16T11:20:36+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497583236&token=b876fcf176a73aa84cd3077c765984dfd0fb62de18877b2eb1aaa8d9112ab798
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-16T11:20:45+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0530s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\ok\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-16T11:20:45+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUser?user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72&token_time=1497583245&token=b4acf1e350dfb792a4405a4312d73081efd9e0bd15d73ad8188659ce7d547c20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:20:47+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Demo?token_time=1497583247&token=16a6ac6e64e2aa02d1e0517e1fee239c225e892787c654b299d42630fcaae751&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:Demo
+
+[ 2017-06-16T11:20:47+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497583247&token=bc05bbe63eab934c4f23500565a057d4cb8d8b609332188b066be6b3ef1cd9de&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-16T11:20:47+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497583247&token=16a6ac6e64e2aa02d1e0517e1fee239c225e892787c654b299d42630fcaae751&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-16T11:20:48+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497583247&token=16a6ac6e64e2aa02d1e0517e1fee239c225e892787c654b299d42630fcaae751&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-16T11:20:50+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0160s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '89427d9e34039954823b1b2fd168ba0cf3c679bbd9a59b90942eb02879995b1d' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:20:50+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72&token_time=1497583250&token=01f3a2281a74396e1f264c0be2aafeb0cec5345f83a738b69c746a3cfa9bf320
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:20:56+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0150s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '89427d9e34039954823b1b2fd168ba0cf3c679bbd9a59b90942eb02879995b1d' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:20:56+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72&token_time=1497583255&token=1955958fd92cf75073b535fb9c3c191434df6d51d91b140b7617a2fda1492e73
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:21:15+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72&token_time=1497583275&token=cebf9e9ea77b0c78c9269fee11c31836ccdd3eea41fb04c0ac068c8bba6cef2c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `sp_user_address` ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:21:24+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/SetUserDefaultAddress?user_address_id=11&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72&token_time=1497583283&token=eab352d41ce49ef0fd17b3948bc8ff1f333e2db205ed2418c9ae7668276b31df
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0420s ]
+SQL: UPDATE `sp_user_address` SET `is_default`='0' WHERE ( user_id=1 ) [ RunTime:0.0050s ]
+SQL: UPDATE `sp_user_address` SET `is_default`='1' WHERE `id` = 11 [ RunTime:0.0050s ]
+
+[ 2017-06-16T11:21:24+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72&token_time=1497583284&token=c08eab04b0d19efa0246a6ad72a0bd3d457d7715c743d0734374cbd29a03bc57
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:21:29+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersDelete?user_address_id=9&user_id=0&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72&token_time=1497583289&token=7de2d668b80a06c4db31c906993dd030b96a491a993981ca75ff78fcfb932c0e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0450s ]
+SQL: DELETE FROM `sp_user_address` WHERE `id` = 9 [ RunTime:0.0040s ]
+
+[ 2017-06-16T11:21:30+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72&token_time=1497583289&token=1297b37d81da9d2f3646f69a7c5796d03e2e6f945f41962e20d35e9b5e7e9beb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `sp_user_address` ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:21:33+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersDelete?user_address_id=7&user_id=0&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72&token_time=1497583293&token=5ebcc76265b798dfabd9bb985d585c0046055f7b7146a72e59186e8d9ec2cd3f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0330s ]
+SQL: DELETE FROM `sp_user_address` WHERE `id` = 7 [ RunTime:0.0040s ]
+
+[ 2017-06-16T11:21:33+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72&token_time=1497583293&token=de86e5743da9c5ea842b7841b481b89b66d5cddbeed6a30f51e8c80657bf9054
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:22:23+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0300s ]
+SQL: UPDATE `sp_user_address` SET `is_default`='0' WHERE ( user_id=1 ) [ RunTime:0.0040s ]
+SQL: INSERT INTO `sp_user_address` (`names`,`tel`,`area`,`address`,`zip`,`is_default`,`user_id`,`addtime`) VALUES ('任明明','18201058764','310105','啦啦啦啦','123456','1','1','1497583343') [ RunTime:0.0050s ]
+
+[ 2017-06-16T11:22:26+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72&token_time=1497583345&token=1f8d9180c86001d4e7303b4ea6118f30e541c6565c8f89a1fe1242301b18d191
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `sp_user_address` ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:22:43+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetOrderList?user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72&terminal_type=2&token_time=1497583363&token=521a525679170b08cd7b1e364b79d123c45d9d08b32dbe7b13a31cbf329fb5ae
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetOrderList
+
+[ 2017-06-16T11:22:43+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetOrderList?terminal_type=2&last_order_index=&status=0&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72&token_time=1497583363&token=9d84ccb0f81ec6c442fd787f6c3be5cc692ae57ffbff149c3447eb209027e48e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetOrderList
+
+[ 2017-06-16T11:22:48+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetCartList?type=shop&token_time=1497583368&token=0366801423f16c50c33fada855fdac82a0133d9f4f3a68e51fff4f21b2d0cf57&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetCartList
+
+[ 2017-06-16T11:22:48+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetCartCount?token_time=1497583368&token=2ff3e28283cad32fd2e3a9a256c30b312094b7ff69678cc2fbe31a0e42fe5d9a&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetCartCount
+
+[ 2017-06-16T11:22:57+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetCartList?type=shop&token_time=1497583377&token=f5db517adb0b0c267c9ad94ef41edaacfdaed4329bd7acf30899c942b3331d43&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetCartList
+
+[ 2017-06-16T11:22:57+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetCartCount?token_time=1497583377&token=8cf135529a344eecd510bba91c096931aecf859c35b42c73d970fc32b3eec059&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetCartCount
+
+[ 2017-06-16T11:23:05+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Demo?token_time=1497583385&token=e98500b5001d7e838f4d1fa72bf59746d97c8a60963c55537edb3410e52bc9fb&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:Demo
+
+[ 2017-06-16T11:23:05+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497583385&token=a418aec2c9b578cb5cce2a6ef6645763194e120586aada8f3540def73f81da8f&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-16T11:23:05+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497583385&token=e98500b5001d7e838f4d1fa72bf59746d97c8a60963c55537edb3410e52bc9fb&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-16T11:23:05+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497583385&token=e98500b5001d7e838f4d1fa72bf59746d97c8a60963c55537edb3410e52bc9fb&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-16T11:24:39+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497583479&token=632b57d2cf624b46a46a9e63487174f9fc0961bc78a807002d5eef5626ac1f8f&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:24:39+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/CheckAreaIsDistribution?product_list%5B0%5D%5Bproduct_id%5D=1&area_id=310100&token_time=1497583479&token=814a7e0004be9617293534a00a61eaab4f1d20b872b6923e8189ee98a3db6d91&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:CheckAreaIsDistribution
+
+[ 2017-06-16T11:24:39+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/getCartAllCumCost?product_list%5B0%5D%5Bproduct_id%5D=1&product_list%5B0%5D%5Bcount%5D=1&area_id=310100&token_time=1497583479&token=d8467bdb7b8263d1d9e311c94e8f4a8156058912893ed3f274089bbed476636a&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:getCartAllCumCost
+
+[ 2017-06-16T11:24:40+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497583479&token=632b57d2cf624b46a46a9e63487174f9fc0961bc78a807002d5eef5626ac1f8f&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `sp_user_address` ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:26:22+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497583582&token=08739ed092ca4ad8ceb39c9069260b413638ccea5ce268b9bd0305beeedcb798&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:26:22+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/CheckAreaIsDistribution?product_list%5B0%5D%5Bproduct_id%5D=1&area_id=310100&token_time=1497583582&token=b2ddc2dd0e1df0a55bfeb52cd75084ad316e0a281368f0374a10db76dc021958&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:CheckAreaIsDistribution
+
+[ 2017-06-16T11:26:22+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/getCartAllCumCost?product_list%5B0%5D%5Bproduct_id%5D=1&product_list%5B0%5D%5Bcount%5D=1&area_id=310100&token_time=1497583582&token=f402090321e7c393f03461f49354028d35fe8e9cc628fca263126ea52391fc3f&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:getCartAllCumCost
+
+[ 2017-06-16T11:26:22+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497583582&token=08739ed092ca4ad8ceb39c9069260b413638ccea5ce268b9bd0305beeedcb798&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_user_address` ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:26:24+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497583584&token=ed36f5f53f783bd586129c18d11ff3afa6b799d625056313ae9a220b69c598a8&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:26:24+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/CheckAreaIsDistribution?product_list%5B0%5D%5Bproduct_id%5D=1&area_id=310100&token_time=1497583584&token=d2a220bb6d6c071e7690201bbdabd35d985f265281d736434b071db7c79afdad&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:CheckAreaIsDistribution
+
+[ 2017-06-16T11:26:24+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/getCartAllCumCost?product_list%5B0%5D%5Bproduct_id%5D=1&product_list%5B0%5D%5Bcount%5D=1&area_id=310100&token_time=1497583584&token=4d4d32b3f59777c239f2fa91b89059a991b481c5f75fe36d78530cd3379eada9&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:getCartAllCumCost
+
+[ 2017-06-16T11:26:24+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497583584&token=ed36f5f53f783bd586129c18d11ff3afa6b799d625056313ae9a220b69c598a8&user_token=559154d1c01db6e16c78f415d822d43d917e1ba26a06eaca555b3ddec836ad72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:42:57+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0460s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\ok\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-16T11:42:57+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUser?user_token=897339d0cbd26f09f826d30949d879e285d68f256a57919ab527d463da64cadf&token_time=1497584577&token=93d4ac0b93137d772b2759ccee7d0ae4d0bf6d74bb25986b4a724818fea68c68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:42:59+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Demo?token_time=1497584579&token=1b78c708fa5e8ce88a98e52feee4c72fb1426b6f69c6c482d594c5943329ade4&user_token=897339d0cbd26f09f826d30949d879e285d68f256a57919ab527d463da64cadf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:Demo
+
+[ 2017-06-16T11:42:59+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497584579&token=1cf332154348c9a518206909e191b13fa87af446c3554a9e1715ffd8be52476e&user_token=897339d0cbd26f09f826d30949d879e285d68f256a57919ab527d463da64cadf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-16T11:42:59+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497584579&token=1b78c708fa5e8ce88a98e52feee4c72fb1426b6f69c6c482d594c5943329ade4&user_token=897339d0cbd26f09f826d30949d879e285d68f256a57919ab527d463da64cadf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-16T11:42:59+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497584579&token=1b78c708fa5e8ce88a98e52feee4c72fb1426b6f69c6c482d594c5943329ade4&user_token=897339d0cbd26f09f826d30949d879e285d68f256a57919ab527d463da64cadf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-16T11:43:02+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0180s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '89427d9e34039954823b1b2fd168ba0cf3c679bbd9a59b90942eb02879995b1d' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:43:02+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=897339d0cbd26f09f826d30949d879e285d68f256a57919ab527d463da64cadf&token_time=1497584581&token=2f4ed88684332d11cebd4b222f5608152faa62de52c0768d52265abaf76d519a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:43:04+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0150s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '89427d9e34039954823b1b2fd168ba0cf3c679bbd9a59b90942eb02879995b1d' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:43:04+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=897339d0cbd26f09f826d30949d879e285d68f256a57919ab527d463da64cadf&token_time=1497584583&token=debb8c44a08728bac6dc5da093206242ecfc7582145b8ea65fb7ac0ed3e84870
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:43:09+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=897339d0cbd26f09f826d30949d879e285d68f256a57919ab527d463da64cadf&token_time=1497584589&token=f8a564123c1effc75a02f259f0315e4b21f5420a753cb11130c8cdb86c582c46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sp_user_address` ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:43:15+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=897339d0cbd26f09f826d30949d879e285d68f256a57919ab527d463da64cadf&token_time=1497584595&token=fb16859b6ee3ba747b888ca372032e7579bbdc04ced3f7e513cae7813b6cf255
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sp_user_address` ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:44:06+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0430s ]
+SQL: UPDATE `sp_user_address` SET `is_default`='0' WHERE `user_id` = 1 [ RunTime:0.0040s ]
+SQL: INSERT INTO `sp_user_address` (`names`,`tel`,`area`,`address`,`zip`,`is_default`,`user_id`,`addtime`) VALUES ('rmm','18201058764','230828','666666666','132500','1','1','1497584646') [ RunTime:0.0050s ]
+
+[ 2017-06-16T11:44:08+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=897339d0cbd26f09f826d30949d879e285d68f256a57919ab527d463da64cadf&token_time=1497584648&token=acccd7bbed8fe968befb0c97bfdc9abe243ee622cfb396b2c0e5e07e58c5c877
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `sp_user_address` ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:45:06+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0400s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '2' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\ok\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-16T11:45:06+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUser?user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83&token_time=1497584706&token=ac2a65f05782def9a1cad06c8ff7590346418258fdcd9a5df852480e357ad3e1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:45:08+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Demo?token_time=1497584708&token=069a66c0f68770aa64223269ae22dc010f54dcb48847c74febb6d4a88b9fa85e&user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:Demo
+
+[ 2017-06-16T11:45:08+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497584708&token=8831185efcecfc22b7d91c997463de41dc5bde28ffcd549aa795000b10632025&user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-16T11:45:08+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497584708&token=069a66c0f68770aa64223269ae22dc010f54dcb48847c74febb6d4a88b9fa85e&user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-16T11:45:08+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497584708&token=069a66c0f68770aa64223269ae22dc010f54dcb48847c74febb6d4a88b9fa85e&user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-16T11:45:10+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+
+[ 2017-06-16T11:45:10+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83&token_time=1497584709&token=206fe06ba88906fc882cf6302ebd047aa4bc0ce94148772c6a23de82ef3cc64d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\ok\servers\Application\Common\Model\CommonsModel.class.php 第 37 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\ok\servers\Application\Common\Model\CommonsModel.class.php 第 72 行.
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='2' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:45:13+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+
+[ 2017-06-16T11:45:13+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83&token_time=1497584712&token=3b57c8d6b1d2bcb9267e9294f4df5b03a4b565ffc1562a135912859ab88269a4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\ok\servers\Application\Common\Model\CommonsModel.class.php 第 37 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\ok\servers\Application\Common\Model\CommonsModel.class.php 第 72 行.
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='2' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:45:21+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/Upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\ok\servers\Application\Api\Controller\FilesController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0410s ]
+SQL: DELETE FROM `sp_files` WHERE ( uid in(2) ) [ RunTime:0.0010s ]
+SQL: INSERT INTO `sp_files` (`uid`,`type`,`utype`,`size`,`path`,`time`,`key`) VALUES ('2','jpeg','1','56981','User/User','1497584721','1e8ec6637ae113eb77df0f1341b1dfe6fbc7b1912e8239a2641356ed4c847500') [ RunTime:0.0040s ]
+
+[ 2017-06-16T11:45:21+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/edit_portrait?portrait=1e8ec6637ae113eb77df0f1341b1dfe6fbc7b1912e8239a2641356ed4c847500&user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83&token_time=1497584721&token=5bee5e2d82f3555cf0f6d94fff4149de6d40e8cd12a3db869472090dcf0b378b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_files` WHERE `key` = '1e8ec6637ae113eb77df0f1341b1dfe6fbc7b1912e8239a2641356ed4c847500' AND `uid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:45:21+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0150s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '1e8ec6637ae113eb77df0f1341b1dfe6fbc7b1912e8239a2641356ed4c847500' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:45:21+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83&token_time=1497584721&token=bd2c5b0c56bca8d4a5429864ebd441d353bbc9955b97ccaa83bdcf9da719bfd2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='2' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:45:28+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0150s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '1e8ec6637ae113eb77df0f1341b1dfe6fbc7b1912e8239a2641356ed4c847500' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:45:28+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83&token_time=1497584728&token=d1c0cb221dcfda4b44bbf83ad17befdf1b3d5e022fe3095700afca2fa39c4983
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='2' ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:45:32+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83&token_time=1497584732&token=8b1f7e66d8c3049699131b66d7369ac9b5cd20fb9ca33c38c58d848a80b89e97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `sp_user_address` ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:46:02+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83&token_time=1497584762&token=4849c34ece3785348f74331c4d8f7d7060de394086d4ed32296ad6a400393fe6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sp_user_address` ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:46:03+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83&token_time=1497584763&token=a11018cee41e6044ab4142bc42550a62db3c1d70cfff719dde13455842e6e023
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `sp_user_address` ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:46:32+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0300s ]
+SQL: UPDATE `sp_user_address` SET `is_default`='0' WHERE `user_id` = 2 [ RunTime:0.0010s ]
+SQL: INSERT INTO `sp_user_address` (`names`,`tel`,`area`,`address`,`zip`,`is_default`,`user_id`,`addtime`) VALUES ('人来了','18201058764','230828','汪汪汪我我我我我我我无无无','132500','1','2','1497584792') [ RunTime:0.0040s ]
+
+[ 2017-06-16T11:46:34+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83&token_time=1497584794&token=9161755f50e9504fbab93503d31682308eaf2301958c3fe3b5a802ed5e4a9629
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sp_user_address` ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:46:58+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83&token_time=1497584818&token=232ae0425a001c11b10e41cb8213f7a749e64cac824eff98c65b87387002de6f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `sp_user_address` ORDER BY is_default  desc  [ RunTime:0.0030s ]
+
+[ 2017-06-16T11:49:26+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83&token_time=1497584966&token=6723b25edca3744f10059e98d97a8ce05d05386062614cbba47c34269799f66a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 2 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:49:33+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83&token_time=1497584972&token=2df894e9fb9967ec42f9913210f36d80b7624702733b3508d246fe4ba80f10ab
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 2 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:49:57+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0420s ]
+SQL: UPDATE `sp_user_address` SET `is_default`='0' WHERE `user_id` = 2 [ RunTime:0.0040s ]
+SQL: INSERT INTO `sp_user_address` (`names`,`tel`,`area`,`address`,`zip`,`is_default`,`user_id`,`addtime`) VALUES ('贾恩超','18201058764','220881','傻逼','321654','1','2','1497584997') [ RunTime:0.0050s ]
+
+[ 2017-06-16T11:49:59+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83&token_time=1497584999&token=88fa04c5cad64b2b170e4b575acd5239d5aa8db59303eec87ebbe2cdaa4c4626
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 2 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:50:14+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersDelete?user_address_id=26&user_id=0&user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83&token_time=1497585012&token=e97b55f492d3b3201efff092b8ee4458c894eb06c24e0f834c02df30fa1fc8e8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:1.5301s ]
+SQL: DELETE FROM `sp_user_address` WHERE `id` = 26 [ RunTime:0.0040s ]
+
+[ 2017-06-16T11:50:14+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83&token_time=1497585014&token=5cfa07348d33dbc65945fa724c075eb25637cfa60cfcb56112a8ed9a59f0e705
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 2 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:50:50+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497585050&token=cc49364b9c644b6872dd651417d96b6c60f801ee54dab1fc10789c99b8f586f1&user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 2 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-06-16T11:50:50+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585050&token=cc49364b9c644b6872dd651417d96b6c60f801ee54dab1fc10789c99b8f586f1&user_token=0e68a639907df6b133ba29dd5198859dafd72f1f322d6945a9f9c4981a4c6d83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 2 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:55:13+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0420s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\ok\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-16T11:55:13+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUser?user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa&token_time=1497585313&token=4ab7c5375af962b3c251920627b472b8e3837ca49f26114876703fb01c53de1a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:55:15+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Demo?token_time=1497585315&token=5b99755d06ceb655b2e1fae3bd17a4bb08b6f668a9b3d17e90d3ee0dd4f88e64&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:Demo
+
+[ 2017-06-16T11:55:15+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497585315&token=57bf75595b731717d2539faeb7f48cc42e52babfdbd74ece2f002c0b4e4cad4e&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-16T11:55:15+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497585315&token=5b99755d06ceb655b2e1fae3bd17a4bb08b6f668a9b3d17e90d3ee0dd4f88e64&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-16T11:55:15+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497585315&token=5b99755d06ceb655b2e1fae3bd17a4bb08b6f668a9b3d17e90d3ee0dd4f88e64&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-16T11:55:17+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0310s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '89427d9e34039954823b1b2fd168ba0cf3c679bbd9a59b90942eb02879995b1d' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:55:17+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa&token_time=1497585317&token=f4c7ee0c66f7e25364db888c22cb3f78e13fc62848ef9b0a41af63c0d642cda2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:55:34+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497585334&token=88c6f82fad33668c412baa81aa4cc64c75e94c1fb91434bc99c5fa5a2d7a72a0&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T11:55:34+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585334&token=88c6f82fad33668c412baa81aa4cc64c75e94c1fb91434bc99c5fa5a2d7a72a0&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:56:14+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0430s ]
+SQL: UPDATE `sp_user_address` SET `is_default`='0' WHERE `user_id` = 1 [ RunTime:0.0050s ]
+SQL: INSERT INTO `sp_user_address` (`tel`,`area`,`address`,`zip`,`is_default`,`user_id`,`addtime`) VALUES ('18201058764','210681','wwwwwwwww','321456','1','1','1497585374') [ RunTime:0.0050s ]
+
+[ 2017-06-16T11:56:14+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=undefined&token_time=1497585374&token=dacef75c90f5ab864e1d63903f34c587e4935d0182d335374538f80ba8c5ffb0&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `id` = 0 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T11:56:14+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585374&token=03b7980a6aeab8f0cc8d49243d406da88bb56a2e0053be758f091f0752659c46&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:03:47+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/UserShopIdGet?user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa&token_time=1497585827&token=439e30af4622d2ec8d2213b4d56494446b3000e30fc4a28c6db3f2500835bab8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+ERR: 非法操作:UserShopIdGet
+
+[ 2017-06-16T12:03:57+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=1&token_time=1497585836&token=514bac85be2247b414e587344d98df4ec2b9f8f5c3de5aef3ff97a30f6695002&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0700s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-06-16T12:03:57+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585837&token=e11708ee5f2c349613decd060e367e0d23aa4dbcb98438afa9929abf34694757&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:05:14+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497585914&token=dfc7fc915980a1084d1d4282770ad30127850940a1575ad53ab47207a7b80860&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-06-16T12:05:14+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585914&token=dfc7fc915980a1084d1d4282770ad30127850940a1575ad53ab47207a7b80860&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:05:35+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0430s ]
+SQL: UPDATE `sp_user_address` SET `is_default`='0' WHERE `user_id` = 1 [ RunTime:0.0050s ]
+SQL: INSERT INTO `sp_user_address` (`tel`,`area`,`address`,`zip`,`is_default`,`user_id`,`addtime`) VALUES ('18813144938','150523','fdshfdf','656565','1','1','1497585935') [ RunTime:0.0050s ]
+
+[ 2017-06-16T12:05:35+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497585935&token=ce7fdabdb779b082d0d3ffbc073953eff5b9754ef4c7c48c81651560f2d29925&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:05:35+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585935&token=ce7fdabdb779b082d0d3ffbc073953eff5b9754ef4c7c48c81651560f2d29925&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:06:14+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497585974&token=334bbe7ef6cc527582ae873cecca6bcd863944cc866d99d6df9462e7268a5704&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:06:14+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585974&token=334bbe7ef6cc527582ae873cecca6bcd863944cc866d99d6df9462e7268a5704&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:06:15+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497585975&token=ad228008a5a25d72a38f2650b5fd3b69aae68536815e9f914252338d9e5a8b67&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:06:16+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585975&token=ad228008a5a25d72a38f2650b5fd3b69aae68536815e9f914252338d9e5a8b67&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:06:16+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497585976&token=63d8583b3fdbb9c32c880ff3583233120a9ce0cfc2144e66da1e81d4f74cd52e&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:06:16+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585976&token=63d8583b3fdbb9c32c880ff3583233120a9ce0cfc2144e66da1e81d4f74cd52e&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:06:17+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497585977&token=8cdc29a84a7655cf157c69cc77e31eac0061a3a753a58d28849a72a65ade48e1&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:06:17+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585977&token=8cdc29a84a7655cf157c69cc77e31eac0061a3a753a58d28849a72a65ade48e1&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:06:17+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497585977&token=8cdc29a84a7655cf157c69cc77e31eac0061a3a753a58d28849a72a65ade48e1&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:06:18+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585977&token=8cdc29a84a7655cf157c69cc77e31eac0061a3a753a58d28849a72a65ade48e1&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:06:18+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497585978&token=5412dcd6a4b17d1a268c9b271f487decde68fa72f5c85321b5dcb94bb1ec458b&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:06:18+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585978&token=5412dcd6a4b17d1a268c9b271f487decde68fa72f5c85321b5dcb94bb1ec458b&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:06:19+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497585979&token=92443318acd84152e027fd0c458e30674099801c7942e86d984d101d3a8a45d6&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:06:20+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585979&token=92443318acd84152e027fd0c458e30674099801c7942e86d984d101d3a8a45d6&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:06:22+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497585982&token=f87d2a580f7fd49fc2348180fe285dc8fbebac5ef89aa1831750e8f159b87861&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:06:22+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585982&token=f87d2a580f7fd49fc2348180fe285dc8fbebac5ef89aa1831750e8f159b87861&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:06:25+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497585985&token=332f6d0b8bdaf639c72d818302ddb35580345ae7e5ca7b5c5b989f8ebd2149f3&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:06:25+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585985&token=332f6d0b8bdaf639c72d818302ddb35580345ae7e5ca7b5c5b989f8ebd2149f3&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:06:27+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497585987&token=5723040a7ec997b493b839344fff1488f3b8c0af68328e8fb195deee77abfdac&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:06:27+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585987&token=5723040a7ec997b493b839344fff1488f3b8c0af68328e8fb195deee77abfdac&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:06:29+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497585989&token=cc001d1ead2388736b4f2f42dcb82ace272c499a5a6dfcf24621b194b0ee4fcd&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:06:29+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497585989&token=cc001d1ead2388736b4f2f42dcb82ace272c499a5a6dfcf24621b194b0ee4fcd&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:10:13+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586192&token=9b6d46accd57400bbe030c017f8bcd81c8572ecfadd3e56a3727fc0e4d3e62cc&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-06-16T12:10:34+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586213&token=ba86c114f5438ce78207f28b9ff8aa26b57a1915330654105465a5b637286f1a&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-06-16T12:10:56+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586234&token=91934983228089b53cbcf940b51c34ec3b78b1b0d26fe04288bd8befda097aa0&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-06-16T12:11:17+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586256&token=d797d1ff8978094ea6ed68f478c8301e8bb6bc14834b8d32993acd82df138c11&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-06-16T12:11:17+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586277&token=a6bac43dac76371b5c41715a9d80dc2cf24020b43fc8306370f7f64d1e46caf8&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:11:17+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586277&token=a6bac43dac76371b5c41715a9d80dc2cf24020b43fc8306370f7f64d1e46caf8&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:11:17+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586277&token=a6bac43dac76371b5c41715a9d80dc2cf24020b43fc8306370f7f64d1e46caf8&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:11:17+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586277&token=a6bac43dac76371b5c41715a9d80dc2cf24020b43fc8306370f7f64d1e46caf8&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:11:18+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586277&token=a6bac43dac76371b5c41715a9d80dc2cf24020b43fc8306370f7f64d1e46caf8&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:11:18+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586278&token=cf8dd404246c6a1fced03cc82c86cea97cb526e6bb1447564b84e2bc2aa6d730&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:11:18+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586278&token=cf8dd404246c6a1fced03cc82c86cea97cb526e6bb1447564b84e2bc2aa6d730&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:11:18+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586278&token=cf8dd404246c6a1fced03cc82c86cea97cb526e6bb1447564b84e2bc2aa6d730&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:11:18+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586278&token=cf8dd404246c6a1fced03cc82c86cea97cb526e6bb1447564b84e2bc2aa6d730&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:11:18+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586278&token=cf8dd404246c6a1fced03cc82c86cea97cb526e6bb1447564b84e2bc2aa6d730&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:11:19+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586279&token=31df98c5ea3061e46513915f4b301927b119ea4d894f65f22199c909f3468fea&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:11:19+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586279&token=31df98c5ea3061e46513915f4b301927b119ea4d894f65f22199c909f3468fea&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:11:35+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586294&token=f3312a9c5a533a5bfdf8f8e4d4ab416fa56cde1e635678685ad9d3c8d491295c&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:11:35+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586295&token=d440bcd5020ebc69f8eba6a81e30984df05676d2bfba90d0dc84767275eba32f&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:12:02+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0160s ]
+SQL: UPDATE `sp_user_address` SET `is_default`='0' WHERE `user_id` = 1 [ RunTime:0.0040s ]
+SQL: INSERT INTO `sp_user_address` (`tel`,`area`,`address`,`zip`,`is_default`,`user_id`,`addtime`) VALUES ('18813144938','150523','hadufsifh','654565','1','1','1497586322') [ RunTime:0.0050s ]
+
+[ 2017-06-16T12:12:02+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586322&token=1c4081c27eba53af45011e8419d467047a6bb305af1bfaf7f3de992bd7724065&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:12:02+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586322&token=1c4081c27eba53af45011e8419d467047a6bb305af1bfaf7f3de992bd7724065&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:13:23+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586403&token=f862ec95ee009587701c803c136352443bf836322b9ce608fcf5834aea7d1ed1&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:13:23+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586403&token=f862ec95ee009587701c803c136352443bf836322b9ce608fcf5834aea7d1ed1&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0040s ]
+
+[ 2017-06-16T12:13:26+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586406&token=3fb3fb818db097ba638ec85756c74e7a09ed6a83a4916b2debb8dccfdc5c502f&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:13:26+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586406&token=3fb3fb818db097ba638ec85756c74e7a09ed6a83a4916b2debb8dccfdc5c502f&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:13:31+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586411&token=d65de08cd466b0a74e0c413edd32010cc2b47aa5e3f4f3794daacd5c6cc2f5bc&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:13:32+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586411&token=d65de08cd466b0a74e0c413edd32010cc2b47aa5e3f4f3794daacd5c6cc2f5bc&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:13:49+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586429&token=3dd41f68e37844e3dd11d6908ad438245bcaadf03adcee73f99563a1ffce0a5f&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:13:49+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586429&token=3dd41f68e37844e3dd11d6908ad438245bcaadf03adcee73f99563a1ffce0a5f&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:13:56+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586436&token=f04e5abcaba61ad34db72d6d57fe8d78e3b4b14f408fee3eddd97dbbf6d32b11&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:13:56+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586436&token=f04e5abcaba61ad34db72d6d57fe8d78e3b4b14f408fee3eddd97dbbf6d32b11&user_token=00bdb4e5ebda71bd0ea20bd31fcc207ce024203d7a7dcacb2a2efac96d6f60fa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:18:02+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0550s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\ok\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-16T12:18:02+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUser?user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497586682&token=243312253307bc1eb16a624dabfee8cae19e1c5d587ea8b6afc19a3766a45d4b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:18:04+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Demo?token_time=1497586684&token=fd13dd67b9a4aa029886157dfe26a0a8593e403b937f55b3e542b3852d5d25d2&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:Demo
+
+[ 2017-06-16T12:18:04+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497586684&token=dbb2fe67dae6616289f8d584f006786d5b3a056217dd43fa088fab8d8ea9635a&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-16T12:18:04+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497586684&token=fd13dd67b9a4aa029886157dfe26a0a8593e403b937f55b3e542b3852d5d25d2&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-16T12:18:04+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497586684&token=fd13dd67b9a4aa029886157dfe26a0a8593e403b937f55b3e542b3852d5d25d2&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-16T12:18:07+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0120s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '89427d9e34039954823b1b2fd168ba0cf3c679bbd9a59b90942eb02879995b1d' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:18:07+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497586686&token=ca949ad89be46bb5dc945e51ac64e53c05fe910f2179ee7142221e2c69658324
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:18:21+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586701&token=2553919017be8b076aece8342773bbdc31f72a95b7e1a3df3794b21f4eeff06e&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:18:21+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586701&token=2553919017be8b076aece8342773bbdc31f72a95b7e1a3df3794b21f4eeff06e&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:18:24+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=11&token_time=1497586704&token=2c8b0d6dfd1c5390b46c51633fb4f4aff4ef5f7b3a27f519df2ff12c12ba6e96&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:18:24+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586704&token=e7714e0dce5b17492cdba9d54948de70fae913280e284df2dc0c1d598a4fb5c2&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:18:27+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=25&token_time=1497586706&token=ed97ca976dd8dc7e911cb7aafbde1e13625dc4a199a3861823eea25c3ae76eb9&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `id` = 25 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:18:27+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586707&token=21fc15ab6b5f75c9eb371a539f66ce82e6599f04aa46ea1859b709e36b81caf2&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0030s ]
+
+[ 2017-06-16T12:18:29+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=28&token_time=1497586709&token=82e9cccf68182679b2ffca9bfa62802cb31ecdd14cae1888a46aecca6150beaf&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `id` = 28 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:18:29+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586709&token=272ab92664ff97afb2929cafc5b9baa2971c0aef111366ff8fa33b14ae4f5810&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:18:59+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: UPDATE `sp_user_address` SET `is_default`='0' WHERE `user_id` = 1 [ RunTime:0.0030s ]
+SQL: INSERT INTO `sp_user_address` (`names`,`tel`,`area`,`address`,`zip`,`is_default`,`user_id`,`addtime`) VALUES ('贾恩超','18813144938','130433','啦啦啦','500500','1','1','1497586739') [ RunTime:0.0040s ]
+
+[ 2017-06-16T12:19:00+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586740&token=e3c7212646bc6181c1a4b1217e9c82199c541acfd49feb628c2fba3a03388a0f&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:19:00+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586740&token=e3c7212646bc6181c1a4b1217e9c82199c541acfd49feb628c2fba3a03388a0f&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:20:44+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=25&token_time=1497586844&token=de15bd78b5f57cf08f4ce200f8c33fc7abc60d83557917f4b55457649d2b73a5&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `id` = 25 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:20:44+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586844&token=4ee5171603b15a249bd5764ba9648ad007b3eb5e58aa6ef516f945cd8669fa6b&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:20:52+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586852&token=b6bc08225ebb40c54ae8d92aedda6d19708b7a68b0ba3f5f030ce515ae296b06&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:20:52+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586852&token=b6bc08225ebb40c54ae8d92aedda6d19708b7a68b0ba3f5f030ce515ae296b06&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:20:54+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=24&token_time=1497586854&token=06664837c2f404f82a33b338ca9cf009bd229663bd84b615aedaa85d587ea658&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:20:54+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586854&token=0bf13e884380eebc1c4711c6b0511bc6d539cce9893276244953dcae86e71d59&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:20:56+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=25&token_time=1497586856&token=9b6601106be81e33582a8fdf3d02e80bea18e5ea2e356bd50ed03b67374308e9&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `id` = 25 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:20:56+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586856&token=354f7cd05f5bdeb42e8a7a0cf8f31330bd4f919e596315a8eceec0e12a7a9a6d&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:20:59+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=28&token_time=1497586859&token=1357d3465047529b9cedc9cb187b568ae96d6b193b8d9aa4045d9d3db9807671&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `id` = 28 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:20:59+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586859&token=f081de257e2e28223b76ac6d84a8cf095e4a1a047691a16972a0e957ed4baa12&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:21:02+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=28&token_time=1497586862&token=dc7e87151c1f57dfa0ad85eab0a5d9fd325e68208cd3c629ef5dc4753a24e650&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `id` = 28 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:21:02+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586862&token=5b62d2f2c737a06f54f004c148aea527400dbd166533b098c1e12b04160251c2&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:21:06+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=11&token_time=1497586865&token=dbf3838dca54646e26375046df2cb901690a74e0403884d1b4ca2d7748a9e484&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.6880s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `id` = 11 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:21:06+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586866&token=ea3373c86611db6631a8ee39848b9428985cbf3aeb50fc6a394ea1fd069e7a6e&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:21:11+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=25&token_time=1497586871&token=50e4b07044d43f847b891adeb172c0446a892c07206465712498fc8754a0d71b&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `id` = 25 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:21:11+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586871&token=526912bd261f9749154bc239436a60d0ca95ce1e08eecac0bce72f7bf9eac9e2&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:21:13+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=28&token_time=1497586873&token=6a35e2d930fdd2701d098403784bda620078585e14d05894732eb9386cae3fce&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `id` = 28 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:21:13+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586873&token=dc36a0f62b587704a20697d399b03c812fb545ef5a56091ff7f36c5ea1ee9771&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:21:26+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserDefaultAddress?logis_model_id=&token_time=1497586886&token=20e85996f035e76311f1ca8ac85ca5ac5a4fbb899a8e1e8d04535ca27ce4e7a4&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:21:26+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?token_time=1497586886&token=20e85996f035e76311f1ca8ac85ca5ac5a4fbb899a8e1e8d04535ca27ce4e7a4&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:21:36+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Demo?token_time=1497586896&token=16117d9d167d8a851a743ed44ec202d5e5dfe8fd476d03073cbdce230a54b069&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:Demo
+
+[ 2017-06-16T12:21:36+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/IndexBanner?type=2&token_time=1497586896&token=db465b37496baa2c2bd2903602e91d9c109ae5ef0a7534f32cf9c7112df9a3f6&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:IndexBanner
+
+[ 2017-06-16T12:21:36+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497586896&token=16117d9d167d8a851a743ed44ec202d5e5dfe8fd476d03073cbdce230a54b069&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-16T12:21:36+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497586896&token=16117d9d167d8a851a743ed44ec202d5e5dfe8fd476d03073cbdce230a54b069&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-16T12:21:44+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0260s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '89427d9e34039954823b1b2fd168ba0cf3c679bbd9a59b90942eb02879995b1d' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:21:44+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497586903&token=7f37933526dac16a788ce43dc0d50b8ca772a981b842cb5ac258e680233c8c27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:21:46+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497586906&token=6eeccc7cf51894758c3093d3f9869e2023e20e6f76de43576f2866d572cdf49c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:21:49+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersDelete?user_address_id=11&user_id=0&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497586909&token=2ece20813f961b10b9509c7f3eb4fa58e459138a94df25bfeecae61b4602a6f9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: DELETE FROM `sp_user_address` WHERE `id` = 11 [ RunTime:0.0070s ]
+
+[ 2017-06-16T12:21:50+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497586910&token=58973676b852879895352dd53b112bc9bdaca12c5665fa2246c0ea9f08b5b77c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:21:52+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersDelete?user_address_id=24&user_id=0&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497586912&token=2bd7226db9aa757d5baec07e18fa9c47cdce56dfc8569a769ea844db2bb99983
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0420s ]
+SQL: DELETE FROM `sp_user_address` WHERE `id` = 24 [ RunTime:0.0040s ]
+
+[ 2017-06-16T12:21:52+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497586912&token=14a8d09f24fc1fd257fcbe4d44d4512e701f5fe79f2f9023773e3ea88d92b3b3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:21:55+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersDelete?user_address_id=25&user_id=0&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497586914&token=28ac6c6d5746f17beac3e9843f9797ebd380676df77527c3eb4c19203a6cd7a4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0320s ]
+SQL: DELETE FROM `sp_user_address` WHERE `id` = 25 [ RunTime:0.0040s ]
+
+[ 2017-06-16T12:21:55+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497586915&token=515e697acb4522cf6de5acdee00f2e1517a5b2502ffb21c3a043783fd1215735
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:21:57+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersDelete?user_address_id=28&user_id=0&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497586916&token=67986dc016fd8ddab1d7e4bdbf626d1aec1a92d165924abe8b88bd519bf5126a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0420s ]
+SQL: DELETE FROM `sp_user_address` WHERE `id` = 28 [ RunTime:0.0050s ]
+
+[ 2017-06-16T12:21:57+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497586917&token=117d90b0b20dde34cb6ec9262870d98aa1d406c885049b0fa96a10a807a6b70c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:21:59+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersDelete?user_address_id=29&user_id=0&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497586919&token=37d0659f07ca662877b5934c9b5cb41299da35532d0a44ed91bbee783645f33f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0360s ]
+SQL: DELETE FROM `sp_user_address` WHERE `id` = 29 [ RunTime:0.0040s ]
+
+[ 2017-06-16T12:21:59+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497586919&token=1cbd530fab8454b4cd9ae75f0fb67aa97e9cb0a2e57c86f6a2d26e533761bcf9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:22:01+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersDelete?user_address_id=30&user_id=0&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497586921&token=362560c4cf11401cb44274d42d33bbb5c233eb5f9e9ddfcf0f42bdc0ad545c0c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0160s ]
+SQL: DELETE FROM `sp_user_address` WHERE `id` = 30 [ RunTime:0.0050s ]
+
+[ 2017-06-16T12:22:01+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497586921&token=38e04d44f8d460cf0d8ec64584ba25e869bd5f701a2cb68a9e6cb41ae8ded75b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0030s ]
+
+[ 2017-06-16T12:31:08+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Carousel?token_time=1497587468&token=63f3e171b9697d6388d82736cfbdf3f295526b985b5a607846408c42ea0af9b3&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_carousel` [ RunTime:0.0280s ]
+ERR: 1054:Unknown column 'carousel_stattus' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_carousel` WHERE ( carousel_stattus > 0 ) 
+ERR: 1054:Unknown column 'carousel_stattus' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_carousel` WHERE ( carousel_stattus > 0 ) 
+
+[ 2017-06-16T12:34:28+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Carousel?token_time=1497587668&token=7b269f97daab663b1f49e10f64f6d5af7b40ddd1d2d49ceaced023bff99fa0a0&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_carousel` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `sp_carousel` WHERE `carousel_status` > 0  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:36:24+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Carousel?type=2&token_time=1497587784&token=b9e7567688860744263950ca61da327df8bee1dda77bd1c92a1f5fe21d63755b&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_carousel` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `sp_carousel` WHERE `carousel_status` > 0  [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:36:25+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Carousel?type=2&token_time=1497587785&token=0d2a3c88d331167ade24eb8a412f5a9ae92dcb3887d3d93b89ce608a2d0e5f1f&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_carousel` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `sp_carousel` WHERE `carousel_status` > 0  [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:43:24+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Carousel?type=2&token_time=1497588203&token=fa0181ee8d318f3553b70c37a6b39ba415fc1fdddb683775b5e82eadcd124f69&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_carousel` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `sp_carousel` WHERE `carousel_status` > 0 LIMIT 2   [ RunTime:0.0020s ]
+
+[ 2017-06-16T12:43:24+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497588204&token=681cab291007c5ee2492c3ac5db96fdcd569bd2a8c34efeb9145dd9fc729bf57&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-16T12:43:24+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497588204&token=681cab291007c5ee2492c3ac5db96fdcd569bd2a8c34efeb9145dd9fc729bf57&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-16T12:43:48+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Carousel?type=1&token_time=1497588228&token=b6946434f37accbcbb2fad069291aefacf4b08cf48e6c711e2e6079ed5396a15&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_carousel` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `sp_carousel` WHERE `carousel_status` > 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:43:48+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497588228&token=53d8518810ffa0d944cc5a88d29cd640f6cf86aea408ee5d7990a4dc07d5bb5c&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-16T12:43:48+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497588228&token=53d8518810ffa0d944cc5a88d29cd640f6cf86aea408ee5d7990a4dc07d5bb5c&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-16T12:43:58+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Carousel?type=4&token_time=1497588238&token=ba2f0a6d7f3c83dd52889d09634748af0aa894c489a8678f7d88a0e1099660ec&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_carousel` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `sp_carousel` WHERE `carousel_status` > 0 LIMIT 4   [ RunTime:0.0010s ]
+
+[ 2017-06-16T12:43:58+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497588238&token=81ac07a3f7402c8f1478c7f85364adfc0f08c5a4220ee80695bc22930758a2a4&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-16T12:43:58+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497588238&token=81ac07a3f7402c8f1478c7f85364adfc0f08c5a4220ee80695bc22930758a2a4&user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-16T14:02:18+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=2e1e76d1a2d16db87c8a849fa922a614116d9a48d4b374dea03294702e664afc&token_time=1497592938&token=49d0dd8e8cb1a7a3e49dc5667a5306e6ab1aee4b8fa35ed826020900adf191d9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-06-16T14:02:28+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0410s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\ok\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-16T14:02:28+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUser?user_token=97d5b3a362d2ad7f82eadbb8f12907d6c04b263c41b270925f4ab23dc9fb4a46&token_time=1497592948&token=b270a7f21d1f845426b3417325289d4287929da5559d49d84357c08108fa80ae
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T14:02:30+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Carousel?type=4&token_time=1497592950&token=f9f9c0e4624837ea6b79079883b6ce93e8e4f1c9706546fe931b14cac28f49e3&user_token=97d5b3a362d2ad7f82eadbb8f12907d6c04b263c41b270925f4ab23dc9fb4a46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_carousel` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `sp_carousel` WHERE `carousel_status` > 0 LIMIT 4   [ RunTime:0.0010s ]
+
+[ 2017-06-16T14:02:30+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497592950&token=59a00afe6860c21ef07a1ab84d9a92c67b603669f52d4c1a713b406f50137cf7&user_token=97d5b3a362d2ad7f82eadbb8f12907d6c04b263c41b270925f4ab23dc9fb4a46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-16T14:02:30+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497592950&token=59a00afe6860c21ef07a1ab84d9a92c67b603669f52d4c1a713b406f50137cf7&user_token=97d5b3a362d2ad7f82eadbb8f12907d6c04b263c41b270925f4ab23dc9fb4a46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-16T14:02:36+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0150s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '89427d9e34039954823b1b2fd168ba0cf3c679bbd9a59b90942eb02879995b1d' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T14:02:36+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=97d5b3a362d2ad7f82eadbb8f12907d6c04b263c41b270925f4ab23dc9fb4a46&token_time=1497592956&token=d453ea27fc64e85854de6c5b08d65a088321cc471a48c05917dc754aa09cc2ae
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0530s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T14:02:39+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetOrderList?user_token=97d5b3a362d2ad7f82eadbb8f12907d6c04b263c41b270925f4ab23dc9fb4a46&terminal_type=2&token_time=1497592959&token=102b319edf8c5b0f9532d0f9d12e78fcc5ca77668ba773ab8b99dd5d97dfd793
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetOrderList
+
+[ 2017-06-16T14:02:39+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetOrderList?terminal_type=2&last_order_index=&status=0&user_token=97d5b3a362d2ad7f82eadbb8f12907d6c04b263c41b270925f4ab23dc9fb4a46&token_time=1497592959&token=e840a32b4346cb912f39cf6b2849414fe135cce58b4369ebe04590d099bbb0f0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetOrderList
+
+[ 2017-06-16T14:02:43+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=97d5b3a362d2ad7f82eadbb8f12907d6c04b263c41b270925f4ab23dc9fb4a46&token_time=1497592963&token=70a00ea269295382cf4e32afa394858d5728742ab3d642ac79dc72ce70c2f61c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0010s ]
+
+[ 2017-06-16T14:03:30+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0400s ]
+SQL: UPDATE `sp_user_address` SET `is_default`='0' WHERE `user_id` = 1 [ RunTime:0.0040s ]
+SQL: INSERT INTO `sp_user_address` (`names`,`tel`,`area`,`address`,`zip`,`is_default`,`user_id`,`addtime`) VALUES ('第三显目小组','18201058764','150523','嗯呢呢女女女女女女女女女女女女女女女女女女女女女女女女','321456','1','1','1497593010') [ RunTime:0.0040s ]
+
+[ 2017-06-16T14:03:32+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=97d5b3a362d2ad7f82eadbb8f12907d6c04b263c41b270925f4ab23dc9fb4a46&token_time=1497593012&token=944c1102faf80a30ed505ddd61c8a4fe46be53b446b04e6af1c382db5df00c33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+

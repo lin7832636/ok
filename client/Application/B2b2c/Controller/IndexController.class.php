@@ -34,29 +34,13 @@ class IndexController extends PublicController {
 	 *+--------------------------------------------------------------------------------------------------------------------
 	**/
 	public function index() {
-
-
-		$params = array();
-
-		$data = curls(C('APIURL') . 'B2b2cPublic/Demo', 'get', $params, true);
-
-
-		// echo '<pre>';print_r($data);
-
-		// exit;
-
-
-
-
-
-		//获取banner
+       //首页轮播图展示
 		$params = array(
-				'type'	=> 2,
+				'type'	=> 4,
 			);
-		$banner = curls(C('APIURL') . 'B2b2cPublic/IndexBanner', 'get', $params, true);
+		$banner = curls(C('APIURL') . 'B2b2cPublic/Carousel', 'get', $params, true);
 		$banner = $banner['data'];
 		$banner[0]['active'] = 'swiper-slide-active';
-		
 		//获取商品分类
 		$goods_type_list = curls(C('APIURL') . 'B2b2cPublic/GetGoodsTypeList', 'get', array() , true);
 		$goods_type_list = $goods_type_list['data'];

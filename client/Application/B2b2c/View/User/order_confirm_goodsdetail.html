@@ -11,7 +11,7 @@
         <section class="b2b2c_order_title bgcf b2b2c_p16" id="b2b2c_address_selected" data-id="{$selected_address.id}" onclick="b2b2cf.order_confirm_change_address()">
             <notempty name="selected_address">
                 <div class="b2b2c_t address_div">
-                    <span class="b2b2c_f address_name">{$selected_address.name}</span>
+                    <span class="b2b2c_f address_name">{$selected_address.names}</span>
                     <span class="address_tel">{$selected_address.tel}</span>
                     <if condition="$selected_address.is_default eq 1">
                         <span class="tc b2b2c_default address_default">默认</span>
@@ -124,7 +124,7 @@
             <section class="b2b2c_edit_address_box" data-id='{$vo.id}' data-area="{$vo.area}" data-default="{$vo.is_default}" onclick="b2b2cf.order_confirm_address_selected(this)">
                 <div class="b2b2c_address_show bgcf">
                     <div class="b2b2c_show_top clearfix">
-                        <span class="fl address_name">{$vo.name}</span>
+                        <span class="fl address_name">{$vo.names}</span>
                         <span  class="fr address_tel">{$vo.tel}</span>
                     </div>
                     <p class="b2b2c_show_btm address_area">{$vo.area|areaToName} {$vo.address}</p>
@@ -150,7 +150,7 @@
     <section class="b2b2c_add_new_address" style="display:none;">
         <div class="b2b2c_newadd_inner bgcf">
             <label for="">收货人</label>
-            <input type="text" autofocus name="name" value="">
+            <input type="text" autofocus name="names" value="">
         </div>
         <div class="b2b2c_newadd_inner bgcf">
             <label for="">联系电话</label>
@@ -177,7 +177,7 @@
     <!--表单区域end-->
 
     <footer class="b2b2c_add_new_address_submit" style="display:none;">
-        <a href="javascript:void(0);" onclick="b2b2cf.order_confirm_add_address_submit('User/order_confirm_goodsdetail/product_id/{$info.product_id}/product_count/{$product_count}')">提交</a>
+        <a href="javascript:void(0);" onclick="b2b2cf.order_confirm_add_address_submit('User/order_confirm_goodsdetail?product_id={$info.product_id}&product_count={$product_count}')">提交</a>
     </footer>
 
 </div>

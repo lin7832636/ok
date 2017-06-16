@@ -3,7 +3,7 @@
         <foreach name="banner" item="vo">
             <div class="swiper-slide {$vo.active}" style="width:100%;">
                 <a href="javascript:void(0);">
-                    <img class="b2b2c_public_banner_slider_img" data-src="" alt="" src="{$vo.image.0}" data-holder-rendered="true" onclick="window.open('{$vo.url}')"/>
+                    <img class="b2b2c_public_banner_slider_img" data-src="" alt="" src="http://127.0.0.1/ok/servers/{$vo.carousel_logo}" data-holder-rendered="true" onclick="window.open('{$vo.carousel_url}')"/>
                 </a>
             </div>
         </foreach>
