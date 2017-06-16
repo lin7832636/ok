@@ -58,52 +58,54 @@ var _hmt = _hmt || [];
 
 
 <div class="b2b2c_layout">
-    <!--此页面是 密码找回 和 注册页 通用页面只是头部不一样-->
     <!--头部start-->
-    <header class="b2b2c_login_header">新用户注册
-        <a href="javascript:history.back(-1);" class="b2b2c_public_back"></a>
+    <header class="b2b2c_public_header_two b2b2c_public_header_revamp">
+        <span>购物车</span>
+        <span>(<i class="b2b2c_cart_shop_num"><?php echo ($count); ?></i>)</span>
+		<input readonly="" value="完成" type="button" onclick="b2b2cc.refresh('User/get_cart_list', '', true);">
     </header>
     <!--头部end-->
-    <!--表单区域start-->
-    <section class="b2b2c_login_box">
-        <form action="#">
-            <div class="b2b2c_login_mobile b2b2c_login_mib">
-                <label for="b2b2c_telno">
-                  <i class="" title="手机号">手机号码</i>
-                </label>
-                <input type="text" name="" id="b2b2c_telno" onblur="b2b2cf.user_register_telno($('#b2b2c_telno').val());" class="" value="" maxlength="" tabindex="1" aria-label=""placeholder="请输入手机号">
+
+    <!--主内容区域start-->
+    <main class="b2b2c_index_cart b2b2c_index_cart_delm b2b2c_index_cart_pop">
+        <!--店铺二的商品start-->
+
+			<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><section class="b2b2c_index_cart_box">
+			<div class="b2b2c_shop_name bgcf b2b2c_p16 clearfix">
+                <a class="toe fl" href="javascrtip:"><?php echo ($vo["shop_name"]); ?></a>
             </div>
-            <div class="b2b2c_login_verify b2b2c_login_mib clearfix">
-                <input type="text" name="" id="b2b2c_user_sms_code" onblur="b2b2cf.user_sms_is($('#b2b2c_hidden_user_sms_token').val(), $('#b2b2c_telno').val(), this.value);" class="fl" value="" maxlength="" tabindex="2" aria-label=""placeholder="输入验证码">
-                <label for="b2b2c_user_sms_code"  class="fr tc">
-                    <i title="验证码" id="b2b2c_button_user_sms" onclick="b2b2cf.user_sms($('#b2b2c_telno').val());">获取验证码</i>
-                    <input type="hidden" id="b2b2c_hidden_user_sms_token" value="">
-                </label>
-            </div>
-            <div class="b2b2c_login_mobile b2b2c_login_mib">
-                <label for="password">
-                    <i class="" title="密码" id="">输入密码</i>
-                </label>
-                <input type="password" name="" id="b2b2c_password_one" onblur="b2b2cf.register_passwords_is($('#b2b2c_password_one').val(), $('#b2b2c_password_two').val())" class="" value="" maxlength="" tabindex="3" aria-label=""placeholder="请您输入密码">
-            </div>
-            <div class="b2b2c_login_mobile">
-                <label for="passwordtwo">
-                    <i class="" title="密码">确认密码</i>
-                </label>
-                <input type="password" name="" id="b2b2c_password_two" onblur="b2b2cf.register_passwords_is($('#b2b2c_password_one').val(), $('#b2b2c_password_two').val())" class="" value="" maxlength="" tabindex="4" aria-label=""placeholder="确认密码">
-            </div>
-            <div id="b2b2c_div_register_error_message"></div>
-            <div class="b2b2c_login_confirm">
-                <input type="button" id="button_register_submit" value="请点击校验" onclick="b2b2cf.register_submit();">
-            </div>
-            <div class="b2b2c_login_readtxt">
-                <input type="checkbox" id="" checked="checked" disabled="false">
-                <label for="">我已阅读服务协议</label>
-            </div>
-            
-        </form>
-    </section>
-    <!--表单区域end-->
+				<?php if(is_array($vo["list"])): $i = 0; $__LIST__ = $vo["list"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$volist): $mod = ($i % 2 );++$i;?><!--商品一start-->
+				<div class="b2b2c_index_cart_inner bgcf">
+					<div class="b2b2c_product_mid b2b2c_product_mid_m clearfix">
+						<a href="#" class="fl"><img src="<?php echo ($volist['product_image'][0]); ?>" alt=""></a>
+						<!--点击编辑后出现的内容statr-->
+						<div class="b2b2c_box1 fl">
+							<div class="b2b2c_cart_edit_spnum clearfix">
+								<a class="minus fl" onclick="b2b2cf.cart_product_count_edit(<?php echo ($volist["product_id"]); ?>, parseFloat($('#b2b2c_count_<?php echo ($volist["product_id"]); ?>').val())-1);"></a>
+								<input type="text" value="<?php echo ($volist["count"]); ?>" id="b2b2c_count_<?php echo ($volist["product_id"]); ?>" class="fl"  autocomplete="off" onBlur="b2b2cf.cart_product_count_edit(<?php echo ($volist["product_id"]); ?>, $('#b2b2c_count_<?php echo ($volist["product_id"]); ?>').val());">
+								<a class="plus fl tl" onclick="b2b2cf.cart_product_count_edit(<?php echo ($volist["product_id"]); ?>, parseFloat($('#b2b2c_count_<?php echo ($volist["product_id"]); ?>').val())+1);"></a>
+							</div>
+							<div class="b2b2c_size toe clearfix" onclick="b2b2cc.refresh('Index/product', 'goods_id:<?php echo ($volist["goods_id"]); ?>,product_id:<?php echo ($volist["product_id"]); ?>,rfs:b2b2cf.get_cart_list_edit_product();', true);">
+								
+								<i>规格:</i>
+								<i><?php echo ($volist["product_name"]); ?></i>
+							</div>
+							<div class="b2b2c_cart_slid_sizebtn"></div>
+						</div>
+						<!--点击编辑后出现的内容end-->
+					</div>
+					 <!--删除按钮statr-->
+					<div class="b2b2c_cart_delbtn_shop" onclick="b2b2cf.cart_product_delete(<?php echo ($volist["product_id"]); ?>); ">
+						<span>删除</span>
+					</div>
+					<!--删除按钮end-->
+				</div>
+				<!--商品一end--><?php endforeach; endif; else: echo "" ;endif; ?>
+				 </section><?php endforeach; endif; else: echo "" ;endif; ?>
+        <!--店铺二的商品end-->
+    </main>
+    <!--主内容区域end-->
 </div>
+
 </body>
 </html>
