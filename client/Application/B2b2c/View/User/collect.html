@@ -10,15 +10,15 @@
         <volist name="list" id="val">
         <section class="b2b2c_collect_product bgcf clearfix">
             <div class="img_box fl">
-                <a href="{:U('Index/goodspointinfo',array('goods_id'=>$val['goods_id']))}"><img src="{$val.images.0}" alt=""></a>
+                <a href="{:U('Index/goodspointinfo',array('goods_id'=>$val['goods_id']))}"><img src="{$val.goods_images.0}" alt=""></a>
             </div>
             <div class="b2b2c_collect_inner fr">
                 <p class="toe" title="{$val.goods_name}">{$val.goods_name}</p>
                 <div class="b2b2c_collect_innerbtm">
                     <p class="fl">
-                        <span>¥{$val.price}</span>
+                        <span>¥{$val.goods_price}</span>
                     </p>
-                    <input onclick="b2b2cf.cancel_collect_goods({$val.b2b2c_favorite_id})" type="button" class="fr"readonly value="取消收藏">
+                    <input onclick="b2b2cf.cancel_collect_goods({$val.fav_id})" type="button" class="fr"readonly value="取消收藏">
                 </div>      
             </div>
         </section>

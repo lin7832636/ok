@@ -592,19 +592,19 @@ class UserController extends PrivateController {
         $this->ajaxReturn($result);
     }
 
-    /**
+     /**
      * +--------------------------------------------------------------------------------------------------------------------
      * 我的收藏
      * +--------------------------------------------------------------------------------------------------------------------
-     * @Author  yangjing  Date:2016/12/10
+     * @Author  何俊林  Date:2017/16/15
      * +--------------------------------------------------------------------------------------------------------------------
      * @access  public
      * +--------------------------------------------------------------------------------------------------------------------
     **/
     public function collect() {
         $user_token = get_user_token();
-        $list = curls(C('APIURL') . 'B2b2cPrivate/GetFavoriteList', 'get',array('user_token'=>get_user_token()),true);
-        $this->assign('list', $list['data']['list']);
+        $list = curls(C('APIURL') . 'B2b2cPrivate/GetFavoriteList', 'get',array('user_token'=>$user_token),true);
+        $this->assign('list', $list['data']);
         $this->display();
     }
     

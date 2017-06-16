@@ -18,11 +18,61 @@ class B2b2cPrivateController extends PrivateController {
         parent::__construct();
     }
 	
+    /**
+     * +--------------------------------------------------------------------------------------------------------------------
+     * 收藏商品
+     * +--------------------------------------------------------------------------------------------------------------------
+     * @Author 何俊林   Date:2016/6/14
+     * +--------------------------------------------------------------------------------------------------------------------
+     * @access public
+     * +--------------------------------------------------------------------------------------------------------------------
+     * @type GET
+     * +--------------------------------------------------------------------------------------------------------------------
+     * @parame Int 必填 $goods_id 商品ID
+     * +--------------------------------------------------------------------------------------------------------------------
+     * @return JSON
+            {
+                'name':'value', //返回值注释
+                'name':'value'  //返回值注释
+            }
+     * +--------------------------------------------------------------------------------------------------------------------
+    **/
+    public function Favorite() {
+        $b2b2c_favorite_db = M('favorite');
+        $data = array();
+        $data['goods_id'] = I('get.goods_id', 0, 'intval');
+        $data['user_id'] = $this->guid();
+        if (empty($b2b2c_favorite_db->where(array('user_id' => $data['user_id'], 'goods_id' => $data['goods_id']))->getField('fav_id'))) {
+          //  $data['shop_id'] = M('goods')->where(array('goods_id' => $data['goods_id']))->getField('shop_id');
+            $data['addtime'] = time();
+            $b2b2c_favorite_db->add($data);
+            output(0, array());
+        }else{
+            output(32009);
+        }
+        
+    }
+    //我的收藏
+    public  function GetFavoriteList(){
+        $user_id = $this->guid();
+        $favorite=M('favorite');
+        $data = $favorite->join("sp_goods on sp_goods.goods_id = sp_favorite.goods_id")->join("sp_product on sp_product.goods_id = sp_goods.goods_id")->where(['user_id'=>$user_id])->select();
+        $info = D('Commons')->FilesGetUrl(array('goods_images'),$data);
+        output(0,$info);
+    }
+    /*
+     * 取消收藏
+     */
+    public function FavoriteGoodsDelete(){
+        $fav_id=I('get.fav_id');
+        M('favorite')->where(array('fav_id'=>$fav_id))->delete();
+        output(0);
+    }
      /**
      * +--------------------------------------------------------------------------------------------------------------------
      * 个人资料--用户信息
      * +--------------------------------------------------------------------------------------------------------------------
-     * @Author  zhangnan  Date:2016/12/9
+     * @Author  任明明  Date:2016/12/9
      * +--------------------------------------------------------------------------------------------------------------------
      * @access  public
      * +--------------------------------------------------------------------------------------------------------------------
@@ -249,6 +299,7 @@ class B2b2cPrivateController extends PrivateController {
            ->add();
        $res ? output(0,['id'=>$res]) : output(20678);
     }
+
     /**
      * 收货地址展示
      * @author 贾恩超
