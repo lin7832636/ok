@@ -242,7 +242,7 @@ class UserController extends PublicController
         $user=M("user");
         $res=$user->data(array("usertelno"=>$data['telno'],"password"=>token($data['password'])))->add();
         if($res){
-            M('user_info')->data(['user_id'=>$res])->add();
+            M('user_info')->data(['user_id'=>$res,'info_tel'=>$data['telno']])->add();
             output(0);
         }else{
             output(20605);
