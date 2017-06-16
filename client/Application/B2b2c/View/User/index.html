@@ -31,7 +31,7 @@
         <section class="bgcf">
             <a class="b2b2c_public_h56 clearfix" href="javascript:void(0);" onclick="b2b2cf.edit_gender();">
                 <span class="fl">性别</span>
-                <if condition="$user_info.gender eq 1">
+                <if condition="$user_info.info_gender eq 1">
                     <span class="fr" id="b2b2c_span_gender">男</span>
                 <else />
                     <span class="fr" id="b2b2c_span_gender">女</span>
@@ -59,7 +59,7 @@
         <section class="b2b2c_user_number_show">
             <p class="b2b2c_public_h56 clearfix">
                 <span class="fl">手机号码</span>
-                <span class="fr">{$user_info.telno}</span>
+                <span class="fr">{$user_info.info_tel}</span>
             </p>
         </section>
     </main>
