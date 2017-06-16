@@ -5719,3 +5719,949 @@ INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
 ERR: 非法操作:GetGoodsByRecommendMobile
 
+[ 2017-06-16T20:56:11+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0320s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\ok\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-16T20:56:11+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUser?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497617771&token=a2b35da50c0baaf096d3c07a1442e5f6982602b84989ebb631df7ce60c71f30d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T20:56:13+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Carousel?type=4&token_time=1497617773&token=0da996bdf00f56422cbb872ce0d86cad80154e81ef62b0db726cb33f162b6fba&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_carousel` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `sp_carousel` WHERE `carousel_status` > 0 LIMIT 4   [ RunTime:0.0010s ]
+
+[ 2017-06-16T20:56:13+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497617773&token=3d295d4bd076cc157e2a3caa8a9284ccecc61d3d3018438ff2237a997bc5f3cb&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-16T20:56:13+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497617773&token=3d295d4bd076cc157e2a3caa8a9284ccecc61d3d3018438ff2237a997bc5f3cb&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-16T20:56:18+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0180s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = 'cf8fb3a85cfcb075f989ab471868ee8e15f0eaf2c9ba1b414604ba431c86187c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T20:56:18+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497617777&token=0e27ebc52de16b4a9b0494a7fcc28b432bc06b82a007d23d30e81f9271d7fb83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T20:56:20+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497617780&token=a7049aad215c18977cf11ec91fdf17e6c8148b0ea222e58f5b2d3dead5aef075
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_favorite.goods_id =sp_goods.goods_id INNER JOIN sp_product on sp_product.goods_id=sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0030s ]
+
+[ 2017-06-16T20:58:55+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497617934&token=fda72acbeeb0a2a248c6cca088c9e20fc6741e00b02c8e5247b7bbc66b61320e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0820s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_favorite.goods_id =sp_goods.goods_id INNER JOIN sp_product on sp_product.goods_id=sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0030s ]
+
+[ 2017-06-16T20:58:57+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/FavoriteGoodsDelete?fav_id=2&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497617937&token=45fc06c64682a94d6ea12c80e594113aae30a92501cf7f65f16b95851ddf4ed5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0460s ]
+SQL: DELETE FROM `sp_favorite` WHERE `fav_id` = 2 [ RunTime:0.0040s ]
+
+[ 2017-06-16T20:58:59+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497617939&token=c8cbbf1ec4f33738aa5b5ecb7303a2ac293bbb4063e08e4e318faa40a45201a0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_favorite.goods_id =sp_goods.goods_id INNER JOIN sp_product on sp_product.goods_id=sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T20:59:04+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0140s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = 'cf8fb3a85cfcb075f989ab471868ee8e15f0eaf2c9ba1b414604ba431c86187c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T20:59:04+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497617944&token=44ad5a98e62fdc6f12b9e54b8d53e50680478f89421016c6555920c2cf4026e1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0570s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T20:59:10+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497617950&token=0174a2945e10bb4ba9819967f2ecc4fa9cc49ad3d552c972a21f017e533040bb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_favorite.goods_id =sp_goods.goods_id INNER JOIN sp_product on sp_product.goods_id=sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0030s ]
+
+[ 2017-06-16T21:00:03+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0200s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = 'cf8fb3a85cfcb075f989ab471868ee8e15f0eaf2c9ba1b414604ba431c86187c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:00:03+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618002&token=eef06eb8b8da87afee8d795604ae32ea197887554c7e6a36588e2687fdfe40ee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0600s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:00:06+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0340s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = 'cf8fb3a85cfcb075f989ab471868ee8e15f0eaf2c9ba1b414604ba431c86187c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:00:06+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618006&token=1544c8f61cc6ade4a28b08e1857e38be88ba414fbe54e4bcf785e3999681c170
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0460s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:00:18+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618018&token=22dcd6749cf6394821b5a4f648ed528e8de1fbb5cab81bed394ea8dbf20ddd86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_favorite.goods_id =sp_goods.goods_id INNER JOIN sp_product on sp_product.goods_id=sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:01:23+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618083&token=ffc8974347e6a223e9605c8da76bf2da59d4e61b5be17b0dd9e4dae448cb57f0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_favorite.goods_id =sp_goods.goods_id INNER JOIN sp_product on sp_product.goods_id=sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:02:53+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618173&token=49e008bfff759ff09311b7e6d4fd0f3566d8f10efe1a82579ccb8a248c2d3be8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-16T21:03:57+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618237&token=fcad80f72ea11b045ad2229d9eecb72983a5157e65b78978daea2ada2c941b6e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0480s ]
+ERR: 1146:Table 'servers.goods' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `sp_favorite` INNER JOIN goods on favorite.goods_id =goods.goods_id INNER JOIN product on product.goods_id=goods.goods_id  WHERE `user_id` = 1 
+ERR: 1146:Table 'servers.goods' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `sp_favorite` INNER JOIN goods on favorite.goods_id =goods.goods_id INNER JOIN product on product.goods_id=goods.goods_id  WHERE `user_id` = 1 
+
+[ 2017-06-16T21:03:58+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618238&token=e445bf9a2bcd456a1b87d9d0d35834c41cf766ccaac788b75c7de3472676d072
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0460s ]
+ERR: 1146:Table 'servers.goods' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `sp_favorite` INNER JOIN goods on favorite.goods_id =goods.goods_id INNER JOIN product on product.goods_id=goods.goods_id  WHERE `user_id` = 1 
+ERR: 1146:Table 'servers.goods' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `sp_favorite` INNER JOIN goods on favorite.goods_id =goods.goods_id INNER JOIN product on product.goods_id=goods.goods_id  WHERE `user_id` = 1 
+
+[ 2017-06-16T21:04:49+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618289&token=1d887fba2eeb25fb006049a812035890d0eb50a1468bc9e60cc91d31ae0f6f50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_favorite.goods_id =sp_goods.goods_id INNER JOIN sp_product on sp_product.goods_id=sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:04:51+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618291&token=9fa9b48ccf7f532548e88297139a9ef069160107186983d195a8f67996a0e8e5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_favorite.goods_id =sp_goods.goods_id INNER JOIN sp_product on sp_product.goods_id=sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:05:07+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618307&token=a5dd2bbf6fc0949517306136ff569cec26bbd680dc0b777062cf46620e1f95ee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0920s ]
+SQL: SELECT * FROM `sp_favorite`  [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:05:09+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618308&token=951c74a15bb69450c68141de9ce808ada6a32a9ec1c1901e4a08e716fcad3160
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0780s ]
+SQL: SELECT * FROM `sp_favorite`  [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:05:23+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618323&token=203c1d30a005d1728c0982c697622b70ef5289228d6c84b6f4742cf26862293c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_favorite`  [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:07:16+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618436&token=2b148b69894d296ad222c74830b5187c587f6b7e9b388c2aa78a9551e32081b7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `sp_favorite`  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:07:17+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618437&token=83b14126738fd6d9505e6f1bc6e250c39c55ad3f0a6dbe148d5cffb6cc9caa3c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `sp_favorite`  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:07:17+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618437&token=83b14126738fd6d9505e6f1bc6e250c39c55ad3f0a6dbe148d5cffb6cc9caa3c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sp_favorite`  [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:07:18+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618438&token=e43651a51045f073a20c2536d011f16a7ac0a0096d777e1ecf4ebea3b71fc453
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sp_favorite`  [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:07:37+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618457&token=ab775b72f467273428a1263942abcabe8c275bbb124a88eba05c1df9c620631d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `sp_favorite`  [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:07:37+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618457&token=ab775b72f467273428a1263942abcabe8c275bbb124a88eba05c1df9c620631d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `sp_favorite`  [ RunTime:0.0030s ]
+
+[ 2017-06-16T21:07:38+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618458&token=7e20b3c108d5bda6df4289c982dc51946275b2d0f8cf72dfe90cc447a65af5fd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `sp_favorite`  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:07:38+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618458&token=7e20b3c108d5bda6df4289c982dc51946275b2d0f8cf72dfe90cc447a65af5fd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `sp_favorite`  [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:08:15+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618495&token=02a3de808f5a228253211907c64ae8d935207f2f1b0faecf2d16489e6d5f221f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `sp_favorite`  [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:08:15+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618495&token=02a3de808f5a228253211907c64ae8d935207f2f1b0faecf2d16489e6d5f221f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `sp_favorite`  [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:10:16+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618616&token=ddd1e7259c394bc52751d10f5f5221f441cde90c2c3e87a10c86ee433ffe2aa8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id   [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:11:02+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618662&token=35b441f52ae9ce65f0c825990aa2a12b824f3207970dce412f75a1e693609c1d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:11:05+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618665&token=774fc70297821d894326d267ec9d656e59a5ca7b60158b0e48ca0d94f1681e75
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0740s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:12:53+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618773&token=fc77805852ab0cd3e5a1a0f85f22aa36815a5ecb0028410212cb865ddc746dcd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:12:55+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618775&token=fdcfa9203746e4ba5f0fbaac77b669fc357d725763a6c6b09f8d729ef8975caa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0040s ]
+
+[ 2017-06-16T21:14:31+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618871&token=50642eccc998dfbb1fa80efa040241e2a9be23339c6755d93fc5731998ca3ca6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:14:32+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618872&token=375d4ab9dfacab2fe1242e15892d682809de45ad6dc42013e3ba02cd5936329a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0030s ]
+
+[ 2017-06-16T21:14:32+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618872&token=375d4ab9dfacab2fe1242e15892d682809de45ad6dc42013e3ba02cd5936329a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:14:33+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618873&token=573bd65cb99336d04f9496f25d89200cf41b8b43822d48fe6a8d3453577fbbc7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:14:33+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618873&token=573bd65cb99336d04f9496f25d89200cf41b8b43822d48fe6a8d3453577fbbc7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:14:33+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618873&token=573bd65cb99336d04f9496f25d89200cf41b8b43822d48fe6a8d3453577fbbc7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0040s ]
+
+[ 2017-06-16T21:14:49+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497618889&token=cfe2cf069a1d1371d9fc5828e84c33b5473762489d7e64fc9a6e47a5774f65f4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id  WHERE `user_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:16:42+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497619002&token=520974d098f2c5457644dcbeea4f2cfaf8b74cce126ce8bc0f37437e9deb2ade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id  WHERE `user_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:17:06+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497619026&token=7a45dd68f6fb11f58e9f6d9195ca9c82d851ccd581bfec6eaea710bd41c83268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:18:49+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497619128&token=5cabaa9da40bb7b4651960658c66a2f98ae277c4aba74ddf5ff44cd15433d3e5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0030s ]
+
+[ 2017-06-16T21:19:38+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497619178&token=b199c8a32cb4b9c0e83c69a312c5d725c62728ffdfc89fd7c4177996aab54acb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:19:39+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497619179&token=0411c0ef9ec4a111ff4fdcdb088e74a24244e544bc47f5edb9302644d3bab4a8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0040s ]
+
+[ 2017-06-16T21:19:40+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497619180&token=77434a87837692ffcc8a2a032a540bbdf8504df5b5f1cd85863b4346673ce027
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0030s ]
+
+[ 2017-06-16T21:22:15+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497619335&token=92da4774bb6b6c3e1fe269eaa4aac9578804effce2903d1dad9e70edf91256a9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:23:10+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497619390&token=cafc6a403b3d44cc24ef09abcbae56a3591f13b9878578215c4179d93dd12fc6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0030s ]
+
+[ 2017-06-16T21:23:12+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497619392&token=53b686e38ef99e2c34150dcd8e79ccdbecd3a53e6db9ad7d09a513fab024b095
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0030s ]
+
+[ 2017-06-16T21:24:52+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0160s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '5bf98354a7e731b373b7dfbb4349803d8ae9e85964b10d2dad45be150d6952be' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:24:52+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497619492&token=374a1c11e90b52ff2387a9cf3d6745098a1739ddb4c750d999ac8b69c557e14b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:26:29+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0200s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '5bf98354a7e731b373b7dfbb4349803d8ae9e85964b10d2dad45be150d6952be' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:26:29+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497619589&token=8e393ffd9e32a44fdc3870fce78bb8c731eac2aa5a6c80296ef07ed0a29e57f6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:26:35+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0150s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '5bf98354a7e731b373b7dfbb4349803d8ae9e85964b10d2dad45be150d6952be' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:26:35+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497619594&token=db0ce771f9ea87a985224acb2a4e1243419a8f8ebb540e0318f36d83285f65a0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0040s ]
+
+[ 2017-06-16T21:28:09+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0290s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '5bf98354a7e731b373b7dfbb4349803d8ae9e85964b10d2dad45be150d6952be' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:28:09+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497619689&token=9b4c5c1315d2434eb7d8f7838a0afdd8811dc96143d6e6a59883bd4123bacd12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0030s ]
+
+[ 2017-06-16T21:29:39+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0150s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '5bf98354a7e731b373b7dfbb4349803d8ae9e85964b10d2dad45be150d6952be' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:29:39+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497619779&token=a4dfa19bd2d240dacb1e83270bcd4230240bc95ca006264771255abb937f9d8b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:32:04+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0150s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '5bf98354a7e731b373b7dfbb4349803d8ae9e85964b10d2dad45be150d6952be' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:32:04+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44&token_time=1497619924&token=a9a1a2ed0e755047b24cde6659ebff20dd84ac250e3097008a21c948b82eb2f4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0030s ]
+
+[ 2017-06-16T21:33:05+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsInfo?goods_id=0&token_time=1497619985&token=182adc16a5e2a851588dc94641baf0b9a2de5f15836e73c9979477db2a419dda&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `sp_goods` INNER JOIN sp_brand on sp_goods.brand_id=sp_brand.brand_id  WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:33:06+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeNavi?token_time=1497619985&token=a41929dc56605c26b8d7e7dedf4d90755e2f511f3d5479db32381df4c7583b0e&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_goods_type` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `sp_goods_type` WHERE `goods_type_id` = 0  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:33:06+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/IsFavorite?goods_id=0&token_time=1497619986&token=f5b3cc19b451afb8a595761050e7236b195393544bbdc7fa18c465a647b038df&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:IsFavorite
+
+[ 2017-06-16T21:33:06+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/AddGoodsPopularityCount?goods_id=0&token_time=1497619986&token=f5b3cc19b451afb8a595761050e7236b195393544bbdc7fa18c465a647b038df&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:AddGoodsPopularityCount
+
+[ 2017-06-16T21:33:06+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetCartCount?token_time=1497619986&token=0d4655985b44817e011328a9461e72f5c18a8f5bfb22c258913d8be4f96d1d25&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:GetCartCount
+
+[ 2017-06-16T21:34:40+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsInfo?goods_id=0&token_time=1497620079&token=1cbc8319a9adb98d36fb03d12e2c0962a478285bcf94a9ebedc5d1bc4c480949&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `sp_goods` INNER JOIN sp_brand on sp_goods.brand_id=sp_brand.brand_id  WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:34:40+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeNavi?goods_type_id=1&token_time=1497620080&token=9f1fa5879d5f35119a336df8bf0a6cc0524b66abe4af4c0c18900be0dc0c4adf&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_goods_type` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sp_goods_type` WHERE `goods_type_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-16T21:34:40+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsProduct?goods_id=0&token_time=1497620080&token=8c669c339ee37a66a6aeb36c2b408b2bb0c89fe4be31efacd928285bf54b744d&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_product` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sp_product` WHERE `goods_id` = 0  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:34:40+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetShopInfo?token_time=1497620080&token=66ccc88f03f98c24d2295b9df2159de543e8acc00b5386b90fc4912ebd350ea8&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetShopInfo
+
+[ 2017-06-16T21:34:40+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsPoi5ntInfo?goods_id=0&token_time=1497620080&token=8c669c339ee37a66a6aeb36c2b408b2bb0c89fe4be31efacd928285bf54b744d&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:GetGoodsPoi5ntInfo
+
+[ 2017-06-16T21:34:40+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsComments?goods_id=0&token_time=1497620080&token=8c669c339ee37a66a6aeb36c2b408b2bb0c89fe4be31efacd928285bf54b744d&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsComments
+
+[ 2017-06-16T21:34:40+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/IsFavorite?goods_id=0&token_time=1497620080&token=8c669c339ee37a66a6aeb36c2b408b2bb0c89fe4be31efacd928285bf54b744d&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:IsFavorite
+
+[ 2017-06-16T21:34:40+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/AddGoodsPopularityCount?goods_id=0&token_time=1497620080&token=8c669c339ee37a66a6aeb36c2b408b2bb0c89fe4be31efacd928285bf54b744d&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:AddGoodsPopularityCount
+
+[ 2017-06-16T21:34:40+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetCartCount?token_time=1497620080&token=66ccc88f03f98c24d2295b9df2159de543e8acc00b5386b90fc4912ebd350ea8&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetCartCount
+
+[ 2017-06-16T21:36:30+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsInfo?goods_id=0&token_time=1497620190&token=673ec002196b1af03d245edd5cc4c4efaa4035f89dcc216741f23142d6c4bd6a&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `sp_goods` INNER JOIN sp_brand on sp_goods.brand_id=sp_brand.brand_id  WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:36:30+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeNavi?goods_type_id=1&token_time=1497620190&token=f3d11e23d76212860c8fbbb48413efa25d051f05fe7db3254952bb8d93a93c76&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_goods_type` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `sp_goods_type` WHERE `goods_type_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:36:30+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsProduct?goods_id=0&token_time=1497620190&token=673ec002196b1af03d245edd5cc4c4efaa4035f89dcc216741f23142d6c4bd6a&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_product` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `sp_product` WHERE `goods_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-06-16T21:36:30+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetShopInfo?token_time=1497620190&token=8f8537c4cb2183e671af4eb09d638f085c7008b7d6480ebc710165791a39985f&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetShopInfo
+
+[ 2017-06-16T21:36:31+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsPoi5ntInfo?goods_id=0&token_time=1497620190&token=673ec002196b1af03d245edd5cc4c4efaa4035f89dcc216741f23142d6c4bd6a&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsPoi5ntInfo
+
+[ 2017-06-16T21:36:31+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsComments?goods_id=0&token_time=1497620191&token=07c11255097d0f3586162768f807ef2ead4f8266d56598853e65a27d43beef61&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsComments
+
+[ 2017-06-16T21:36:31+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/IsFavorite?goods_id=0&token_time=1497620191&token=07c11255097d0f3586162768f807ef2ead4f8266d56598853e65a27d43beef61&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:IsFavorite
+
+[ 2017-06-16T21:36:31+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/AddGoodsPopularityCount?goods_id=0&token_time=1497620191&token=07c11255097d0f3586162768f807ef2ead4f8266d56598853e65a27d43beef61&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:AddGoodsPopularityCount
+
+[ 2017-06-16T21:36:31+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetCartCount?token_time=1497620191&token=f2f65daee3a922c7b8ac2585ec5680e3548a03e60bbf59e10bd4804350f5e91a&user_token=357421ee0e6e90c53341491fc1eba8ac64c37bf8bf32f35ca290d2a072f72c44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetCartCount
+

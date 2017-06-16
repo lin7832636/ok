@@ -1,0 +1,189 @@
+[ 2017-06-16T20:54:45+08:00 ] 127.0.0.1 /ok/servers/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `sp_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_menu` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 0 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 239 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 252 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 253 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: ret D:\phpStudy\WWW\ok\servers\Application\Admin\Model\MenuModel.class.php 第 176 行.
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 254 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: ret D:\phpStudy\WWW\ok\servers\Application\Admin\Model\MenuModel.class.php 第 176 行.
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 286 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 290 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 291 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 463 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: ret D:\phpStudy\WWW\ok\servers\Application\Admin\Model\MenuModel.class.php 第 176 行.
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 462 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ret D:\phpStudy\WWW\ok\servers\Application\Admin\Model\MenuModel.class.php 第 176 行.
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 292 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ret D:\phpStudy\WWW\ok\servers\Application\Admin\Model\MenuModel.class.php 第 176 行.
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 293 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 297 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: ret D:\phpStudy\WWW\ok\servers\Application\Admin\Model\MenuModel.class.php 第 176 行.
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 553 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 554 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ret D:\phpStudy\WWW\ok\servers\Application\Admin\Model\MenuModel.class.php 第 176 行.
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 556 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ret D:\phpStudy\WWW\ok\servers\Application\Admin\Model\MenuModel.class.php 第 176 行.
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 561 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ret D:\phpStudy\WWW\ok\servers\Application\Admin\Model\MenuModel.class.php 第 176 行.
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 552 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ret D:\phpStudy\WWW\ok\servers\Application\Admin\Model\MenuModel.class.php 第 176 行.
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 557 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: ret D:\phpStudy\WWW\ok\servers\Application\Admin\Model\MenuModel.class.php 第 176 行.
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 558 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 559 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: ret D:\phpStudy\WWW\ok\servers\Application\Admin\Model\MenuModel.class.php 第 176 行.
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 560 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ret D:\phpStudy\WWW\ok\servers\Application\Admin\Model\MenuModel.class.php 第 176 行.
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 562 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: ret D:\phpStudy\WWW\ok\servers\Application\Admin\Model\MenuModel.class.php 第 176 行.
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 563 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 564 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: ret D:\phpStudy\WWW\ok\servers\Application\Admin\Model\MenuModel.class.php 第 176 行.
+SQL: SELECT * FROM `sp_menu` WHERE `parentid` = 565 AND `status` = 1 ORDER BY `listorder` DESC  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: ret D:\phpStudy\WWW\ok\servers\Application\Admin\Model\MenuModel.class.php 第 176 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-16T20:54:45+08:00 ] 127.0.0.1 /ok/servers/index.php/Admin/Index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `sp_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-06-16T20:55:01+08:00 ] 127.0.0.1 /ok/servers/index.php/Admin/Brand/add/menuid/559
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\BrandController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\ok\servers\Application\Admin\Controller\BrandController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0710s ]
+SQL: SELECT * FROM `sp_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_brand` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0720s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-16T20:55:32+08:00 ] 127.0.0.1 /ok/servers/index.php/Admin/Brand/do_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\BrandController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\ok\servers\Application\Admin\Controller\BrandController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `sp_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_brand` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ok\servers\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ok\servers\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\ok\servers\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sp_brand` [ RunTime:0.0070s ]
+SQL: INSERT INTO `sp_brand` (`brand_name`,`brand_summary`,`brand_url`,`brand_sort`,`brand_status`,`brand_logo`,`brand_time`) VALUES ('蓝色电风扇','我的蓝色电费上','','0','2','./Uploads/brand/img2017-06-16/5943d5446fec6.jpg','1497617732') [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-16T20:55:33+08:00 ] 127.0.0.1 /ok/servers/index.php/Admin/Brand/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\BrandController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\ok\servers\Application\Admin\Controller\BrandController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `sp_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_brand` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `sp_brand` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sp_brand` WHERE ( brand_status > 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_brand` WHERE ( brand_status > 0 ) LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-16T20:55:38+08:00 ] 127.0.0.1 /ok/servers/index.php/Admin/Brand/show/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Controller\BrandController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\ok\servers\Application\Admin\Controller\BrandController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `sp_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_brand` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `sp_brand` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `sp_brand` WHERE ( brand_status > 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_brand` WHERE ( brand_status > 0 ) LIMIT 3,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+

@@ -1,0 +1,139 @@
+<include file="Public/header"/>
+<body class="J_scroll_fixed">
+<div class="wrap jj">
+
+    <ul class="nav nav-tabs">
+        <!--&lt;!&ndash;<?php if(is_role('user','index')) { ?><li><a href="{:U('brand/add')}">管理员</a></li><?php } ?>&ndash;&gt;-->
+        <!--<?php if(is_role('user','add')) { ?><li class="active"><a href="{:U('Brand/add')}">添加品牌</a></li><?php } ?>-->
+        <li class="active"><a href="{:U('Brand/show')}">品牌列表</a></li>
+
+    </ul>
+    <div class="common-form">
+        <form method="post" action="{:U('Brand/do_add')}" enctype="multipart/form-data">
+            <div class="table_list">
+                <table cellpadding="2" cellspacing="2" class="table_form" width="100%">
+                    <tbody>
+                    <tr>
+                        <td width="180">品牌名称:</td>
+                        <td><input type="text" class="input" name="brand_name" value=""><span class="must_red">*</span></td>
+                    </tr>
+                    <tr>
+                        <td>:品牌logo</td>
+                        <td><input type="file" class="input" name="brand_logo" value="" ><span class="must_red">*</span></td>
+                    </tr>
+                    <!--<tr>-->
+                        <!--<td>品牌logo</td>-->
+                        <!--<td>-->
+                            <!--<form id="uploadForm"  method= "post" enctype ="multipart/form-data">-->
+                                <!--<input type ="file" id="logo" name="img" size="38" onchange="readURL(this);" />-->
+                                <!--<img id="img_prev" src="#" alt="预览" />-->
+                            <!--</form>-->
+                            <!--<button id="uploadLogo" type="button">上传<button>-->
+                        <!--</td>-->
+                    <!--</tr>-->
+                    <tr>
+                        <td>品牌描述:</td>
+                        <td><textarea name="brand_summary"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>官方网站:</td>
+                        <td>
+                            <input type="text"  name="brand_url" >*</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>排序:</td>
+                        <td>
+                            <input type="text" name="brand_sort">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>状态:</td>
+                        <td>
+                            <select  name="brand_status">
+                                <option value="0">刪除</option>
+                                <option value="1">下架</option>
+                                <option value="2" selected>上架</option>
+                            </select>
+                           
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary btn_submit J_ajax_submit_btn">添加</button>
+                <!--<a class="btn" href="__URL__">返回</a>-->
+            </div>
+        </form>
+    </div>
+</div>
+<load href="__PUBLICS__/js/common.js"/>
+<script type="text/javascript">
+    function org_list($this) {
+
+        art.dialog({
+            id:'div_org_list',
+            lock : true,
+            ok : true ,
+            cancel : true,
+            title : '选择机构',
+            background : '#cccccc',
+            opacity : 0.80,
+            width : 700,
+            height : 500
+
+        });
+
+        $.get('__MODULE__/Train/id_list', {}, function(e) {
+            art.dialog({id: 'div_org_list'}).content(e);
+        }, 'html');
+
+    }
+</script>
+
+</body>
+</html>
+    <script  src="__PUBLIC__/js/jquery-2.1.1.min.js"></script>
+    <script>
+        //图片预览
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('#img_prev')
+                        .attr('src', e.target.result)
+                        .width(100)
+                        .height(100);
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+        //图片上传
+        $(function(){
+
+            var ajax_url="__URL__/add_img";
+            $('#uploadLogo').click(function(){
+                //点击上传时，AJAX上传图片
+                var formData = new FormData();//把所要传输的文件放进FormData对象，通过AJAX传输对象把文件传输过去。
+                // console.log($('#logo').get(0).files[0]);
+                formData.append('img',$('#logo').get(0).files[0]);
+                $.ajax({
+                    url: ajax_url,
+                    type: 'POST',
+                    data: formData,//这里传输这个对象
+                    dataType:"json",
+                    async: false,//异步，关闭
+                    cache: false,//缓存,关闭
+                    contentType: false,
+                    processData: false,
+                    success: function (data) {
+                        alert(data.msg)
+                    },
+                    // error: function () {
+                    //     alert('上传失败，请联系管理员');
+                    // }
+                });
+            })
+        })
+    </script>

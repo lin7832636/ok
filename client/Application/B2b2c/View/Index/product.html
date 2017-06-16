@@ -11,13 +11,13 @@
                         <div class="div_txt_btm">
                         <span class="">
                             <i>&yen;</i>
-                            <i>{$b2b2c_goods_product_one['price']}</i>
+                            <i>{$b2b2c_goods_product_one['goods_price']}</i>
                         </span>
                         <span>
                             <i>库存</i>&nbsp;<i>{$b2b2c_goods_product_one['store']}</i>件
                         </span>
                          <span>
-                            <i>已选:</i>&nbsp;<i>{$b2b2c_goods_product_one['name']}</i>
+                            <i>已选:</i>&nbsp;<i>{$b2b2c_goods_product_one['unit']}</i>
                         </span>
                         </div>
                     </div>
@@ -40,15 +40,15 @@
 						<volist  name="b2b2c_goods_product" id="vo">
 							<?php 
 								if($vo['store'] < 1) {
-									echo '<li class="dashed">';
-								} else if($vo['id'] == $product_id) {
+									echo '<li class="dashed" disabled="false">';
+								} else if($vo['product_id'] == $product_id) {
 									echo '<li class="active">';
 								} else {
 									echo '<li>';
 								}
 							?>
-								<!--<a href="{:U('Index/product', array('goods_id'=>$vo['goods_id'], 'product_id'=>$vo['id'], 'product_url'=>$product_url))}">{$vo.name}</a>-->
-								<a href="javascript:" onclick="b2b2cc.refresh('Index/product', 'goods_id:{$vo['goods_id']},product_id:{$vo['id']},rfs:{$rfs}');">{$vo.name}</a>
+
+								<a href="javascript:void(0)" disabled="false" onclick="b2b2cc.refresh('Index/product', 'goods_id:{$vo['goods_id']},product_id:{$vo['product_id']},rfs:{$rfs}');">{$vo.unit}</a>
 							</li>
 						</volist>
                     </ul>

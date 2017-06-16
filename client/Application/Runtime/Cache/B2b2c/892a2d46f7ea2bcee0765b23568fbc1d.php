@@ -72,7 +72,7 @@ var _hmt = _hmt || [];
             <a id="b2b2c_goods_info_comment_div" data-div="b2b2c_goods_info_comment_div" href="javascript:void(0);" onclick="b2b2cf.goods_info_switch(this)">评价</a>
         </div>
         <?php if(!empty(get_user_token())){ ?>
-            <?php if(empty($is_favorite)): ?><div class="b2b2c_collect_btn" id="b2b2c_public_goods_addcollect" onclick="b2b2cf.goodstypelist_addfavorite(<?php echo ($b2b2c_goods_info['id']); ?>);"></div>
+            <?php if(empty($is_favorite)): ?><div class="b2b2c_collect_btn" id="b2b2c_public_goods_addcollect" onclick="b2b2cf.goodstypelist_addfavorite(<?php echo ($b2b2c_goods_info['goods_id']); ?>);"></div>
             <?php else: ?>
                     <div class="b2b2c_collect_btn already_f"></div><?php endif; ?>
         <?php } ?>
@@ -84,7 +84,7 @@ var _hmt = _hmt || [];
         <div id="b2b2c_goods_info_default_div">
             <div class="swiper-container swiper-container-horizontal b2b2c_spinfo_banner">
                 <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0, 0px, 0px);">
-                    <?php if(is_array($b2b2c_goods_info["images"])): foreach($b2b2c_goods_info["images"] as $key=>$vo): ?><div class="swiper-slide" style="width:100%;">
+                    <?php if(is_array($b2b2c_goods_info["goods_images"])): foreach($b2b2c_goods_info["goods_images"] as $key=>$vo): ?><div class="swiper-slide" style="width:100%;">
                             <a href="#">
                                 <img src="<?php echo ($vo); ?>">
                             </a>
@@ -97,14 +97,14 @@ var _hmt = _hmt || [];
             <main class="b2b2c_spinfo_content">
                 <section class="bgcf b2b2c_p16 b2b2c_sp_info">
                     <div class="b2b2c_t b2b2c_ov2">
-                        <?php echo ($b2b2c_goods_info["name"]); ?>
+                        <?php echo ($b2b2c_goods_info["goods_name"]); ?>
                     </div>
                     <div class="b2b2c_c clearfix">
-                        <span class="fl"><i>&yen;</i><i><?php echo ($b2b2c_goods_product[0]["price"]); ?></i></span>
-                        <span class="fr"><i>原价:</i><i>&yen;</i><i><?php echo ($b2b2c_goods_product[0]["mktprice"]); ?></i></span>
+                        <span class="fl"><i>&yen;</i><i><?php echo ($b2b2c_goods_product[0]["goods_price"]); ?></i></span>
+                        <span class="fr"><i>原价:</i><i>&yen;</i><i><?php echo ($b2b2c_goods_product[0]["goods_mktprice"]); ?></i></span>
                     </div>
                     <div class="b2b2c_b clearfix">
-                        <img class="fl" src="<?php echo ($b2b2c_goods_info["b2b2c_brand_logo"]["0"]); ?>" alt="">
+                        <img class="fl" src="http://127.0.0.1/ok/servers<?php echo ($b2b2c_goods_info["brand_logo"]); ?>" alt="">
                         <p class="fr">
                             <span><i>已售</i><i><?php echo ($b2b2c_goods_info["sold_count"]); ?></i></span>
                             <span><i>评价</i><i><?php echo ($b2b2c_goods_info["comments_count"]); ?></i></span>
@@ -112,7 +112,7 @@ var _hmt = _hmt || [];
                     </div>
                 </section>
                 <section class="bgcf b2b2c_p16">
-                    <div class="b2b2c_info_pro clearfix" onclick="b2b2cc.refresh('Index/product', 'goods_id:<?php echo ($b2b2c_goods_info['id']); ?>,product_id:<?php echo ($b2b2c_goods_product[0]['id']); ?>,rfs:b2b2cf.goods_info_select_product_callback();', true);">
+                    <div class="b2b2c_info_pro clearfix" onclick="b2b2cc.refresh('Index/product', 'goods_id:<?php echo ($b2b2c_goods_info['goods_id']); ?>,product_id:<?php echo ($b2b2c_goods_product[0]['product_id']); ?>,rfs:b2b2cf.goods_info_select_product_callback();', true);">
                         <a class="fl" href="javascript:void(0);">查看商品规格</a>
                         <span class="fr"></span>
                     </div>
@@ -258,7 +258,7 @@ var _hmt = _hmt || [];
     <!--悬浮底部start-->
     <footer class="b2b2c_info_footer">
         <div class="b2b2c_info_footer_box">
-            <input type="hidden" id="b2b2c_goods_info_product_id" value="<?php echo ($b2b2c_goods_product[0]['id']); ?>">
+            <input type="hidden" id="b2b2c_goods_info_product_id" value="<?php echo ($b2b2c_goods_product[0]['product_id']); ?>">
             <input type="hidden" id="b2b2c_goods_addafter_shownumber" name="" value="1"/>
             <ul>
                 <li>
@@ -274,7 +274,7 @@ var _hmt = _hmt || [];
                     </a>
                 </li>
                 <li>
-                    <input type="button" value="加入购物车" readonly="" unselectable="on" onclick="b2b2cc.refresh('Index/product', 'goods_id:<?php echo ($b2b2c_goods_info['id']); ?>,product_id:<?php echo ($b2b2c_goods_product[0]['id']); ?>,rfs:b2b2cf.goods_info_select_product_callback();', true);">
+                    <input type="button" value="加入购物车" readonly="" unselectable="on" onclick="b2b2cc.refresh('Index/product', 'goods_id:<?php echo ($b2b2c_goods_info['goods_id']); ?>,product_id:<?php echo ($b2b2c_goods_product[0]['product_id']); ?>,rfs:b2b2cf.goods_info_select_product_callback();', true);">
                 </li>
                 <li>
                     <input type="button" value="立即购买" onclick="b2b2cf.goods_info_buy()" readonly="" unselectable="on">

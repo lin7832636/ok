@@ -278,9 +278,9 @@ class IndexController extends PublicController {
 	
 	/**
 	 * +--------------------------------------------------------------------------------------------------------------------
-	 * 商品详情页
+	 * 商品详情页 
 	 * +--------------------------------------------------------------------------------------------------------------------
-	 * @Author zhangnan  Date:2016/12/25
+	 * @Author hejunling  Date:2017/6/15
 	 * +--------------------------------------------------------------------------------------------------------------------
 	 * @access public
 	 * +--------------------------------------------------------------------------------------------------------------------
@@ -292,11 +292,10 @@ class IndexController extends PublicController {
 	 * +--------------------------------------------------------------------------------------------------------------------
 	**/
 	public function goodspointinfo() {
-
 		$goods_id =I('get.goods_id',0,'intval');
-
 		$b2b2c_goods_info = array();//商品详情
 		$b2b2c_goods_info = curls(C('APIURL').'B2b2cPublic/GetGoodsInfo','get',array('goods_id'=>$goods_id) , true);
+		//print_r($b2b2c_goods_info);die;
 		if($b2b2c_goods_info['status']){
 			$b2b2c_goods_info = $b2b2c_goods_info['data'];
 		}else{
@@ -323,7 +322,7 @@ class IndexController extends PublicController {
 		}
 		$b2b2c_goods_point = array();//商品评分信息
 		if($b2b2c_goods_info) {
-			$b2b2c_goods_point = curls(C('APIURL').'B2b2cPublic/GetGoodsPointInfo','get',array('goods_id'=>$goods_id) , true);
+			$b2b2c_goods_point = curls(C('APIURL').'B2b2cPublic/GetGoodsPoi5ntInfo','get',array('goods_id'=>$goods_id) , true);
 			$b2b2c_goods_point = $b2b2c_goods_point['data'];
 		}
 
@@ -350,7 +349,7 @@ class IndexController extends PublicController {
 		$this->assign('b2b2c_goods_product', $b2b2c_goods_product);
 		$this->assign('b2b2c_shop_info', $b2b2c_shop_info);
 		$this->assign('b2b2c_goods_point', $b2b2c_goods_point);
-		$this->assign('list', $comments['data']['list']);
+		$this->assign('list', $comments['data']);
 		$this->assign('page', $comments['data']['page']);
 		$this->assign('is_favorite', $is_favorite);
 
@@ -361,7 +360,7 @@ class IndexController extends PublicController {
 	 * +--------------------------------------------------------------------------------------------------------------------
 	 * 商品规格详情页
 	 * +--------------------------------------------------------------------------------------------------------------------
-	 * @Author liwenxuan Date:2016/12/29
+	 * @Author hejunling Date:2016/16/15
 	 * +--------------------------------------------------------------------------------------------------------------------
 	 * @access public
 	 * +--------------------------------------------------------------------------------------------------------------------
@@ -377,24 +376,24 @@ class IndexController extends PublicController {
 	 * +--------------------------------------------------------------------------------------------------------------------
 	**/
 	public function product() {
-		
+
 		$goods_id = I('get.goods_id', 0, 'intval');
 		$product_id = I('get.product_id', 0, 'intval');
 		$rfs = I('get.rfs', '', 'trim');
 			
 		$b2b2c_goods_product = curls(C('APIURL').'B2b2cPublic/GetGoodsProduct','get',array('goods_id'=>$goods_id) , true);
 		$b2b2c_goods_product = $b2b2c_goods_product['data'];
-		
+		//print_r($b2b2c_goods_product);die;
 		$b2b2c_goods_product_one = $b2b2c_goods_product[0];
 		if($product_id) {
 			for($one=0; $one<count($b2b2c_goods_product); $one++) {
-				if($product_id == $b2b2c_goods_product[$one]['id']) {
+				if($product_id == $b2b2c_goods_product[$one]['product_id']) {
 					$b2b2c_goods_product_one = $b2b2c_goods_product[$one];
 					break;
 				}
 			}
 		}
-		
+
 		$this->assign('b2b2c_goods_product', $b2b2c_goods_product);
 		$this->assign('b2b2c_goods_product_one', $b2b2c_goods_product_one);
 		$this->assign('goods_id', $goods_id);

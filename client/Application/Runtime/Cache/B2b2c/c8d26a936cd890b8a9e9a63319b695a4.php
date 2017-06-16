@@ -66,15 +66,15 @@ var _hmt = _hmt || [];
         <!--商品一start-->
         <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$val): $mod = ($i % 2 );++$i;?><section class="b2b2c_collect_product bgcf clearfix">
             <div class="img_box fl">
-                <a href="<?php echo U('Index/goodspointinfo',array('goods_id'=>$val['goods_id']));?>"><img src="<?php echo ($val["images"]["0"]); ?>" alt=""></a>
+                <a href="<?php echo U('Index/goodspointinfo',array('goods_id'=>$val['goods_id']));?>"><img src="<?php echo ($val["goods_images"]["0"]); ?>" alt=""></a>
             </div>
             <div class="b2b2c_collect_inner fr">
                 <p class="toe" title="<?php echo ($val["goods_name"]); ?>"><?php echo ($val["goods_name"]); ?></p>
                 <div class="b2b2c_collect_innerbtm">
                     <p class="fl">
-                        <span>¥<?php echo ($val["price"]); ?></span>
+                        <span>¥<?php echo ($val["goods_price"]); ?></span>
                     </p>
-                    <input onclick="b2b2cf.cancel_collect_goods(<?php echo ($val["b2b2c_favorite_id"]); ?>)" type="button" class="fr"readonly value="取消收藏">
+                    <input onclick="b2b2cf.cancel_collect_goods(<?php echo ($val["fav_id"]); ?>)" type="button" class="fr"readonly value="取消收藏">
                 </div>      
             </div>
         </section><?php endforeach; endif; else: echo "" ;endif; ?>
