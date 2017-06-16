@@ -9,12 +9,12 @@
         <!--头像等资料start-->
         <section class="b2b2c_user_box_top bgcf">
             <div class="b2b2c_user_data">
-                <img src="{$user_info.portrait_url}" alt="">
+                <img src="{$user_info.img}" alt="">
                 <p class="toe">
                     <notempty name="user_info.nickname">
-                        {$user_info.nickname}
+                        {$user_info.info_realname}
                     <else />
-                        {$user_info.telno}
+                        {$user_info.info_nickname}
                     </notempty>                    
                 </p>
             </div>

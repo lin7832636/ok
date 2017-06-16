@@ -60,7 +60,7 @@ var _hmt = _hmt || [];
     <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
         <?php if(is_array($banner)): foreach($banner as $key=>$vo): ?><div class="swiper-slide <?php echo ($vo["active"]); ?>" style="width:100%;">
                 <a href="javascript:void(0);">
-                    <img class="b2b2c_public_banner_slider_img" data-src="" alt="" src="<?php echo ($vo["image"]["0"]); ?>" data-holder-rendered="true" onclick="window.open('<?php echo ($vo["url"]); ?>')"/>
+                    <img class="b2b2c_public_banner_slider_img" data-src="" alt="" src="http://127.0.0.1/ok/servers/<?php echo ($vo["carousel_logo"]); ?>" data-holder-rendered="true" onclick="window.open('<?php echo ($vo["carousel_url"]); ?>')"/>
                 </a>
             </div><?php endforeach; endif; ?>
     </div>

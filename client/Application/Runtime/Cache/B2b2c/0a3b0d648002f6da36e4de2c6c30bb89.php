@@ -66,11 +66,11 @@ var _hmt = _hmt || [];
         <!--头像等资料start-->
         <section class="b2b2c_user_box_top bgcf">
             <div class="b2b2c_user_data">
-                <img src="<?php echo ($user_info["portrait_url"]); ?>" alt="">
+                <img src="<?php echo ($user_info["img"]); ?>" alt="">
                 <p class="toe">
-                    <?php if(!empty($user_info["nickname"])): echo ($user_info["nickname"]); ?>
+                    <?php if(!empty($user_info["nickname"])): echo ($user_info["info_realname"]); ?>
                     <?php else: ?>
-                        <?php echo ($user_info["telno"]); endif; ?>                    
+                        <?php echo ($user_info["info_nickname"]); endif; ?>                    
                 </p>
             </div>
             <div class="b2b2c_user_data_settings">

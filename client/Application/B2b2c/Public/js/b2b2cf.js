@@ -367,7 +367,6 @@ var b2b2cf = {
             return;
         }
         $.post(GV.MODULE_URL + 'Index/login', {'telno': telno, 'password': password}, function(e) {
-           // alert(e);
             if (e.status) {
                 b2b2cc.popupdialog('登录成功!', 'Index/index');
             } else {
@@ -568,8 +567,8 @@ var b2b2cf = {
     **/
     add_user_address : function(){
         var post_data = {};
-        post_data.name = $('input[name="name"]').val();
-        if (b2b2cc.isNull(post_data.name)) {
+        post_data.names = $('input[name="names"]').val();
+        if (b2b2cc.isNull(post_data.names)) {
             b2b2cc.popupdialog('收货人姓名不能为空');
             return false;
         }
@@ -719,12 +718,14 @@ var b2b2cf = {
      * @return void
      * +--------------------------------------------------------------------------------------------------------------------
     **/
-    cancel_collect_goods: function(b2b2c_favorite_id) {
-        if (b2b2cc.isNull(b2b2c_favorite_id)) {
+    cancel_collect_goods: function(fav_id) {
+
+        if (b2b2cc.isNull(fav_id)) {
             b2b2cc.popupdialog('取消失败');
             return false;
         }
-        b2b2cc.curls('B2b2cPrivate/FavoriteGoodsDelete', {b2b2c_favorite_id: b2b2c_favorite_id}, function(data) {
+
+        b2b2cc.curls('B2b2cPrivate/FavoriteGoodsDelete', {fav_id: fav_id}, function(data) {
             if (data.status) {
                 b2b2cc.popupdialog('取消成功', 'User/collect');
             } else {
@@ -2826,8 +2827,8 @@ var b2b2cf = {
     **/
     order_confirm_add_address_submit : function(url){
         var post_data = {};
-        post_data.name = $('input[name="name"]').val();
-        if (b2b2cc.isNull(post_data.name)) {
+        post_data.names = $('input[name="names"]').val();
+        if (b2b2cc.isNull(post_data.names)) {
             b2b2cc.popupdialog('收货人姓名不能为空');
             return false;
         }
@@ -2872,9 +2873,8 @@ var b2b2cf = {
             b2b2cc.close_marsk();
             if (data.status) {
                 b2b2cc.popupdialog('添加成功！');
-
                 if(!b2b2cc.isNull(url)){
-                    window.location.href = GV.MODULE_URL + url + '/logis_model_id/' + data.data.id;
+                    window.location.href = GV.MODULE_URL + url + '?logis_model_id=' + data.data;
                 }
 
             } else {
@@ -2901,7 +2901,8 @@ var b2b2cf = {
     order_confirm_address_selected : function(thisObj){
         var product_id = $('#b2b2c_order_confirm_product_id').val();
         var product_count = $('#b2b2c_order_confirm_product_count').val();
-        var url = GV.MODULE_URL + 'User/order_confirm_goodsdetail' + '/product_id/' + product_id + "/logis_model_id/" + $(thisObj).data('id') + "/product_count/" + product_count;
+        var url= GV.MODULE_URL +'User/order_confirm_goodsdetail' + '?product_id=' + product_id + "&logis_model_id=" + $(thisObj).data('id') + "&product_count=" + product_count;
+        // var url = GV.MODULE_URL + 'User/order_confirm_goodsdetail' + '/product_id/' + product_id + "/logis_model_id/" + $(thisObj).data('id') + "/product_count/" + product_count;
         window.location.href = url;
     },
 

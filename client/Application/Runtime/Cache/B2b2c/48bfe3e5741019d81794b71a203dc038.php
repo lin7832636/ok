@@ -7,25 +7,25 @@
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <meta content="telephone=no" name="format-detection"/>
-        <script type="text/javascript">var GV = {DIMAUB: "/client/", MODULE_URL: "/client/index.php/B2b2c/"};</script>
-    <link rel="stylesheet" type="text/css" href="/client/Application/B2b2c/Public/plug/swiper/css/swiper.min.css" />
-    <link rel="stylesheet" type="text/css" href="/client/Application/B2b2c/Public/plug/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="/client/Application/B2b2c/Public/plug/upload/style.css" />
-    <link rel="stylesheet" type="text/css" href="/client/Application/B2b2c/Public/plug/artDialog/css/ui-dialog.css" />
-    <link rel="stylesheet" type="text/css" href="/client/Application/B2b2c/Public/css/b2b2c.css" />
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/js/jquery.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/plug/swiper/js/swiper.min.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/plug/artDialog/dist/dialog.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/plug/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/js/b2b2cc.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/js/b2b2cf.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/js/b2b2cj.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/js/b2b2c.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/plug/effect/js/jquery.ui.widget.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/plug/effect/js/jquery.iframe-transport.js"></script>
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/plug/effect/js/jquery.fileupload.js"></script>
+        <script type="text/javascript">var GV = {DIMAUB: "/ok/client/", MODULE_URL: "/ok/client/index.php/B2b2c/"};</script>
+    <link rel="stylesheet" type="text/css" href="/ok/client/Application/B2b2c/Public/plug/swiper/css/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="/ok/client/Application/B2b2c/Public/plug/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/ok/client/Application/B2b2c/Public/plug/upload/style.css" />
+    <link rel="stylesheet" type="text/css" href="/ok/client/Application/B2b2c/Public/plug/artDialog/css/ui-dialog.css" />
+    <link rel="stylesheet" type="text/css" href="/ok/client/Application/B2b2c/Public/css/b2b2c.css" />
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/js/jquery.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/plug/swiper/js/swiper.min.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/plug/artDialog/dist/dialog.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/plug/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/js/b2b2cc.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/js/b2b2cf.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/js/b2b2cj.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/js/b2b2c.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/plug/effect/js/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/plug/effect/js/jquery.iframe-transport.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/plug/effect/js/jquery.fileupload.js"></script>
 
-    <script type="text/javascript" src="/client/Application/B2b2c/Public/plug/bootstrap/js/bootstrap-datetimepicker.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/plug/bootstrap/js/bootstrap-datetimepicker.js"></script>
     <script>
 var _hmt = _hmt || [];
 (function() {
@@ -69,7 +69,7 @@ var _hmt = _hmt || [];
         <section class="b2b2c_add_new_address">
             <div class="b2b2c_newadd_inner bgcf">
                 <label for="">收货人</label>
-                <input type="text" autofocus name="name" value="">
+                <input type="text" autofocus name="names" value="">
             </div>
             <div class="b2b2c_newadd_inner bgcf">
                 <label for="">联系电话</label>
@@ -89,13 +89,13 @@ var _hmt = _hmt || [];
             </div>
             <div class="b2b2c_newadd_inner bgcf clearfix">
                 <label for="" class="fl">设为默认</label>
-                <input type="image" name="is_default" src="/client/Application/B2b2c/Public/images/icons/030.png" class="fr" value="0" onclick="b2b2cf.add_address_is_default();">
+                <input type="image" name="is_default" src="/ok/client/Application/B2b2c/Public/images/icons/030.png" class="fr" value="0" onclick="b2b2cf.add_address_is_default();">
                 <!--点击以后input的image 换成 src="../images/icons/031.png"-->
             </div>
         </section>
     <!--表单区域end-->
 </div>
-<script type="text/javascript" src="/client/Application/B2b2c/Public/plug/area/areas.js"></script>
+<script type="text/javascript" src="/ok/client/Application/B2b2c/Public/plug/area/areas.js"></script>
 <!--地区选择插件-->
 <script type="text/javascript">
     $("#area").click(function (e) {
