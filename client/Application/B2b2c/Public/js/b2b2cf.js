@@ -283,7 +283,7 @@ var b2b2cf = {
             }, function(e) {
                 $('#button_register_submit').val('请点击提交');
                 if (e.status) {
-                    b2b2cc.popupdialog('注册成功!', 'Index/login');
+                    b2b2cc.popupdialog('注册成功!', 'Index/index');
                 } else {
                     $('#b2b2c_div_register_error_message').text(e.info);
                 }
