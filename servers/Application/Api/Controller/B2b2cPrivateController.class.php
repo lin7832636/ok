@@ -35,7 +35,7 @@ class B2b2cPrivateController extends PrivateController {
         $data=array();
         $img = M('files')->where(array('uid'=>$user_id))->find();
         $info = D('Commons')->FilesGetUrl(array('key'),$img);
-        $data =$userinfo->field('info_id,user_id,info_nickname,info_realname,info_birthday,info_gender,info_portrait')->where("user_id ='$user_id'")->find();
+        $data =$userinfo->field('info_id,user_id,info_nickname,info_realname,info_birthday,info_gender,info_portrait,info_tel')->where("user_id ='$user_id'")->find();
         $data['img']=$info['key'][0];
         if(empty($data))
         {

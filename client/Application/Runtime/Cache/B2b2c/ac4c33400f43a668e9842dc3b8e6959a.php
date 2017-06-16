@@ -7,25 +7,25 @@
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <meta content="telephone=no" name="format-detection"/>
-        <script type="text/javascript">var GV = {DIMAUB: "/oks/client/", MODULE_URL: "/oks/client/index.php/B2b2c/"};</script>
-    <link rel="stylesheet" type="text/css" href="/oks/client/Application/B2b2c/Public/plug/swiper/css/swiper.min.css" />
-    <link rel="stylesheet" type="text/css" href="/oks/client/Application/B2b2c/Public/plug/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="/oks/client/Application/B2b2c/Public/plug/upload/style.css" />
-    <link rel="stylesheet" type="text/css" href="/oks/client/Application/B2b2c/Public/plug/artDialog/css/ui-dialog.css" />
-    <link rel="stylesheet" type="text/css" href="/oks/client/Application/B2b2c/Public/css/b2b2c.css" />
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/js/jquery.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/plug/swiper/js/swiper.min.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/plug/artDialog/dist/dialog.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/plug/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/js/b2b2cc.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/js/b2b2cf.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/js/b2b2cj.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/js/b2b2c.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/plug/effect/js/jquery.ui.widget.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/plug/effect/js/jquery.iframe-transport.js"></script>
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/plug/effect/js/jquery.fileupload.js"></script>
+        <script type="text/javascript">var GV = {DIMAUB: "/ok/client/", MODULE_URL: "/ok/client/index.php/B2b2c/"};</script>
+    <link rel="stylesheet" type="text/css" href="/ok/client/Application/B2b2c/Public/plug/swiper/css/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="/ok/client/Application/B2b2c/Public/plug/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/ok/client/Application/B2b2c/Public/plug/upload/style.css" />
+    <link rel="stylesheet" type="text/css" href="/ok/client/Application/B2b2c/Public/plug/artDialog/css/ui-dialog.css" />
+    <link rel="stylesheet" type="text/css" href="/ok/client/Application/B2b2c/Public/css/b2b2c.css" />
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/js/jquery.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/plug/swiper/js/swiper.min.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/plug/artDialog/dist/dialog.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/plug/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/js/b2b2cc.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/js/b2b2cf.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/js/b2b2cj.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/js/b2b2c.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/plug/effect/js/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/plug/effect/js/jquery.iframe-transport.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/plug/effect/js/jquery.fileupload.js"></script>
 
-    <script type="text/javascript" src="/oks/client/Application/B2b2c/Public/plug/bootstrap/js/bootstrap-datetimepicker.js"></script>
+    <script type="text/javascript" src="/ok/client/Application/B2b2c/Public/plug/bootstrap/js/bootstrap-datetimepicker.js"></script>
     <script>
 var _hmt = _hmt || [];
 (function() {
@@ -56,9 +56,9 @@ var _hmt = _hmt || [];
 <body>
 
 
-<script src="/oks/client/Application/B2b2c/Public/plug/date/mobiscroll_002.js" type="text/javascript"></script>
-<script src="/oks/client/Application/B2b2c/Public/plug/date/mobiscroll.js" type="text/javascript"></script>
-<link href="/oks/client/Application/B2b2c/Public/plug/date/mobiscroll.css" rel="stylesheet" type="text/css">
+<script src="/ok/client/Application/B2b2c/Public/plug/date/mobiscroll_002.js" type="text/javascript"></script>
+<script src="/ok/client/Application/B2b2c/Public/plug/date/mobiscroll.js" type="text/javascript"></script>
+<link href="/ok/client/Application/B2b2c/Public/plug/date/mobiscroll.css" rel="stylesheet" type="text/css">
 
 <div class="b2b2c_layout">
     <!--头部start-->
@@ -88,7 +88,7 @@ var _hmt = _hmt || [];
         <section class="bgcf">
             <a class="b2b2c_public_h56 clearfix" href="javascript:void(0);" onclick="b2b2cf.edit_gender();">
                 <span class="fl">性别</span>
-                <?php if($user_info["gender"] == 1): ?><span class="fr" id="b2b2c_span_gender">男</span>
+                <?php if($user_info["info_gender"] == 1): ?><span class="fr" id="b2b2c_span_gender">男</span>
                 <?php else: ?>
                     <span class="fr" id="b2b2c_span_gender">女</span><?php endif; ?>
             </a>
@@ -114,7 +114,7 @@ var _hmt = _hmt || [];
         <section class="b2b2c_user_number_show">
             <p class="b2b2c_public_h56 clearfix">
                 <span class="fl">手机号码</span>
-                <span class="fr"><?php echo ($user_info["telno"]); ?></span>
+                <span class="fr"><?php echo ($user_info["info_tel"]); ?></span>
             </p>
         </section>
     </main>
