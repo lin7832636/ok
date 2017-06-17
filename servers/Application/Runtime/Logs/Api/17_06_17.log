@@ -173,3 +173,333 @@ INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
 SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0312s ]
 SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0000s ]
 
+[ 2017-06-17T09:38:10+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0160s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = 'cf8fb3a85cfcb075f989ab471868ee8e15f0eaf2c9ba1b414604ba431c86187c' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-17T09:38:10+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=479fdd9e2ea79f836bc322f615381cd000aa0577c8e77f3865f0c3dc09d589cc&token_time=1497663490&token=74019f4975067c09733cf47f7c475986b3f9d2375b5d2e8bc96cd2403308b5b7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0460s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-17T09:38:16+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0150s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = 'cf8fb3a85cfcb075f989ab471868ee8e15f0eaf2c9ba1b414604ba431c86187c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-17T09:38:16+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=479fdd9e2ea79f836bc322f615381cd000aa0577c8e77f3865f0c3dc09d589cc&token_time=1497663496&token=fb26e6a089750482ad29fdb24c30bcef791c129dc3ae083ef042e55383553fee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-17T09:38:33+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0450s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\ok\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-17T09:38:33+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUser?user_token=3d2da2181995c3a54ca75f45a0d1eee935def4a59fa0834161cc6fdd6bdf424c&token_time=1497663513&token=e80b91635c036e0897f40f10e3664878baaefbc4fb1f806c45d5c3ecac0124a7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-17T09:38:36+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Carousel?type=4&token_time=1497663516&token=48d37b33858be64abd230943c652ac9fab50d5bf96597495f4cf58e2dfd52079&user_token=3d2da2181995c3a54ca75f45a0d1eee935def4a59fa0834161cc6fdd6bdf424c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_carousel` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `sp_carousel` WHERE `carousel_status` > 0 LIMIT 4   [ RunTime:0.0020s ]
+
+[ 2017-06-17T09:38:36+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497663516&token=9feae2b12817cc82c83770abb59f865306831637d71ee76cd9a70660110ed473&user_token=3d2da2181995c3a54ca75f45a0d1eee935def4a59fa0834161cc6fdd6bdf424c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-17T09:38:36+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497663516&token=9feae2b12817cc82c83770abb59f865306831637d71ee76cd9a70660110ed473&user_token=3d2da2181995c3a54ca75f45a0d1eee935def4a59fa0834161cc6fdd6bdf424c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-17T09:38:38+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0150s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = 'cf8fb3a85cfcb075f989ab471868ee8e15f0eaf2c9ba1b414604ba431c86187c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-17T09:38:38+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=3d2da2181995c3a54ca75f45a0d1eee935def4a59fa0834161cc6fdd6bdf424c&token_time=1497663518&token=ab5fd88a6033f59794743e7eb68d2e02ceb59c05c6428ce0cc651145c93590c2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-17T09:38:43+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0260s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = '5bf98354a7e731b373b7dfbb4349803d8ae9e85964b10d2dad45be150d6952be' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-06-17T09:38:43+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetFavoriteList?user_token=3d2da2181995c3a54ca75f45a0d1eee935def4a59fa0834161cc6fdd6bdf424c&token_time=1497663522&token=6030f29974692d2641edc666a1de4628d614d8b787426092cbdbbe221a09f1dc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_favorite` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `sp_favorite` INNER JOIN sp_goods on sp_goods.goods_id = sp_favorite.goods_id INNER JOIN sp_product on sp_product.goods_id = sp_goods.goods_id  WHERE `user_id` = 1  [ RunTime:0.0030s ]
+
+[ 2017-06-17T09:38:48+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetOrderList?user_token=3d2da2181995c3a54ca75f45a0d1eee935def4a59fa0834161cc6fdd6bdf424c&terminal_type=2&token_time=1497663528&token=06177bc9b64aeaadfd31d399524cd1058884fba72be30ce1131726535333e4a5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:GetOrderList
+
+[ 2017-06-17T09:38:49+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetOrderList?terminal_type=2&last_order_index=&status=0&user_token=3d2da2181995c3a54ca75f45a0d1eee935def4a59fa0834161cc6fdd6bdf424c&token_time=1497663529&token=bfcd4620c0b358e17265631423536cfa19898543c54892db7ac51a92a2556c08
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:GetOrderList
+
+[ 2017-06-17T09:38:53+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/AddressBuyersList?user_token=3d2da2181995c3a54ca75f45a0d1eee935def4a59fa0834161cc6fdd6bdf424c&token_time=1497663533&token=bb84ec3afa543ebe07b32331b194b133810f2953ccc5edaca643f5d77895b428
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_address` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `sp_user_address` WHERE `user_id` = 1 ORDER BY is_default  desc  [ RunTime:0.0020s ]
+
+[ 2017-06-17T09:41:40+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0430s ]
+SQL: SELECT `user_id`,`password`,`status`,`usertelno` FROM `sp_user` WHERE `usertelno` = '1' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_status D:\phpStudy\WWW\ok\servers\Application\Api\Controller\UserController.class.php 第 72 行.
+
+[ 2017-06-17T09:41:40+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUser?user_token=0647ecb99f8a4dace608623e38ae89b17a069a1b92b62f632c658c7cd122cc9f&token_time=1497663700&token=7f546ae9752dab65e8719a557ea3082eb4dff9701a817ab95be5c88d322f8a12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-17T09:41:43+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Carousel?type=4&token_time=1497663703&token=038dafac44c3f35301103eaf710dccd8c4828ad65bcf489be2c79afc03dfce78&user_token=0647ecb99f8a4dace608623e38ae89b17a069a1b92b62f632c658c7cd122cc9f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_carousel` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `sp_carousel` WHERE `carousel_status` > 0 LIMIT 4   [ RunTime:0.0020s ]
+
+[ 2017-06-17T09:41:43+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497663703&token=9b1ab895baa81a190939ecb30941de5daca0687c0259d1121a5aedf3356582f9&user_token=0647ecb99f8a4dace608623e38ae89b17a069a1b92b62f632c658c7cd122cc9f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-17T09:41:43+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497663703&token=9b1ab895baa81a190939ecb30941de5daca0687c0259d1121a5aedf3356582f9&user_token=0647ecb99f8a4dace608623e38ae89b17a069a1b92b62f632c658c7cd122cc9f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:GetGoodsByRecommendMobile
+
+[ 2017-06-17T09:41:46+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0170s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = 'cf8fb3a85cfcb075f989ab471868ee8e15f0eaf2c9ba1b414604ba431c86187c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-17T09:41:46+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=0647ecb99f8a4dace608623e38ae89b17a069a1b92b62f632c658c7cd122cc9f&token_time=1497663705&token=6e1cec1c29827f6620d72fb332cba9dab8f9f03c798d92f17174e75277b80a82
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-17T09:41:48+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetOrderList?user_token=0647ecb99f8a4dace608623e38ae89b17a069a1b92b62f632c658c7cd122cc9f&terminal_type=2&token_time=1497663708&token=5bbefdeed9a538c1ba2c142eb649cf17b374d6d6549984c397f0f6228c7d8d0f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:GetOrderList
+
+[ 2017-06-17T09:41:48+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetOrderList?terminal_type=2&last_order_index=&status=0&user_token=0647ecb99f8a4dace608623e38ae89b17a069a1b92b62f632c658c7cd122cc9f&token_time=1497663708&token=44e337e3388c5bb33715bbf21a39f0065d833cc4e2781de8ef1f04e6b77787e9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetOrderList
+
+[ 2017-06-17T09:41:50+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetOrderList?terminal_type=2&last_order_index=0&status=1&user_token=0647ecb99f8a4dace608623e38ae89b17a069a1b92b62f632c658c7cd122cc9f&token_time=1497663710&token=62d4521cac670251edb28d237bc43dcd17646056cf9afa93f6648d3b130e8def
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:GetOrderList
+
+[ 2017-06-17T09:42:21+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/Files/GetUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0150s ]
+SQL: SELECT `path`,`type`,`time` FROM `sp_files` WHERE `key` = 'cf8fb3a85cfcb075f989ab471868ee8e15f0eaf2c9ba1b414604ba431c86187c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-17T09:42:21+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPrivate/GetUserInfo?user_token=0647ecb99f8a4dace608623e38ae89b17a069a1b92b62f632c658c7cd122cc9f&token_time=1497663741&token=5aaa1820009ef9837ece8ac2aea17e21912d36f1de75c6f67853912ad408fca0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_user_info` [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `sp_files` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `sp_files` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `info_id`,`user_id`,`info_nickname`,`info_realname`,`info_birthday`,`info_gender`,`info_portrait`,`info_tel` FROM `sp_user_info` WHERE ( user_id ='1' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-17T09:42:25+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/User/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Logout
+
+[ 2017-06-17T09:42:25+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/Carousel?type=4&token_time=1497663745&token=d9d15f35c2ebce34be6cd1143cc95ce971a78bf4dc8e418c26752d3dbbd78303
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `sp_carousel` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `sp_carousel` WHERE `carousel_status` > 0 LIMIT 4   [ RunTime:0.0020s ]
+
+[ 2017-06-17T09:42:25+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsTypeList?token_time=1497663745&token=36fe50f6798eaeb828d5ec10495eff39447e3996bc7b91b087e11c6823d51a63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsTypeList
+
+[ 2017-06-17T09:42:25+08:00 ] 127.0.0.1 /ok/servers/index.php/Api/B2b2cPublic/GetGoodsByRecommendMobile?token_time=1497663745&token=36fe50f6798eaeb828d5ec10495eff39447e3996bc7b91b087e11c6823d51a63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_token D:\phpStudy\WWW\ok\servers\Application\Api\Controller\PublicController.class.php 第 18 行.
+ERR: 非法操作:GetGoodsByRecommendMobile
+
