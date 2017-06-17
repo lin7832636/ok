@@ -245,12 +245,13 @@ class UserController extends PrivateController {
      * +--------------------------------------------------------------------------------------------------------------------
     **/
     public function order_manage() {
-        $user_token = get_user_token();
-        $list = curls(C('APIURL') . 'B2b2cPrivate/GetOrderList', 'get', array('user_token'=>get_user_token(), 'terminal_type'=>2), true);
-
-        $this->assign('list', $list['data']['list']);
+        $data=array(
+            'user_token'=>get_user_token()
+        );
+        $list = curls(C('APIURL') . 'B2b2cPrivate/GetOrderList', 'get',$data, true);
+        $this->assign('list',$list['data']);
         $this->display();
-    }    
+    }
     
     /**
      * +--------------------------------------------------------------------------------------------------------------------
@@ -272,7 +273,7 @@ class UserController extends PrivateController {
     public function buyermakeorderrated() {
         $param['type'] = I('get.type', 0, 'intval');
         $param['order_id'] = I('get.order_id', 0, 'intval');
-        $param['product_id'] = I('get.product_id', 0, 'intval');
+        $param['product_id'] = I('get./', 0, 'intval');
         //订单详情
         $order_info = curls(C('APIURL') . 'B2b2cPrivate/GetOrderDetail', 'get', array('order_id' => $param['order_id']), true);
         if(empty($order_info['data'])){

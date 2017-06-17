@@ -1,0 +1,28 @@
+<include file="Public/header"/>
+<body>
+<table border="1">
+    <tr>
+        <td>订单ID</td>
+        <td>订单号</td>
+        <td>用户</td>
+        <td>支付金额</td>
+        <td>支付方式</td>
+        <td>支付时间</td>
+        <td>支付状态</td>
+        <td>订单状态</td>
+    </tr>
+    <foreach name="order" item="aa">
+        <tr>
+            <td>{$aa.id}</td>
+            <td>{$aa.order_no}</td>
+            <td>{$aa.usertelno}</td>
+            <td>{$aa.sum}</td>
+            <td>{$aa.pay_type}</td>
+            <td>{$aa.pay_time}</td>
+            <td>{$aa.order_status}</td>
+            <td>{$aa.is_delflag}</td>
+        </tr>
+    </foreach>
+</table>
+</body>
+</html>

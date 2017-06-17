@@ -753,7 +753,7 @@ var b2b2cf = {
         if(switching_order_status){
             return false;
         }
-        switching_order_status = true;
+        //switching_order_status = true;
         $('.dropload-down').remove();
         $('.b2b2c_mage_order_con').html('');
 
@@ -764,103 +764,17 @@ var b2b2cf = {
                 $(this).removeClass('active');
             }
         });
-
         var get_data = {};
-        get_data.terminal_type = 2;
-        var last_order_index = 0;
-        get_data.last_order_index = last_order_index;
         get_data.status = $(thisObj).data('status');
-
-        b2b2cc.curls('B2b2cPrivate/GetOrderList', get_data, function(data) {
+        b2b2cc.curls('B2b2cPrivate/GetOrderLists', get_data, function(data) {
             if(data.status){
-                var data = data.data.list;
-                var html = "";
-
-                dropload = $('.dropload_content').dropload({
-                    scrollArea : window,
-                    domUp : {
-                        domClass   : 'dropload-up',
-                        domRefresh : '<div class="dropload-refresh">↓下拉刷新</div>',
-                        domUpdate  : '<div class="dropload-update">↑释放更新</div>',
-                        domLoad    : '<div class="dropload-load"><span class="loading"></span>加载中...</div>'
-                    },
-                    domDown : {
-                        domClass   : 'dropload-down',
-                        domRefresh : '<div class="dropload-refresh">↑上拉加载更多</div>',
-                        domLoad    : '<div class="dropload-load"><span class="loading"></span>加载中...</div>',
-                        domNoData  : '<div class="dropload-noData">暂无更多数据</div>'
-                    },
-                    loadUpFn : function(me){
-                        var get_data = {};
-                        get_data.terminal_type = 2;
-                        var last_order_index = 0;
-                        get_data.last_order_index = last_order_index;
-                        get_data.status = $('.b2b2c_mage_order li.active').eq(0).data('status');
-
-                        b2b2cc.curls('B2b2cPrivate/GetOrderList', get_data, function(data) {
-                            if(data.status){
-                                var data = data.data.list;
-                                var html = "";
-                                if(data.length > 0){
-                                    html = b2b2cf.order_manage_make_list_html(data, last_order_index);
-                                }
-
-                                $('.b2b2c_mage_order_con').html(html);
-                                me.resetload();
-                                me.unlock();
-                                me.noData(false);
-                            }
-
-                        }, 'get');
-                    },
-                    loadDownFn : function(me){
-                        var get_data = {};
-                        get_data.terminal_type = 2;
-
-                        var last_order_index = $('.b2b2c_mage_order_inner:last').data('index');
-                        get_data.last_order_index = last_order_index;
-                        get_data.status = $('.b2b2c_mage_order li.active').eq(0).data('status');
-
-                        b2b2cc.curls('B2b2cPrivate/GetOrderList', get_data, function(data) {
-                            if(data.status){
-                                var data = data.data.list;
-                                var html = "";
-                                if(data.length > 0){
-                                    html = b2b2cf.order_manage_make_list_html(data, last_order_index);
-                                }else{
-                                    // 锁定
-                                    me.lock();
-                                    // 无数据
-                                    me.noData();
-                                }
-
-                                $('.b2b2c_mage_order_con').append(html);
-                                me.resetload();
-                            
-                                switching_order_status = false;
-
-                            }
-
-                        }, 'get');
-                    },
-                    threshold : 50
-                });
-
-                // if(data.length > 0){
-                //     html = b2b2cf.order_manage_make_list_html(data, last_order_index);
-                // }else{
-                //     // 锁定
-                //     dropload.lock();
-                //     // 无数据
-                //     dropload.noData();
-                // }
+                html = b2b2cf.order_manage_make_list_html(data.data);
+                alert(html);
                 // $('.b2b2c_mage_order_con').html(html);
-                // dropload.direction = 'up';
-                // dropload.resetload();
+                //me.resetload();
             }
-
         }, 'get');
-    },    
+    },
 
     /**
      *+--------------------------------------------------------------------------------------------------------------------
@@ -879,95 +793,67 @@ var b2b2cf = {
      * @return void
      * +--------------------------------------------------------------------------------------------------------------------
     **/
-    order_manage_make_list_html : function(data,last_order_index){
+    order_manage_make_list_html : function(data){
         var html = "";
-        for (var one = 0; one < data.length; one++) {
-            last_order_index++;
-            html += '<section class="b2b2c_mage_order_inner" data-index="'+last_order_index+'">';
-            html += '    <div class="b2b2c_order_inner_t bgcf b2b2c_p16 clearfix">';
-            html += '        <span class="b2b2c_shop_name fl toe">'+data[one]['shop_name']+'</span>';
-            html += '        <span class="b2b2c_shop_state fr tr">';
-            html += data[one]['order_status_str'];
-            html += '        </span>';
-            html += '    </div>';
-            html += '    <div class="b2b2c_order_inner_c">';
-            html += '        <div class="b2b2c_product bgcf">';
-            html += '            <ul>';
-            html += '                <!-- 商品内容一start-->';
-
-            var list = data[one]['product_list'];
-            for (var two = 0; two < list.length; two++) {
-                html += '<li class="clearfix">';
-                html += '    <div class="b2b2c_div clearfix" onclick=\'window.location.href="'+GV.MODULE_URL+'User/orderdetailbuyers/order_id/'+list[two]['id']+'"\'>';
-                html += '        <div class="b2b2c_imgbox fl">';
-                html += '            <a href="javascript:void(0);">';
-                html += '            <img src="'+list[two]['oi_image'][0]+'" alt=""></a>';
-                html += '        </div>';
-                html += '        <div class="b2b2c_product_txt fl">';
-                html += '            <h3>'+list[two]['oi_name']+'</h3>';
-                html += '            <p class="clearfix">';
-                html += '            <span class="fl">';
-                html += '                <i>&yen</i>';
-                html += '                <i>'+list[two]['oi_price']+'</i>';
-                html += '                <i>&times;</i>';
-                html += '                <i>'+list[two]['oi_count']+'</i>';
-                html += '            </span>';
-                html += '            <span class="fr">';
-                html += '                 <i>&yen</i>';
-                html += '                <i>'+list[two]['oi_sum']+'</i>';
-                html += '            </span>';
-                html += '            </p>';
-                html += '        </div>';
-                html += '    </div>';
-                html += '    <div class="b2b2c_succeed_after_box clearfix">';
-
-                if(list[two]['has_comment_button']){
-                    html += '<a class="fr" href="'+GV.MODULE_URL+'User/buyermakeorderrated/order_id/'+list[two]['id']+'/product_id/'+list[two]['product_id']+'">评价</a>';
-                }
-
-                if(list[two]['has_aftersale_apply_button']){
-                    html += '<a class="fr" href="javascript:void(0);" onclick="b2b2cf.order_manage_aftersale_apply()">申请售后</a>';
-                }
-
-                html += '    </div>';
-                html += '</li>';
-            };
-
-
-            html += '                <!--商品内容一end-->';
-            html += '            </ul>';
-            html += '        </div>';
-            html += '        <div class="b2b2c_payment_box bgcf b2b2c_p16 clearfix">';
-            html += '            <div class="b2b2c_payment fr">';
-            html += '                <span>实付:&yen</span>';
-            html += '                <span class="b2b2c_price">'+data[one]['sum']+'</span>';
-            html += '                <span>(含运费<i>&yen</i><i>'+data[one]['order_shipping_fee']+'</i>)</span>';
-            html += '            </div>';
-            html += '        </div>';
-            html += '    </div>';
-            html += '    <div class="b2b2c_order_inner_b bgcf clearfix">';
-
-            if(data[one]['has_pay_button']){
-                html += '<a href="'+GV.MODULE_URL+'Pay/applypay/sn/'+data[one]['order_sn']+'" class="fr">立即付款</a>';
-            }
-
-            if(data[one]['has_refund_apply_button']){
-                html += '<a href="javascript:void(0);" class="fr" onclick="b2b2cf.apply_order_refund('+data[one]['id']+')">申请退款</a>';
-            }
-
-            if(data[one]['has_logi_button']){
-                html += '<a href="javascript:void(0);" class="fl" onclick="b2b2cf.get_order_logistics_detail('+data[one]['id']+')">物流信息</a>';
-            }
-
-            if(data[one]['has_take_goods_button']){
-                html += '<a href="javascript:void(0);" class="fr" onclick="b2b2cf.make_order_sure('+data[one]['id']+')">点击收货</a>';
-            }
-
-            html += '    </div>';
-            html += '</section>';                    
-        };
-
-        return html;
+        var data=data.list;
+        return data;
+        // for (var one = 0; one < data.length; one++) {
+        //     var title=data[one].title;
+        //     html += '<section class="b2b2c_mage_order_inner" data-index="'+one+'">';
+        //     html += '    <div class="b2b2c_order_inner_t bgcf b2b2c_p16 clearfix">';
+        //     html += '        <span class="b2b2c_shop_state fr tr">';
+        //     if(data[one].order_status == 3 && data[one].is_pay==1) {
+        //         html += '        已取消';
+        //     }else if(data[one].order_status == 4) {
+        //         html += '        交易关闭';
+        //     }else if(data[one].order_status == 5 && data[one].is_pay == 1) {
+        //         html += '        已完成';
+        //     }else if(data[one].order_status == 6 && data[one].is_pay == 1) {
+        //         html += '        正在退款';
+        //     }else if(data[one].is_pay == 0) {
+        //         html += '        待付款';
+        //     }else if(data[one].is_pay == 1) {
+        //         html += '        已付款';
+        //     };
+        //     html += '        </span></div>';
+        //     html += '        <div class="b2b2c_order_inner_c">';
+        //     html += '        <div class="b2b2c_product bgcf"><ul>';
+        //     for(var i=0;i < title.length; i++) {
+        //         html += '        <li class="clearfix">';
+        //         html += '    <div class="b2b2c_div clearfix" onclick=\'window.location.href="'+GV.MODULE_URL+'User/orderdetailbuyers/order_id/'+title[i].id+'"\'>';
+        //         html += '        <div class="b2b2c_imgbox fl">';
+        //         html += '        <a href="javascript:void(0);">';
+        //         html += '        <img src="'+title[i].goods_img+'" alt=""></a></div>';
+        //         html += '        <div class="b2b2c_product_txt fl"><h3>' + title[i].goods_name + '</h3>';
+        //         html += '        <p class="clearfix"><span class="fl">';
+        //         html += '        <i>&yen</i><i>' + title[i].amount + '</i><i>&times;</i><i>' + title[i].goods_num + '</i>';
+        //         html += '        </span><span class="fr">';
+        //         html += '        <i>&yen</i><i>' +title[i].amount*title[i].goods_num+ '</i></span></p>';
+        //         html += '        </div><div class="b2b2c_succeed_after_box clearfix">';
+        //         if (title[i].order_status == 5) {
+        //             html += '<a class="fr"  onclick="'+"window.location.href='{:U(User/orderdetailbuyers,array(order_id=>"+title[i].id+"))}'"+'">评价</a>';
+        //             html +='<a class="fr" href="javascript:void(0);" onclick="b2b2cf.order_manage_aftersale_apply()">申请售后</a>';
+        //         }
+        //         html+='</div> </li>';
+        //     }
+        //     html +='</ul></div><div class="b2b2c_payment_box bgcf b2b2c_p16 clearfix">';
+        //     html +='<div class="b2b2c_payment fr"><span>实付:&yen</span><span class="b2b2c_price">'+data[one].sum+'</span></div></div>';
+        //     html +='</div><div class="b2b2c_order_inner_b bgcf clearfix">';
+        //     if(data[one].is_pay==0){
+        //         html +='<a href="'+"{:U('Pay/applypay',array('sn'=>"+data[one].sum+"))}"+'" class="fr">立即付款</a>';
+        //     }
+        //     if(data[one].is_pay==1 && data[one].order_status>=2){
+        //         html +='<a href="javascript:void(0)" class="fr" onclick="b2b2cf.apply_order_refund('+data[one].id+')">申请退单</a>';
+        //     }
+        //     if(data[one].is_pay==1 && data[one].is_delivery>=1){
+        //         html +='<a href="javascript:void(0)" class="fl" onclick="b2b2cf.get_order_logistics_detail('+data[one].id+')">物流信息</a>';
+        //     }
+        //     if(data[one].is_pay==1 && data[one].is_delivery==1 && data[one].is_stauts!=3 && data[one].is_stauts!=6 && data[one].is_stauts!=7 && data[one].is_stauts!=4){
+        //         html +='<a href="javascript:void(0)" class="fr" onclick="b2b2cf.make_order_sure('+data[one].id+')">点击收货</a>';
+        //     }
+        //     html +='</div></section>';
+        // };
+        // return html;
     },
 
     /**
