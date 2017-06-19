@@ -1,4 +1,18 @@
 <?php
+function get_category_tree($cat_list,$parentid=0)
+{
+    $result = array();//定义一个空数组
+    if(!empty($cat_list)){ //判断是否为空？
+        foreach($cat_list as $key=>$value){
+            if($value['type_pid']==$parentid){
+                $result[$key] = $value;//循环值
+
+                $result[$key]['son'] = get_category_tree($cat_list,$value['goods_type_id']);//父级Id 下所有的子级
+            }
+        }
+    }
+    return $result;
+}
 
 
 function array_string($array) {

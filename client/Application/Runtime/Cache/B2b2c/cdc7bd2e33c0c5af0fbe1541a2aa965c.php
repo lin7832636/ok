@@ -63,7 +63,7 @@ var _hmt = _hmt || [];
     <header class="b2b2c_public_header_two b2b2c_public_header_revamp">
         <span>购物车</span>
         <span>(<i class="b2b2c_cart_shop_num"><?php echo ($count); ?></i>)</span>
-		<input readonly="" value="编辑" type="button" onclick="b2b2cc.refresh('User/get_cart_list_edit', '', true);">
+		<!--<input readonly="" value="编辑" type="button" onclick="b2b2cc.refresh('User/get_cart_list_edit', '', true);">-->
 		<a href="<?php echo U('Index/index');?>" class="b2b2c_public_back"></a>
     </header>
 	</div>
@@ -73,49 +73,54 @@ var _hmt = _hmt || [];
     <main class="b2b2c_index_cart">
         <!--店铺二的商品start-->
 
-			<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><section class="b2b2c_index_cart_box bgcf">
-			<div class="b2b2c_shop_name b2b2c_p16 clearfix">
-                <input class="fl" id="<?php echo ($vo["shop_id"]); ?>" type="checkbox" onclick="b2b2cf.get_cart_list_checkbox(this);">
-                <a class="toe fl" href="#"><?php echo ($vo["shop_name"]); ?></a>
-            </div>
+
+			<section class="b2b2c_index_cart_box bgcf">
+				<div class="b2b2c_shop_name b2b2c_p16 clearfix">
+
+
+				</div>
 				<div class="b2b2c_index_cart_inner_box">
-				<?php if(is_array($vo["list"])): $i = 0; $__LIST__ = $vo["list"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$volist): $mod = ($i % 2 );++$i;?><!--商品一start-->
+
+				<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$volist): $mod = ($i % 2 );++$i;?><input type="hidden" class="product" value="<?php print_r($list); ?>">
+				<!--商品一start-->
 				<div class="b2b2c_index_cart_inner">
 					<div class="b2b2c_product_mid clearfix" onclick="b2b2cf.cart_jump_to_goods_info(<?php echo ($volist["goods_id"]); ?>)">
 						<div class="input_box fl">
-							<input 
-							<?php if($volist['product_store'] <= 0)echo 'disabled'; ?>
-							class="b2b2c_checkbox_<?php echo ($vo["shop_id"]); ?>" name="goodsinput" value="<?php echo ($volist["id"]); ?>" data-product-sum="<?php echo ($volist["product_price_sum"]); ?>" type="checkbox" onclick="b2b2cf.get_cart_list_checkbox(this,event);">
+							<input
+									class="b2b2c_checkbox_<?php echo ($vo["shop_id"]); ?>" name="goodsinput" value="<?php echo ($volist["id"]); ?>" data-product-sum="<?php echo $volist['goods_price']*$volist['count'];?>" type="checkbox" onclick="b2b2cf.get_cart_list_checkbox(this,event);">
 						</div>
-						<a href="#" class="fl"><img src="<?php echo ($volist['product_image'][0]); ?>" alt=""></a>
+						<a href="#" class="fl"><img src="<?php echo ($volist['goods_image'][0]); ?>" alt=""></a>
 						<div class="b2b2c_box fl">
+
 							<p class="toe"><?php echo ($volist["goods_name"]); ?></p>
 							<div class="b2b2c_price clearfix">
 								<span class="fl">
+
 									<i>&yen;</i>
-									<i><?php echo ($volist["product_price"]); ?></i>
+									<i><?php echo ($volist["goods_price"]); ?></i>
 									<i>&times;</i>
 									<i><?php echo ($volist["count"]); ?></i>
 								</span>
 								<span class="fr">
 									<i>&yen;</i>
-									<i><?php echo ($volist["product_price_sum"]); ?></i>
+									<i  a = "<?php echo $volist['goods_price']*$volist['count'];?>"><?php echo $volist['goods_price']*$volist['count'];?></i>
 								</span>
 							</div>
 							<div class="b2b2c_size toe clearfix" onclick="">
 								<i>规格:</i>
-								<i><?php echo ($volist["product_name"]); ?></i>
+								<i><?php echo ($volist["unit"]); ?></i>
 							</div>
 							<div class="b2b2c_size toe clearfix">
 								<i>库存:</i>
-								<i><?php echo ($volist["product_store"]); ?></i>
+								<i><?php echo ($volist["store"]); ?></i>
 							</div>
 						</div>
 					</div>
 				</div>
 				<!--商品一end--><?php endforeach; endif; else: echo "" ;endif; ?>
 				</div>
-				 </section><?php endforeach; endif; else: echo "" ;endif; ?>
+				 </section>
+
         <!--店铺二的商品end-->
     </main>
     <!--主内容区域end-->
@@ -128,13 +133,13 @@ var _hmt = _hmt || [];
             </li>
             <li>
                 <span>合计:</span>
-                <span class="b2b2c_cart_allprice"><i>&yen;</i><i id="b2b2c_product_money_sum">0.0</i></span>
+                <span class="b2b2c_cart_allprice"><i>&yen;</i><i id="b2b2c_product_money_sum" class="sum">0.0</i></span>
                 <span class="b2b2c_cart_carriage">不含运费</span>
             </li>
-            <li class="b2b2c_clearing tc" onclick="b2b2cc.actions('User/order_confirm/b2b2c_cart_id/'+$('input[name=\'goodsinput\']:checked').map(function() { return $(this).val(); }).get().join(','));"">
+            <li class="b2b2c_clearing tc" >
                 <span>去结算:</span>
                 <span>
-                   (<i id="b2b2c_product_sum">0</i>)
+                   (<i id="b2b2c_product_sum" >0</i>)
                 </span>
             </li>
         </ul>
@@ -144,3 +149,18 @@ var _hmt = _hmt || [];
 
 </body>
 </html>
+<script >
+	$('.b2b2c_clearing').click(function () {
+	    var product = $('.product').val();
+	    var sum = $('.sum').html();
+			$.ajax({
+				url:"/ok/client/index.php/B2b2c/User/order_confirm",
+				data:{product:product,sum:sum},
+				type:"post",
+				success:function(msg){
+					alert(msg)
+					// window.location.href='/ok/client/index.php/B2b2c/User/order_confirm';
+				}
+			})
+    });
+</script >

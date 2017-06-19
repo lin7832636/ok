@@ -19,28 +19,29 @@
         <!--一级导航-->
         <div class="b2b2c_nav_title">
             <ul>
-            	<foreach name="goods_type_list" item="vo">
-            		<li class="b2b2c_nav_level_1 {$vo.active}" data-id="{$vo.id}" onclick="b2b2cf.index_switch_goods_type({$vo.id})">
-						<img src="{$vo.image.0}" alt="">
-						{$vo.name}
-					</li>
-            	</foreach>
+                <foreach name="goods_type_list" item="vo">
+                  
+                    <li class="b2b2c_nav_level_1 {$vo.active}" data-id="{$vo.goods_type_id}" onclick="b2b2cf.index_switch_goods_type({$vo.goods_type_id})">
+                        <img src="{$vo.icon.0}" alt="">
+                        {$vo.type_name}
+                    </li>
+                </foreach>
             </ul>
         </div>
         <!--二级导航-->
         <foreach name="goods_type_list" item="vo">
-	        <section class="b2b2c_two_nav" style="display:<?php if($vo['active']=='active'){echo 'block';}else{echo 'none';}?>;" data-parentid="{$vo.id}">
-	            <ul class="clearfix">
-	            	<foreach name="vo.child" item="vo2">
-		                <li data-id="{$vo2.id}" onclick="b2b2cf.index_type_level_2_select(this);">
-		                    <a href="javascript:void(0);">
-		                        <img src="{$vo2.image.0}" alt=""/>
-		                        <p>{$vo2.name}</p>
-		                    </a>
-		                </li>            		
-	            	</foreach>
-	            </ul>
-	        </section>
+            <section class="b2b2c_two_nav" style="display:<?php if($vo['active']=='active'){echo 'block';}else{echo 'none';}?>;" data-parentid="{$vo.goods_type_id}">
+                <ul class="clearfix">
+                    <foreach name="vo.son" item="vo2">
+                        <li data-id="{$vo2.goods_type_id}" onclick="b2b2cf.index_type_level_2_select(this);">
+                            <a href="javascript:void(0);">
+                                <img src="{$vo2.icon-.0}" alt=""/>
+                                <p>{$vo2.type_name}</p>
+                            </a>
+                        </li>                   
+                    </foreach>
+                </ul>
+            </section>
         </foreach>
     </nav>
     <!--导航栏end-->

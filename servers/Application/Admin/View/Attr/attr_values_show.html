@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+		<center>
+
+			<table border="1">
+				<tr>
+					<td>id</td>
+					<td>属性名称</td>
+					<td>录入方式</td>
+					<td>属性值</td>
+				</tr>
+				<foreach name="arr" item="v">
+				<tr>
+					<td>{$v.attrval_id}</td>
+					<td>{$v.attr_id}</td>
+					<td>{$v.put_type}</td>
+					<td>{$v.value_name}</td>
+
+
+				</tr>
+				</foreach>
+			</table>
+		</center>
+</body>
+</html>

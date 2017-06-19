@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	
+	
+	<?php foreach($arrSelect as $k=>$v){ ?>
+	<tr>
+		<td><?php echo $v['attr_name'];   $a = $v['attr_id'];?>:</td>
+		<td><select name="attr_id" >
+			<option value="0">请选择</option>
+			<?php for($i=0;$i<$num;$i++){  ?>
+			<option value="<?php echo $a;?>"><?php echo($arrdata[$a][$i]);?></option>
+			<?php }?>
+		</select></td>
+	</tr>
+	<?php  }?>
+	<?php foreach($arrText as $kk=>$vv){ ?>
+	<tr>
+		<td><?= $vv['attr_name']?>:</td>
+		<td><input type="text" name="attr_value"></td>
+	</tr>
+	<?php }?>
+	<tr>
+		<td><input type="submit" value="入库"></td>
+	</tr>
+.
+</center>
+</body>
+</html>
+
+
+

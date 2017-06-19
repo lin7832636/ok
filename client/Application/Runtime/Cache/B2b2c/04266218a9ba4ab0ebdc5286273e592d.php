@@ -88,23 +88,20 @@ var _hmt = _hmt || [];
                 <?php $order_id_index++;?>
                 <section class="b2b2c_mage_order_inner" data-index="<?php echo ($order_id_index); ?>">
                     <div class="b2b2c_order_inner_t bgcf b2b2c_p16 clearfix">
-                        <span class="b2b2c_shop_name fl toe"><?php echo ($vo["shop_name"]); ?></span>
                         <span class="b2b2c_shop_state fr tr">
-                                        <?php if($vo['order_status'] == 1):?>
-                                            待付款
-                                        <?php elseif($vo['order_status'] == 2):?>
-                                            交易关闭
-                                        <?php elseif($vo['order_status'] == 3):?>
-                                            退单申请中
-                                        <?php elseif($vo['order_status'] == 4):?>
-                                            交易关闭
-                                        <?php elseif($vo['order_status'] == 6):?>
-                                            待发货
-                                        <?php elseif($vo['order_status'] == 7):?>
-                                            交易关闭
-                                        <?php elseif($vo['order_status'] == 8 || $vo['order_status'] == 9 || $vo['order_status'] == 10):?>
-                                            交易成功
-                                        <?php endif;?>
+                            <?php if($vo['order_status'] == 3 && $vo['is_pay']==1):?>
+                                已取消
+                            <?php elseif($vo['order_status'] == 4):?>
+                                交易关闭
+                            <?php elseif($vo['order_status'] == 5 && $vo['is_pay']==1):?>
+                                已完成
+                            <?php elseif($vo['order_status'] == 6 && $vo['is_pay']==1):?>
+                                正在退款
+                            <?php elseif($vo['is_pay']==0):?>
+                                待付款
+                            <?php elseif($vo['is_pay']==1):?>
+                                已付款
+                            <?php endif;?>
                         </span>
                     </div>
                     <?php $sum += $vo['order_shipping_fee']; ?>
@@ -112,25 +109,25 @@ var _hmt = _hmt || [];
                         <div class="b2b2c_product bgcf">
                             <ul>
                                 <!-- 商品内容一start-->
-                                <?php if(is_array($vo["product_list"])): foreach($vo["product_list"] as $key=>$pvo): ?><li class="clearfix">
-                                        <div class="b2b2c_div clearfix" onclick='window.location.href="<?php echo U('User/orderdetailbuyers',array('order_id'=>$pvo['id']));?>"'>
+                                <?php if(is_array($vo["title"])): foreach($vo["title"] as $key=>$pvo): ?><li class="clearfix">
+                                        <div class="b2b2c_div clearfix" onclick='window.location.href="<?php echo U('User/orderdetailbuyers',array('order_id'=>$vo['id']));?>"'>
                                             <div class="b2b2c_imgbox fl">
                                                 <a href="javascript:void(0);">
-                                                    <img src="<?php echo ($pvo["oi_image"]["0"]); ?>" alt="">
+                                                    <img src="<?php echo ($pvo["goods_img"]); ?>" alt="">
                                                 </a>
                                             </div>
                                             <div class="b2b2c_product_txt fl">
-                                                <h3><?php echo ($pvo["oi_name"]); ?></h3>
+                                                <h3><?php echo ($pvo["goods_name"]); ?></h3>
                                                 <p class="clearfix">
                                                 <span class="fl">
                                                     <i>&yen</i>
-                                                    <i><?php echo ($pvo["oi_price"]); ?></i>
+                                                    <i><?php echo ($pvo["amount"]); ?></i>
                                                     <i>&times;</i>
-                                                    <i><?php echo ($pvo["oi_count"]); ?></i>
+                                                    <i><?php echo ($pvo["goods_num"]); ?></i>
                                                 </span>
                                                 <span class="fr">
                                                      <i>&yen</i>
-                                                    <i><?php echo ($pvo["oi_sum"]); ?></i>
+                                                    <i><?php echo $pvo['amount']*$pvo['goods_num'] ?></i>
                                                 </span>
                                                 </p>
                                             </div>
@@ -146,7 +143,7 @@ var _hmt = _hmt || [];
                                         </div>                                                      
                                     </li>
                   
-                                    <?php $sum += $pvo['oi_price']*$pvo['oi_count']; endforeach; endif; ?>
+                                    <?php $sum += $pvo['amount']*$pvo['goods_num']; endforeach; endif; ?>
 
                                 <!--商品内容一end-->
                             </ul>
@@ -154,26 +151,25 @@ var _hmt = _hmt || [];
                         <div class="b2b2c_payment_box bgcf b2b2c_p16 clearfix">
                             <div class="b2b2c_payment fr">
                                 <span>实付:&yen</span>
-                                <span class="b2b2c_price"><?php echo ($sum); ?></span>
-                                <span>(含运费<i>&yen</i><i><?php echo ($vo["order_shipping_fee"]); ?></i>)</span>
+                                <span class="b2b2c_price"><?php echo ($vo["sum"]); ?></span>
                             </div>
                         </div>
                     </div>
                     <div class="b2b2c_order_inner_b bgcf clearfix">
 
-                        <?php if($vo['has_pay_button']):?>
+                        <?php if($vo['is_pay']==0):?>
                             <a href="<?php echo U('Pay/applypay',array('sn'=>$vo['order_sn']));?>" class="fr">立即付款</a>
                         <?php endif;?>
 
-                        <?php if($vo['has_refund_apply_button']):?>
+                        <?php if($vo['is_pay']==1 && $vo['order_status']>=2):?>
                             <a href="javascript:void(0)" class="fr" onclick="b2b2cf.apply_order_refund(<?php echo ($vo["id"]); ?>)">申请退单</a>
                         <?php endif;?>
 
-                        <?php if($vo['has_logi_button']):?>
+                        <?php if($vo['is_pay']==1 && $vo['is_delivery']==1):?>
                             <a href="javascript:void(0)" class="fl" onclick="b2b2cf.get_order_logistics_detail(<?php echo ($vo["id"]); ?>)">物流信息</a>
                         <?php endif;?>
 
-                        <?php if($vo['has_take_goods_button']):?>
+                        <?php if($vo['is_pay']==1 && $vo['is_delivery']==1 && $v['is_stauts']!=3 && $v['is_stauts']!=6 && $v['is_stauts']!=7 && $v['is_stauts']!=4):?>
                             <a href="javascript:void(0);" class="fr" onclick="b2b2cf.make_order_sure(<?php echo ($vo["id"]); ?>)">点击收货</a>
                         <?php endif;?>
 
@@ -188,14 +184,14 @@ var _hmt = _hmt || [];
                             <!-- 交易关闭 -->
                         <?php elseif($vo['order_status'] == 6):?>
                             <!-- 待发货 -->
-                            
+
                         <?php elseif($vo['order_status'] == 7):?>
                             <!-- 交易关闭 -->
                         <?php elseif($vo['order_status'] == 8 || $vo['order_status'] == 9 || $vo['order_status'] == 10):?>
                             <!-- 交易成功 -->
-                            
+
                             <?php if($vo['order_status'] == 8):?>
-                                
+
                             <?php endif;?>
                         <?php endif;?>
                     </div>
@@ -214,73 +210,73 @@ var dropload;
 var switching_order_status = false;
 $(function(){
     // dropload
-    dropload = $('.dropload_content').dropload({
-        scrollArea : window,
-        domUp : {
-            domClass   : 'dropload-up',
-            domRefresh : '<div class="dropload-refresh">↓下拉刷新</div>',
-            domUpdate  : '<div class="dropload-update">↑释放更新</div>',
-            domLoad    : '<div class="dropload-load"><span class="loading"></span>加载中...</div>'
-        },
-        domDown : {
-            domClass   : 'dropload-down',
-            domRefresh : '<div class="dropload-refresh">↑上拉加载更多</div>',
-            domLoad    : '<div class="dropload-load"><span class="loading"></span>加载中...</div>',
-            domNoData  : '<div class="dropload-noData">暂无更多数据</div>'
-        },
-        loadUpFn : function(me){
-            var get_data = {};
-            get_data.terminal_type = 2;
-            var last_order_index = 0;
-            get_data.last_order_index = last_order_index;
-            get_data.status = $('.b2b2c_mage_order li.active').eq(0).data('status');
+    // dropload = $('.dropload_content').dropload({
+    //     scrollArea : window,
+    //     domUp : {
+    //         domClass   : 'dropload-up',
+    //         domRefresh : '<div class="dropload-refresh">↓下拉刷新</div>',
+    //         domUpdate  : '<div class="dropload-update">↑释放更新</div>',
+    //         domLoad    : '<div class="dropload-load"><span class="loading"></span>加载中...</div>'
+    //     },
+    //     domDown : {
+    //         domClass   : 'dropload-down',
+    //         domRefresh : '<div class="dropload-refresh">↑上拉加载更多</div>',
+    //         domLoad    : '<div class="dropload-load"><span class="loading"></span>加载中...</div>',
+    //         domNoData  : '<div class="dropload-noData">暂无更多数据</div>'
+    //     },
+    //     loadUpFn : function(me){
+    //         var get_data = {};
+    //         get_data.terminal_type = 2;
+    //         var last_order_index = 0;    
+    //         get_data.last_order_index = last_order_index;
+    //         get_data.status = $('.b2b2c_mage_order li.active').eq(0).data('status');
 
-            b2b2cc.curls('B2b2cPrivate/GetOrderList', get_data, function(data) {
-                if(data.status){
-                    var data = data.data.list;
-                    var html = "";
-                    if(data.length > 0){
-                        html = b2b2cf.order_manage_make_list_html(data, last_order_index);
-                    }
+    //         b2b2cc.curls('B2b2cPrivate/GetOrderList', get_data, function(data) {
+    //             if(data.status){
+    //                 var data = data.data.list;
+    //                 var html = "";
+    //                 if(data.length > 0){
+    //                     html = b2b2cf.order_manage_make_list_html(data, last_order_index);
+    //                 }
 
-                    $('.b2b2c_mage_order_con').html(html);
-                    me.resetload();
-                    me.unlock();
-                    me.noData(false);
-                }
+    //                 $('.b2b2c_mage_order_con').html(html);
+    //                 me.resetload();
+    //                 me.unlock();
+    //                 me.noData(false);
+    //             }
 
-            }, 'get');
-        },
-        loadDownFn : function(me){
-            var get_data = {};
-            get_data.terminal_type = 2;
+    //         }, 'get');
+    //     },
+    //     loadDownFn : function(me){
+    //         var get_data = {};
+    //         get_data.terminal_type = 2;
 
-            var last_order_index = $('.b2b2c_mage_order_inner:last').data('index');
-            get_data.last_order_index = last_order_index;
-            get_data.status = $('.b2b2c_mage_order li.active').eq(0).data('status');
+    //         var last_order_index = $('.b2b2c_mage_order_inner:last').data('index');
+    //         get_data.last_order_index = last_order_index;
+    //         get_data.status = $('.b2b2c_mage_order li.active').eq(0).data('status');
 
-            b2b2cc.curls('B2b2cPrivate/GetOrderList', get_data, function(data) {
-                if(data.status){
-                    var data = data.data.list;
-                    var html = "";
-                    if(data.length > 0){
-                        html = b2b2cf.order_manage_make_list_html(data, last_order_index);
-                    }else{
-                        // 锁定
-                        me.lock();
-                        // 无数据
-                        me.noData();
-                    }
+    //         b2b2cc.curls('B2b2cPrivate/GetOrderList', get_data, function(data) {
+    //             if(data.status){
+    //                 var data = data.data.list;
+    //                 var html = "";
+    //                 if(data.length > 0){
+    //                     html = b2b2cf.order_manage_make_list_html(data, last_order_index);
+    //                 }else{
+    //                     // 锁定
+    //                     me.lock();
+    //                     // 无数据
+    //                     me.noData();
+    //                 }
 
-                    $('.b2b2c_mage_order_con').append(html);
-                    me.resetload();
+    //                 $('.b2b2c_mage_order_con').append(html);
+    //                 me.resetload();
                 
-                }
+    //             }
 
-            }, 'get');
-        },
-        threshold : 50
-    });
+    //         }, 'get');
+    //     },
+    //     threshold : 50
+    // });
 });
 
 

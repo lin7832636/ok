@@ -127,6 +127,20 @@ function curls($url, $ispg='get' ,$data, $type=false, $time=120)
 	if(!$type) $data = json_encode($data);
 	return $data;
 }
+// 商品分类递归方法
+function goods_type($data,$pid=0,$leve=1){
+    static $array = array();
+    foreach ($data as $k=>$v){
+        if($v['type_pid']==$pid){
+            $v['leve']=$leve;
+            $array[]=$v;
+            goods_type($data,$v['goods_type_id'],$leve++);
+
+        }
+
+    }
+    return $array;
+}
 
 function output($status=0, $data=array()) {	//返回API接口信息
 	exit(json_encode(array('data' => $data, 'status' => $status)));

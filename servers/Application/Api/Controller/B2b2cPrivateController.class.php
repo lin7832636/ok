@@ -370,4 +370,142 @@ class B2b2cPrivateController extends PrivateController {
         }
         output(0,$data);
     }
+    /**
+     * 收货地址展示
+     * @author 李晨
+     * @data  2017/6/15
+     * @param goods_id 商品ID
+     * @param content 评论内容
+     * @param point   评分
+     * @param type  评论 买家 或 回复平台  1平台 2买家
+     * @param  for_id 回复还是评论
+     * @return array()  返回添加id
+     */
+
+     public function GetOrderList(){
+        $user_id = $this->guid();
+        $expire_time=time();
+        $delflag=0;
+        $order=M("order")->where("user_id='$user_id' and expire_time<'$expire_time' and is_delflag='$delflag'")->order('addtime desc')->select();
+        foreach($order as $k=>$v){
+            $order_id[]=$v['id'];
+        }
+        $order_id=implode(",",$order_id);
+        $order_goods=M("order_goods")->where("order_id in($order_id)")->select();
+        foreach($order as $k=>$v){
+            foreach($order_goods as $kk=>$vv){
+                if($vv['order_id']==$v['id']){
+                    $order[$k]['title'][]=$vv;
+                }
+            }
+        };
+        output(0,$order);
+    }
+    //用户中心---查看订单
+    public function GetOrderLists(){
+        $user_id=$this->guid();
+        $status=I("get.status","",'trim');
+        $where="`user_id`=$user_id and `is_delflag`=0";
+        if($status==0){
+            $where=$where;
+        }else if($status==1){
+            $where=$where." and `is_pay`=0";
+        }else if($status==2){
+            $where=$where." and `is_pay`=1 and `is_delivery`=0";
+        }else if($status==3){
+            $where=$where." and `is_pay`=1 and `is_delivery`=0 and `order_status`=1";
+        }else if($status==4){
+            $where=$where." and `is_delivery`=0 and `order_status`=5 and `is_pay`=5";
+        }else if($status==5){
+            $where=$where." and `order_status`=3";
+        };
+        $expire_time=time();;
+        $order=M("order")->where($where)->order('addtime desc')->select();
+        foreach($order as $k=>$v){
+            if($v['expire_time']<$expire_time){
+                $orders[]=$v;
+            }
+        };
+        foreach($orders as $k=>$v){
+            $order_id[]=$v['id'];
+        }
+        $order_id=implode(",",$order_id);;
+        $order_goods=M("order_goods")->where("order_id in($order_id)")->select();
+        foreach($orders as $k=>$v){
+            foreach($order_goods as $kk=>$vv){
+                if($vv['order_id']==$v['id']){
+                    $order[$k]['title'][]=$vv;
+                }
+            }
+        };
+        $data['list']=$order;
+        output(0,$data);
+    }
+
+/**
+     * +--------------------------------------------------------------------------------------------------------------------
+     * 购物车列表
+     * +--------------------------------------------------------------------------------------------------------------------
+     * @Author Lidongyan   Date:2017/6/13
+     * +--------------------------------------------------------------------------------------------------------------------
+     * @access public
+     * +--------------------------------------------------------------------------------------------------------------------
+     * @type GET
+     * +--------------------------------------------------------------------------------------------------------------------
+  +--------------------------------------------------------------------------------------------------------------------
+     * @return JSON
+    {
+
+    }
+     * +--------------------------------------------------------------------------------------------------------------------
+     **/
+
+        public  function GetCartList(){
+        $CartList_db = M('cart');
+        $data = array();
+      
+        $data['user_id'] =$this->guid();
+        if(!empty($car = $CartList_db->where(array('user_id'=>$data['user_id']))->select())) {
+            foreach ($car as $k=>$v){
+                $goods_id[$k]=$v['goods_id'];
+                $goods[$k] = $v['count'];
+            }
+
+            $goods_id = implode(',',$goods_id);
+            $goodsList = M('product')->where("goods_id in ($goods_id)")->select();
+            foreach ($goodsList as $kk=>$vv){
+                $goodsList[$kk]['count']= $goods[$kk];
+            }
+            output(0, $goodsList);
+        }else{
+
+            output(32009);
+
+
+        }
+
+
+    }
+        /**
+     * +--------------------------------------------------------------------------------------------------------------------
+     * 购物车计数
+     * +--------------------------------------------------------------------------------------------------------------------
+     * @Author Lidongyan   Date:2017/6/13
+     * +--------------------------------------------------------------------------------------------------------------------
+     * @access public
+     * +--------------------------------------------------------------------------------------------------------------------
+     * @type GET
+     * +--------------------------------------------------------------------------------------------------------------------
+    +--------------------------------------------------------------------------------------------------------------------
+     * @return JSON
+    {
+
+    }
+     * +--------------------------------------------------------------------------------------------------------------------
+     **/
+    public  function GetCartCount(){
+        $data['user_id'] = $this->guid();
+        $GoodsCount = M('cart')->where(array('user_id'=>$data['user_id']))->count();
+        output(0, $GoodsCount);
+    }
 }

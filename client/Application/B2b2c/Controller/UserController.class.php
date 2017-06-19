@@ -235,7 +235,7 @@ class UserController extends PrivateController {
      * +--------------------------------------------------------------------------------------------------------------------
      * 订单管理
      * +--------------------------------------------------------------------------------------------------------------------
-     * @Author zhangnan  Date:2016/12/22
+     * @Author 李晨  Date:2016/12/22
      * +--------------------------------------------------------------------------------------------------------------------
      * @access public
      * +--------------------------------------------------------------------------------------------------------------------
@@ -245,12 +245,13 @@ class UserController extends PrivateController {
      * +--------------------------------------------------------------------------------------------------------------------
     **/
     public function order_manage() {
-        $user_token = get_user_token();
-        $list = curls(C('APIURL') . 'B2b2cPrivate/GetOrderList', 'get', array('user_token'=>get_user_token(), 'terminal_type'=>2), true);
-
-        $this->assign('list', $list['data']['list']);
+        $data=array(
+            'user_token'=>get_user_token()
+        );
+        $list = curls(C('APIURL') . 'B2b2cPrivate/GetOrderList', 'get',$data, true);
+        $this->assign('list',$list['data']);
         $this->display();
-    }    
+    }
     
     /**
      * +--------------------------------------------------------------------------------------------------------------------
@@ -272,7 +273,7 @@ class UserController extends PrivateController {
     public function buyermakeorderrated() {
         $param['type'] = I('get.type', 0, 'intval');
         $param['order_id'] = I('get.order_id', 0, 'intval');
-        $param['product_id'] = I('get.product_id', 0, 'intval');
+        $param['product_id'] = I('get./', 0, 'intval');
         //订单详情
         $order_info = curls(C('APIURL') . 'B2b2cPrivate/GetOrderDetail', 'get', array('order_id' => $param['order_id']), true);
         if(empty($order_info['data'])){
@@ -316,7 +317,9 @@ class UserController extends PrivateController {
      * +--------------------------------------------------------------------------------------------------------------------
      * @type GET
      * +--------------------------------------------------------------------------------------------------------------------    
-     * @parame  Int      非必      $product_id   规格id     
+     * @parame  Int      非必      $product_id   规格id 
+     * @parame  Int      非必      $sum   价格      
+     * @parame  Int      非必      $send_count   购买数量     
      * @parame  Int      非必      $product_num   购买数量     
      * @parame  Int      非必      logis_model_id   物流模板id     
      * +-------------------------------------------------------------------------------------------------------------------- 
@@ -324,30 +327,31 @@ class UserController extends PrivateController {
      * +--------------------------------------------------------------------------------------------------------------------
     **/
     public function order_confirm_goodsdetail() {
-        $product_id = 1;
+        $sum = I('get.sum', 0, 'intval');
+        $send_count = I('get.send_count', 0, 'trim');
+        $product_id = I('get.product_id', 0, 'intval');
         $logis_model_id = I('get.logis_model_id', '', 'trim');
-        $product_count = 1;
         if (empty($product_id)) {
             $this->error('没有找到');
         }
-        if (empty($product_count)) {
+        if (empty($send_count)) {
             $this->error('请添加数量');
         }
-//        $goods_list = curls(C('APIURL') . 'B2b2cPrivate/GetGoodsByProductId', 'get', array('product_id' => $product_id), true);
-//        $shop_id = $goods_list['data']['shop_id'];
-//        $goods_list['data']['count'] = $product_count;
-//
-//        $data = array();
-//        if (!empty($goods_list['data'])) {
-//            if ($goods_list['data']['product_store'] == 0) {
-//                $this->error('部分商品库存不足，请重新选择');
-//            }
-//        } else {
-//            $this->error('没有商品被选中,请重新选择');
-//        }
+        $goods_list = curls(C('APIURL') . 'B2b2cPrivate/GetGoodsByProductId', 'get', array('product_id' => $product_id), true);
+        $goods_list=json_decode($goods_list,true);
+        $shop_id = $goods_list['data']['goods_id'];
+        $product_sum=$goods_list['data']['store']-$send_count;
+
+        $data = array();
+        if (!empty($goods_list['data'])) {
+            if ($product_sum<0) {
+                $this->error('部分商品库存不足，请重新选择');
+            }
+        } else {
+            $this->error('没有商品被选中,请重新选择');
+        };
         //获取用户默认收费地址
         $user_area = curls(C('APIURL') . 'B2b2cPrivate/GetUserDefaultAddress', 'get', array('logis_model_id' => $logis_model_id), true);
-        //  print_r($user_area['data'] );die;
         if (!empty($user_area['data'])) {
             $new_area = substr($user_area['data']['area'], 0, -2) . '00';
             $has_address = 1;
@@ -389,8 +393,10 @@ class UserController extends PrivateController {
             }
         }
 
-//        $this->assign('info', $goods_list['data']);
-//        $this->assign('is_invoices', $is_invoices['data']);
+        // $goods_list['data']['goods_price']="200";
+        $goods_list['data']['send_count']=$send_count;
+        $this->assign('info', $goods_list['data']);
+        $this->assign('is_invoices', $user_area['data']);
         $this->assign('has_address', $has_address);
         $this->display();
 
@@ -412,79 +418,9 @@ class UserController extends PrivateController {
      * @return HTML
      * +--------------------------------------------------------------------------------------------------------------------
     **/
-    public function order_confirm() {
-        $b2b2c_cart_id = I('get.b2b2c_cart_id', '', 'trim');
-        $logis_model_id = I('get.logis_model_id', '', 'trim');
-        $shop_id = b2b2c_user_selected_shop_id_get();
-        if (empty($b2b2c_cart_id)) {
-            $this->error('请选择商品');
-        }
-        $goods_list = curls(C('APIURL') . 'B2b2cPrivate/GetCartList', 'get', array('cart_id' => $b2b2c_cart_id), true);
-        $data = array();
-        $user_area = curls(C('APIURL') . 'B2b2cPrivate/GetUserDefaultAddress', 'get', array('logis_model_id' => $logis_model_id), true);
-        if (!empty($user_area['data']['area'])) {
-            $new_area = substr($user_area['data']['area'], 0, -2) . '00';
-            $has_address = 1;
-        }else{
-            //用户没有默认收货地址
-            $has_address = 0;
-        }
-        $logis_data = array();
-        if (!empty($goods_list['data'])) {
-            foreach ($goods_list['data'] as $val) {
-                if ($val['product_store'] == 0) {
-                    $this->error('部分商品库存不足，请重新选择');
-                }
-                $data[$val['shop_id']]['info'] = array(
-                    'shop_id' => $val['shop_id'],
-                    'shop_name' => $val['shop_name']
-                );
-                $data[$val['shop_id']]['list'][$val['goods_id']]['list'][] = $val;
-            }
-            //检查商品是否在配送区
-            foreach ($data as $key => $val) {
-                $invoice = curls(C('APIURL') . 'B2b2cPublic/CheckShopIssuingInvoice', 'get', array('shop_id' => $val['info']['shop_id']), TRUE);
-                $data[$key]['info']['invoice'] = $invoice['data'];
-                $all_product_list = array();
-                foreach ($val['list'] as $goods_key => $goods_val) {
-                    $count = 0;
-                    $product_ids = '';
-                    $product_list = array();
-                    foreach ($goods_val['list'] as $prokey => $proval) {
-                        $product_list[] = array('count' => $proval['count'], 'product_id' => $proval['product_id']);
-                        $all_product_list[] = array('count' => $proval['count'], 'product_id' => $proval['product_id']);
-                    }
-                    $shipping = curls(C('APIURL') . 'B2b2cPublic/CheckAreaIsDistribution', 'get', array('product_list' => $product_list, 'area_id' => $new_area), true);
-                    $data[$key]['list'][$goods_key]['logis_info'] = $shipping['data'];
-                    //店铺发票信息
-                    $data[$key]['info']['invoice_info'] = $invoice['data'];
-                }
-                //运费
-                $all_logi_post = curls(C('APIURL') . 'B2b2cPublic/getCartAllCumCost', 'get', array('product_list' => $all_product_list, 'area_id' => $new_area), true);
-                $data[$key]['info']['sum_cost'] = $all_logi_post['data']['sum_cost'];
-            }
-        } else {
-            $this->error('没有商品被选中,请重新选择');
-        }
-        
-        //判断店主所在店铺
-        $addres_list = curls(C('APIURL') . 'B2b2cPrivate/AddressBuyersList', 'get', array(), TRUE);
-        //默认地址
-        foreach ($addres_list['data'] as $key => $value) {
-            if($value['id'] == $user_area['data']['id']){
-                $this->assign('selected_address', $value);
-                break;
-            }
-        }
-        
-        $this->assign('user_area_id', $user_area['data']['id']);
-        $this->assign('b2b2c_cart_id', $b2b2c_cart_id);
-        $this->assign('logis_model_id', $logis_model_id);
-        $this->assign('add_list', $addres_list['data']);
-        $this->assign('list', $data);
-        $this->assign('new_pro', $new_pro);
-        $this->assign('has_address', $has_address);
-        $this->display();
+    public function order_confirm() 
+    {
+        print_r($_POST);die;
     }
 
     /**
@@ -608,7 +544,7 @@ class UserController extends PrivateController {
         $this->display();
     }
     
-    /**
+   /**
      * +--------------------------------------------------------------------------------------------------------------------
      * 获取购物车货品列表
      * +--------------------------------------------------------------------------------------------------------------------
@@ -623,13 +559,14 @@ class UserController extends PrivateController {
     **/
     public function get_cart_list() {
         $list = curls(C('APIURL') . 'B2b2cPrivate/GetCartList', 'get', array('type' => 'shop'), true);
+
         $count = curls(C('APIURL') . 'B2b2cPrivate/GetCartCount', 'get', array(), true);
-        
+
+
         $this->assign('list', $list['data']);
         $this->assign('count', $count['data']);
         $this->display();
     }
-    
     /**
      * +--------------------------------------------------------------------------------------------------------------------
      * 获取购物车货品编辑列表

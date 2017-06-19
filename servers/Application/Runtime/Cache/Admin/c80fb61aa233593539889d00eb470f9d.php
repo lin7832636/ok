@@ -66,50 +66,80 @@ var GV = {
 		}
 	</style><?php endif; ?>
 <body class="J_scroll_fixed">
-<div class="wrap J_check_wrap">
-   <ul class="nav nav-tabs">
-     <?php if(is_role('user','index')) { ?><li class="active"><a href="<?php echo U('user/index');?>">管理员</a></li><?php } ?>
-     <?php if(is_role('user','add')) { ?><li><a href="<?php echo U('user/add');?>">添加管理员</a></li><?php } ?>
-  </ul>
-   <div class="table_list">
-   <table width="100%" cellspacing="0" class="table table-hover">
-        <thead>
-          <tr>
-            <th width="50">ID</th>
-            <th>用户名</th>
-            <th>所属角色</th>
-            <th>所属机构</th>
-            <th>最后登录IP</th>
-            <th>最后登录时间</th>
-            <th>E-mail</th>
-            <th width="120">管理操作</th>
-          </tr>
-        </thead>
-        <tbody>
-        <?php if(is_array($users)): foreach($users as $key=>$vo): ?><tr>
-            <td><?php echo ($vo["id"]); ?></td>
-            <td><?php echo ($vo["user_login"]); ?></td>
-            <td><?php echo ($roles[$vo['role_id']]['name']); ?></td>
-            <td><?php if(empty($vo['name'])){ ?> 管理后台 <?php } echo ($vo["name"]); ?></td>
-            <td><?php echo ($vo["last_login_ip"]); ?></td>
-            <td>
-	            <?php if($vo['last_login_time'] == 0): ?>该用户还没登陆过
-	            <?php else: ?>
-	            <?php echo ($vo["last_login_time"]); endif; ?>
-            </td>
-            <td><?php echo ($vo["user_email"]); ?></td>
-            <td>
-	            <?php if($vo['id'] == 1): if(is_role('user','edit')) { ?><font color="#cccccc">修改</font> | <?php } ?>
-	            <?php if(is_role('user','delete')) { ?><font color="#cccccc">删除</font><?php } ?>
-	            <?php else: ?>
-	            <?php if(is_role('user','edit')) { ?><a href='<?php echo U("user/edit",array("id"=>$vo["id"]));?>'>修改</a> | <?php } ?>
-	            <?php if(is_role('user','delete')) { ?><a class="J_ajax_del" href="<?php echo U('user/delete',array('id'=>$vo['id']));?>">删除</a><?php } endif; ?>
-            </td>
-          </tr><?php endforeach; endif; ?>
-        </tbody>
-      </table>
-   </div>
+<div class="wrap jj">
+
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="<?php echo U('Carousel/Carousel_show');?>">轮播图列表</a></li>
+
+    </ul>
+    <div class="common-form">
+        <form method="post" action="<?php echo U('Carousel/Carousel_add');?>" enctype="multipart/form-data">
+            <div class="table_list">
+                <table cellpadding="2" cellspacing="2" class="table_form" width="100%">
+                    <tbody>
+                    <tr>
+                        <td width="180">轮播图名称:</td>
+                        <td><input type="text" class="input" name="carousel_name" value=""><span class="must_red">*</span></td>
+                    </tr>
+                    <tr>
+                        <td>轮播图:</td>
+                        <td><input type="file" class="input" name="carousel_logo" value="" ><span class="must_red">*</span></td>
+                    </tr>
+                    <tr>
+                        <td>官方网站:</td>
+                        <td>
+                            <input type="text"  name="carousel_url" >*</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>排序:</td>
+                        <td>
+                            <input type="text" name="carousel_sort">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>状态:</td>
+                        <td>
+                            <select  name="carousel_status">
+                                <option value="1">下架</option>
+                                <option value="2" selected>上架</option>
+                            </select>
+
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary btn_submit J_ajax_submit_btn">添加</button>
+                <!--<a class="btn" href="/ok/servers/index.php/Admin/Carousel">返回</a>-->
+            </div>
+        </form>
+    </div>
 </div>
 <script type="text/javascript" src="/ok/servers/Application/Admin/Public/js/common.js"></script>
+<script type="text/javascript">
+    function org_list($this) {
+
+        art.dialog({
+            id:'div_org_list',
+            lock : true,
+            ok : true ,
+            cancel : true,
+            title : '选择机构',
+            background : '#cccccc',
+            opacity : 0.80,
+            width : 700,
+            height : 500
+
+        });
+
+        $.get('/ok/servers/index.php/Admin/Train/id_list', {}, function(e) {
+            art.dialog({id: 'div_org_list'}).content(e);
+        }, 'html');
+
+    }
+</script>
+
 </body>
 </html>

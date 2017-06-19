@@ -66,46 +66,69 @@ var GV = {
 		}
 	</style><?php endif; ?>
 <body class="J_scroll_fixed">
-<div class="wrap J_check_wrap">
-  <ul class="nav nav-tabs">
-     <li class="active"><a href="<?php echo U('menu/index');?>">后台菜单</a></li>
-     <li><a href="<?php echo U('menu/add');?>">添加菜单</a></li>
-     <?php if(APP_DEBUG): ?><li><a href="<?php echo U('menu/lists');?>">所有菜单</a></li>
-		<!--
-     	<li><a href="<?php echo U('menu/spmy_import_menu');?>">恢复菜单</a></li>
-     	<li><a href="<?php echo U('menu/spmy_export_menu');?>">备份菜单</a></li>
-		--><?php endif; ?>
-  </ul>
-  <form class="J_ajaxForm" action="<?php echo U('Menu/listorders');?>" method="post">
-    <div class="table_list">
-      <table width="100%" class="table table-hover">
-        <thead>
-          <tr>
-            <th width="80">排序</th>
-            <th width="50">ID</th>
-            <th>应用</th>
-            <th>菜单名称</th>
-            <th width="80">状态</th>
-            <th width="200">管理操作</th>
-          </tr>
-        </thead>
-        <?php echo ($categorys); ?>
-      </table>
+<div class="wrap jj">
+    <ul class="nav nav-tabs">
+        <!--<?php if(is_role('user','index')) { ?><li><a href="<?php echo U('brand/add');?>">管理员</a></li><?php } ?>-->
+       <!--<?php if(is_role('user','add')) { ?><li class="active"><a href="<?php echo U('Brand/show');?>">品牌列表</a></li><?php } ?>-->
+        <li class="active"><a href="<?php echo U('Carousel/Carousel_add');?>">轮播图添加</a></li>
+    </ul>
+    <div class="common-form">
+        <form method="post" action="<?php echo U('Carousel/Carousel_add');?>" enctype="multipart/form-data">
+            <div class="table_list">
+                <table cellpadding="2" cellspacing="2" class="table_form" width="100%" border="1">
+       <th>轮播图名称</th>
+       <th>轮播图logo</th>
+       <th>品牌的官网</th>
+       <th>排序</th>
+       <th>状态</th>
+       <th>添加时间</th>
+       <th>操作</th>
+                    <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><tr align="center">
+                            <td><?php echo ($v["carousel_name"]); ?></td>
+                            <td>
+                                <img src="/ok/servers/<?php echo ($v["carousel_logo"]); ?>" alt="" height="60px" width="60px">
+                            </td>
+                            <td><?php echo ($v["carousel_url"]); ?></td>
+                            <td><?php echo ($v["carousel_sort"]); ?></td>
+                            <td>
+                                <?php if( strtoupper($v['carousel_status']) == 1 ): ?>下架
+                                    <?php elseif( strtoupper($v['carousel_status']) == 2): ?>
+                                   上架<?php endif; ?>
+                            </td>
+                            <td> <?php echo (date("Y-m-d H:i:s",$v['brand_time'])); ?> </td>
+                            <td><a href="/ok/servers/index.php/Admin/Carousel/del?id=<?php echo ($v["id"]); ?>" >删除</a>||<a href="/ok/servers/index.php/Admin/Carousel/upda?id=<?php echo ($v["id"]); ?>">修改</a></td>
+                        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                </table>
+                总数 ： <?php echo ($count); ?> 条 <br>
+                页数 ： <?php echo ($page); ?>
+            </div>
+        </form>
     </div>
-    <div class="form-actions">
-        <button class="btn btn_submit btn-primary mr10 J_ajax_submit_btn" type="submit">排序</button>
-      </div>
-  </form>
 </div>
 <script type="text/javascript" src="/ok/servers/Application/Admin/Public/js/common.js"></script>
-<script>
-setInterval(function () {
-    var refersh_time = getCookie('refersh_time_admin_menu_index');
-    if (refersh_time == 1) {
-    	reloadPage(window);
+<script type="text/javascript">
+
+    function org_list($this) {
+
+        art.dialog({
+            id:'div_org_list',
+            lock : true,
+            ok : true ,
+            cancel : true,
+            title : '选择机构',
+            background : '#cccccc',
+            opacity : 0.80,
+            width : 700,
+            height : 500
+
+        });
+
+        $.get('/ok/servers/index.php/Admin/Train/id_list', {}, function(e) {
+            art.dialog({id: 'div_org_list'}).content(e);
+        }, 'html');
+
     }
-}, 1000);
-setCookie('refersh_time_admin_menu_index',0);
 </script>
+
 </body>
 </html>
