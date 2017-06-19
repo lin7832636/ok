@@ -6,7 +6,7 @@
     <header class="b2b2c_public_header_two b2b2c_public_header_revamp">
         <span>购物车</span>
         <span>(<i class="b2b2c_cart_shop_num">{$count}</i>)</span>
-		<input readonly="" value="编辑" type="button" onclick="b2b2cc.refresh('User/get_cart_list_edit', '', true);">
+		<!--<input readonly="" value="编辑" type="button" onclick="b2b2cc.refresh('User/get_cart_list_edit', '', true);">-->
 		<a href="{:U('Index/index')}" class="b2b2c_public_back"></a>
     </header>
 	</div>
@@ -16,44 +16,47 @@
     <main class="b2b2c_index_cart">
         <!--店铺二的商品start-->
 
-			<volist  name="list" id="vo">
+
 			<section class="b2b2c_index_cart_box bgcf">
-			<div class="b2b2c_shop_name b2b2c_p16 clearfix">
-                <input class="fl" id="{$vo.shop_id}" type="checkbox" onclick="b2b2cf.get_cart_list_checkbox(this);">
-                <a class="toe fl" href="#">{$vo.shop_name}</a>
-            </div>
+				<div class="b2b2c_shop_name b2b2c_p16 clearfix">
+
+
+				</div>
 				<div class="b2b2c_index_cart_inner_box">
-				<volist  name="vo.list" id="volist">
+
+				<volist  name="list" id="volist">
+					<input type="hidden" class="product" value="<?php print_r($list);  ?>">
 				<!--商品一start-->
 				<div class="b2b2c_index_cart_inner">
 					<div class="b2b2c_product_mid clearfix" onclick="b2b2cf.cart_jump_to_goods_info({$volist.goods_id})">
 						<div class="input_box fl">
-							<input 
-							<?php if($volist['product_store'] <= 0)echo 'disabled'; ?>
-							class="b2b2c_checkbox_{$vo.shop_id}" name="goodsinput" value="{$volist.id}" data-product-sum="{$volist.product_price_sum}" type="checkbox" onclick="b2b2cf.get_cart_list_checkbox(this,event);">
+							<input
+									class="b2b2c_checkbox_{$vo.shop_id}" name="goodsinput" value="{$volist.id}" data-product-sum="<?php echo $volist['goods_price']*$volist['count'];?>" type="checkbox" onclick="b2b2cf.get_cart_list_checkbox(this,event);">
 						</div>
-						<a href="#" class="fl"><img src="{$volist['product_image'][0]}" alt=""></a>
+						<a href="#" class="fl"><img src="{$volist['goods_image'][0]}" alt=""></a>
 						<div class="b2b2c_box fl">
+
 							<p class="toe">{$volist.goods_name}</p>
 							<div class="b2b2c_price clearfix">
 								<span class="fl">
+
 									<i>&yen;</i>
-									<i>{$volist.product_price}</i>
+									<i>{$volist.goods_price}</i>
 									<i>&times;</i>
 									<i>{$volist.count}</i>
 								</span>
 								<span class="fr">
 									<i>&yen;</i>
-									<i>{$volist.product_price_sum}</i>
+									<i  a = "<?php echo $volist['goods_price']*$volist['count'];?>"><?php echo $volist['goods_price']*$volist['count'];?></i>
 								</span>
 							</div>
 							<div class="b2b2c_size toe clearfix" onclick="">
 								<i>规格:</i>
-								<i>{$volist.product_name}</i>
+								<i>{$volist.unit}</i>
 							</div>
 							<div class="b2b2c_size toe clearfix">
 								<i>库存:</i>
-								<i>{$volist.product_store}</i>
+								<i>{$volist.store}</i>
 							</div>
 						</div>
 					</div>
@@ -62,7 +65,7 @@
 				</volist>
 				</div>
 				 </section>
-			</volist>
+
         <!--店铺二的商品end-->
     </main>
     <!--主内容区域end-->
@@ -75,13 +78,13 @@
             </li>
             <li>
                 <span>合计:</span>
-                <span class="b2b2c_cart_allprice"><i>&yen;</i><i id="b2b2c_product_money_sum">0.0</i></span>
+                <span class="b2b2c_cart_allprice"><i>&yen;</i><i id="b2b2c_product_money_sum" class="sum">0.0</i></span>
                 <span class="b2b2c_cart_carriage">不含运费</span>
             </li>
-            <li class="b2b2c_clearing tc" onclick="b2b2cc.actions('User/order_confirm/b2b2c_cart_id/'+$('input[name=\'goodsinput\']:checked').map(function() { return $(this).val(); }).get().join(','));"">
+            <li class="b2b2c_clearing tc" >
                 <span>去结算:</span>
                 <span>
-                   (<i id="b2b2c_product_sum">0</i>)
+                   (<i id="b2b2c_product_sum" >0</i>)
                 </span>
             </li>
         </ul>
@@ -90,3 +93,18 @@
 </div>
 
 <include file="Public/footer"/>
+<script >
+	$('.b2b2c_clearing').click(function () {
+	    var product = $('.product').val();
+	    var sum = $('.sum').html();
+			$.ajax({
+				url:"__URL__/order_confirm",
+				data:{product:product,sum:sum},
+				type:"post",
+				success:function(msg){
+					alert(msg)
+					// window.location.href='__URL__/order_confirm';
+				}
+			})
+    });
+</script >

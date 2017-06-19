@@ -1,0 +1,61 @@
+<include file="Public/header"/>
+<body class="J_scroll_fixed">
+<div class="wrap jj">
+  <ul class="nav nav-tabs">
+     <li><a href="{:U('Goods/index')}">商品分类</a></li>
+     <li class="active"><a href="{:U('Goods/sort')}">添加分类</a></li>
+  </ul>
+  <div class="common-form">
+    <form method="post" class="form-horizontal J_ajaxForm" action="{:U('Goods/sort_add')}">
+      <div class="table_list">
+        <table cellpadding="2" cellspacing="2" width="100%">
+          <tbody>
+            <tr>
+              <td>分类名称:</td>
+              <td><input type="text" class="input" name="type_name" value="{$v.type_name}"><span class="must_red">*</span></td>
+            </tr>
+            <tr>
+              	<td width="180">分类的层级标识:</td>
+              	<td>
+              		<select name="type_pid" class="normal_select">
+                    <option value='0'>一级分类</option>
+                    <foreach name="data" item="v">
+                      <option value="{$v.goods_type_id}">{$v.type_name}</option>
+                    </foreach>
+                    <!-- {$select_categorys} -->
+                  		<!-- <option value="0">作为一级菜单</option> -->
+              		</select><span class="must_red">*</span>
+              	</td>
+            </tr>
+            <tr>
+              <td>分类排序（越小越靠前）:</td>
+              <td><input type="text" class="input" name="type_sort" id="app" value=""><span class="must_red">*</span></td>
+            </tr>
+            <tr>
+              <td>图标:</td>
+              <td><input type="text" class="input" name="icon" id="action" value=""></td>
+            </tr>
+            <tr>
+              <td>备注:</td>
+              <td><textarea name="remark" rows="5" cols="57"></textarea></td>
+            </tr>
+            <tr>
+              <td>是否为导航栏:</td>
+              <td><select name="is_nav" class="normal_select"> 
+                  <option value="0">显示</option>
+                  <option value="1">隐藏</option>
+                </select></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="form-actions">
+        <button type="submit" class="btn">添加</button>
+        <a class="btn" href="__URL__">返回</a>
+      </div>
+    </form>
+  </div>
+</div>
+<load href="__PUBLICS__/js/common.js"/>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+		<script src="__PUBLIC__/js/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+		<center>
+<form action="__URL__/sku_add" method="post">
+	<table>
+				
+			
+			<tr>
+				<td>组合货品</td>
+				<td>
+					<select id="goods_type" name="goods_type_id" >
+						<?php foreach($goods_type as $k=>$v){?>
+							echo "<option value="<?php echo $v['goods_type_id']?>"><?php echo $v["type_name"]?></option>";
+						<?php }?>
+					</select>
+				</td>
+			</tr>
+		<tobody class="tbody">				
+			</tobody>	
+			
+
+
+</table>
+
+</form>
+		</center>
+</body>
+</html>
+<script>
+	$(function(){
+		$("#goods_type").change(function(){
+			var goods_type_id=$(this).val();
+			$.ajax({
+			   type: "POST",
+			   url: "__URL__/sku_selete",
+			   data:{goods_type_id:goods_type_id},
+			   success: function(msg){
+			   	$(".tbody").html(msg);
+			   }
+			});
+		})
+	})
+</script>

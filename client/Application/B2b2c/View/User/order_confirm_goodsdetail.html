@@ -22,9 +22,9 @@
             </notempty>
         </section>
         <!--循环的店铺start-->
+        <!--  李晨 --!>
         <section class="b2b2c_order_content bgcf">
             <div class="b2b2c_t clearfix b2b2c_p16">
-                <div class="b2b2c_l fl">{$info.shop_name}</div>
                 <?php if(!$is_invoices):?>
                 <div class="b2b2c_r fr">不可开发票</div>
                 <input type="hidden" value='0' name="b2b2c_suport_invoice" />
@@ -37,44 +37,40 @@
             <div class="b2b2c_c b2b2c_p16 bgc_c">
                 <div class="b2b2c_public_procuct_info">
                     <div class="clearfix">
-                        <img class="fl" src="{$info.product_image.0}" alt="">
+                        <img class="fl" src="{$info.goods_imges}" alt="">
                         <div class="fl b2b2c_con_box">
-                            <p class="b2b2c_ov2">{$info.goods_name}</p>
+                            <p class="b2b2c_ov2" product-id="{$info.product_id}" goods-id="{$info.goods_id}">{$info.goods_name}</p>
                             <div class="b2b2c_l">
                                 <span>商品规格:</span>
-                                <span>{$info.product_name}</span>
+                                <span>{$info.weight}</span>
                             </div>
                             <div class="b2b2c_r clearfix">
-                                <span class="fl">&yen;{$info.product_price}&times;{$info.count}</span>
+                                <span class="fl">&yen;<span id="price">{$info.goods_price}<span>&times;<span id="send_count">{$info.send_count}</span></span>
                                 <span class="fr b2b2c_fs_r">&yen;<?php
-                                    echo number_format($info['product_price'] * $info['count'],1,'.','');
+                                    echo number_format($info['goods_price'] * $info['send_count'],1,'.','');
                                     ?></span>
                             </div>
                         </div>
                     </div>
                     <span class="b2b2c_delivery">
-                        <?php if($is_peisong['free_post'] == 0):?>
-                            不在配送区
-                        <?php elseif($is_peisong['free_post'] == 1):?>
                             可配送
-                        <?php endif;?>
                     </span>
                 </div>
             </div>
             <!--循环的商品end-->
             <div class="b2b2c_b clearfix b2b2c_p16">
-                <?php if($is_peisong['free_post'] == 0):?>
-                    <div class="b2b2c_l fl"><span>不在配送区</span></div>
-                <?php else:?>
-                    <div class="b2b2c_l fl">
-                        <span>运费:</span>
-                        <span><i>&yen;</i><i><?=number_format($sum_cost['sum_cost'],1,'.','');?></i></span>
-                    </div>
-                    <div class="b2b2c_r fr">
-                        <span>实付(含运费):</span>
-                        <span><i>&yen;</i><i><?php echo number_format($info['product_price'] * $info['count'] + $sum_cost['sum_cost'],1,'.','');?></i></span>
-                    </div>
-                <?php endif;?>
+                <!--<?php if($is_peisong['free_post'] == 0):?>-->
+                    <!--<div class="b2b2c_l fl"><span>不在配送区</span></div>-->
+                <!--<?php else:?>-->
+                    <!--<div class="b2b2c_l fl">-->
+                        <!--<span>运费:</span>-->
+                        <!--<span><i>&yen;</i><i><?=number_format($sum_cost['sum_cost'],1,'.','');?></i></span>-->
+                    <!--</div>-->
+                    <!--<div class="b2b2c_r fr">-->
+                        <!--<span>实付(含运费):</span>-->
+                        <!--<span><i>&yen;</i><i><?php echo number_format($info['product_price'] * $info['count'] + $sum_cost['sum_cost'],1,'.','');?></i></span>-->
+                    <!--</div>-->
+                <!--<?php endif;?>-->
 
             </div>
         </section>
@@ -107,10 +103,11 @@
         <ul>
             <li>
                 <span>实付款:</span>
-                <span>&yen;<span><?php echo number_format($info['product_price'] * $info['count'] + $sum_cost['sum_cost'],1,'.','');?></span>
+                <span>&yen;<span id="goods_price"><?php echo number_format($info['goods_price'] * $info['send_count'],1,'.','');?></span></span>
             </li>
             <li class="tc">
-                <a href="javascript:void(0);" class="bgcr b2b2c_fs_16" <?php if($has_address == 1):?><?php if($is_peisong['free_post'] == 1):?> onclick="b2b2cf.submit_order({product_id:'{$info.product_id}',product_count:'{$product_count}'},'{$logis_model_id}');" <?php else:?>onclick="b2b2cc.popupdialog('该地址不在配送区，请重新选择收货地址')"<?php endif;?><?php else:?>onclick="b2b2cf.no_default_address()"<?php endif;?>>提交订单</a>
+                <a href="javascript:void(0);" class="bgcr b2b2c_fs_16"   onclick="b2b2cf.no_default_order()">提交订单</a>
+                <!--onclick="b2b2cf.submit_order({product_id:'{$info.product_id}',product_count:'{$product_count}'},'{$logis_model_id}');"-->
             </li>
         </ul>
         <input type="hidden" id="b2b2c_order_confirm_product_id" value="{$info.product_id}">
@@ -124,7 +121,7 @@
             <section class="b2b2c_edit_address_box" data-id='{$vo.id}' data-area="{$vo.area}" data-default="{$vo.is_default}" onclick="b2b2cf.order_confirm_address_selected(this)">
                 <div class="b2b2c_address_show bgcf">
                     <div class="b2b2c_show_top clearfix">
-                        <span class="fl address_name">{$vo.names}</span>
+                        <span class="fl address_name">{$vo.name}</span>
                         <span  class="fr address_tel">{$vo.tel}</span>
                     </div>
                     <p class="b2b2c_show_btm address_area">{$vo.area|areaToName} {$vo.address}</p>
@@ -150,7 +147,7 @@
     <section class="b2b2c_add_new_address" style="display:none;">
         <div class="b2b2c_newadd_inner bgcf">
             <label for="">收货人</label>
-            <input type="text" autofocus name="names" value="">
+            <input type="text" autofocus name="name" value="">
         </div>
         <div class="b2b2c_newadd_inner bgcf">
             <label for="">联系电话</label>
@@ -177,7 +174,7 @@
     <!--表单区域end-->
 
     <footer class="b2b2c_add_new_address_submit" style="display:none;">
-        <a href="javascript:void(0);" onclick="b2b2cf.order_confirm_add_address_submit('User/order_confirm_goodsdetail?product_id={$info.product_id}&product_count={$product_count}')">提交</a>
+        <a href="javascript:void(0);" onclick="b2b2cf.order_confirm_add_address_submit('User/order_confirm_goodsdetail/product_id/{$info.product_id}/product_count/{$product_count}')">提交</a>
     </footer>
 
 </div>
@@ -188,6 +185,7 @@
             $('input[name="area_id"]').val(area_id);
         });
     });
+    $("")
 </script>
 </body>
 </html>

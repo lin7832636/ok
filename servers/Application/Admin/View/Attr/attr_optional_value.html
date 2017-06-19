@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<center>
+<h3><?= $data['attr_name']  ?>可选值</h3>
+	<table>
+		<tr>
+			<td>可选值</td>
+			<td>操作</td>
+		</tr>
+		<?php foreach($arr as $k=>$v){?>
+		<tr>
+			<td><?= $v['value_name']?></td>
+			<td><a href="__URL__/value_delete?attrval_id=<?php echo $v['attrval_id']?>">删除</a></td>
+		</tr>
+		<?php }?>
+	</table>
+</center>
+<table align="right"><tr><td><a href="__URL__/attr_values/goods_type_id/<?= $abc['goods_type_id']  ?>">返回属性列表</a></td></tr></table>
+</body>
+</html>

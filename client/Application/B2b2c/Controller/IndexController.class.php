@@ -43,6 +43,7 @@ class IndexController extends PublicController {
 		$banner[0]['active'] = 'swiper-slide-active';
 		//获取商品分类
 		$goods_type_list = curls(C('APIURL') . 'B2b2cPublic/GetGoodsTypeList', 'get', array() , true);
+		// print_r($goods_type_list);die;
 		$goods_type_list = $goods_type_list['data'];
 		$goods_type_list[0]['active'] = 'active';
 

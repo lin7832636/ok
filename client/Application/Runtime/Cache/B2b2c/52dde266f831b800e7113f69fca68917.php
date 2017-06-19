@@ -85,23 +85,23 @@ var _hmt = _hmt || [];
         <!--一级导航-->
         <div class="b2b2c_nav_title">
             <ul>
-            	<?php if(is_array($goods_type_list)): foreach($goods_type_list as $key=>$vo): ?><li class="b2b2c_nav_level_1 <?php echo ($vo["active"]); ?>" data-id="<?php echo ($vo["id"]); ?>" onclick="b2b2cf.index_switch_goods_type(<?php echo ($vo["id"]); ?>)">
-						<img src="<?php echo ($vo["image"]["0"]); ?>" alt="">
-						<?php echo ($vo["name"]); ?>
-					</li><?php endforeach; endif; ?>
+                <?php if(is_array($goods_type_list)): foreach($goods_type_list as $key=>$vo): ?><li class="b2b2c_nav_level_1 <?php echo ($vo["active"]); ?>" data-id="<?php echo ($vo["goods_type_id"]); ?>" onclick="b2b2cf.index_switch_goods_type(<?php echo ($vo["goods_type_id"]); ?>)">
+                        <img src="<?php echo ($vo["icon"]["0"]); ?>" alt="">
+                        <?php echo ($vo["type_name"]); ?>
+                    </li><?php endforeach; endif; ?>
             </ul>
         </div>
         <!--二级导航-->
-        <?php if(is_array($goods_type_list)): foreach($goods_type_list as $key=>$vo): ?><section class="b2b2c_two_nav" style="display:<?php if($vo['active']=='active'){echo 'block';}else{echo 'none';}?>;" data-parentid="<?php echo ($vo["id"]); ?>">
-	            <ul class="clearfix">
-	            	<?php if(is_array($vo["child"])): foreach($vo["child"] as $key=>$vo2): ?><li data-id="<?php echo ($vo2["id"]); ?>" onclick="b2b2cf.index_type_level_2_select(this);">
-		                    <a href="javascript:void(0);">
-		                        <img src="<?php echo ($vo2["image"]["0"]); ?>" alt=""/>
-		                        <p><?php echo ($vo2["name"]); ?></p>
-		                    </a>
-		                </li><?php endforeach; endif; ?>
-	            </ul>
-	        </section><?php endforeach; endif; ?>
+        <?php if(is_array($goods_type_list)): foreach($goods_type_list as $key=>$vo): ?><section class="b2b2c_two_nav" style="display:<?php if($vo['active']=='active'){echo 'block';}else{echo 'none';}?>;" data-parentid="<?php echo ($vo["goods_type_id"]); ?>">
+                <ul class="clearfix">
+                    <?php if(is_array($vo["son"])): foreach($vo["son"] as $key=>$vo2): ?><li data-id="<?php echo ($vo2["goods_type_id"]); ?>" onclick="b2b2cf.index_type_level_2_select(this);">
+                            <a href="javascript:void(0);">
+                                <img src="<?php echo ($vo2["icon-"]["0"]); ?>" alt=""/>
+                                <p><?php echo ($vo2["type_name"]); ?></p>
+                            </a>
+                        </li><?php endforeach; endif; ?>
+                </ul>
+            </section><?php endforeach; endif; ?>
     </nav>
     <!--导航栏end-->
     <!--主内容区域start-->

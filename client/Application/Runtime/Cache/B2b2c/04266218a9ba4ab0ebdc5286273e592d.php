@@ -227,7 +227,7 @@ $(function(){
     //     loadUpFn : function(me){
     //         var get_data = {};
     //         get_data.terminal_type = 2;
-    //         var last_order_index = 0;
+    //         var last_order_index = 0;    
     //         get_data.last_order_index = last_order_index;
     //         get_data.status = $('.b2b2c_mage_order li.active').eq(0).data('status');
 
